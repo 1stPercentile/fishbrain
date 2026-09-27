@@ -1,0 +1,28 @@
+{
+ "n": 200,
+ "seed": 20260928,
+ "qpre": {
+  "reads_pre": 151,
+  "reads_post": 27,
+  "reads_zero": 16,
+  "reads_other": 6
+ },
+ "qpost": {
+  "reads_pre": 3,
+  "reads_post": 181,
+  "reads_zero": 7,
+  "reads_other": 9
+ },
+ "p0": {
+  "reads_pre": 116,
+  "reads_post": 58,
+  "reads_zero": 20,
+  "reads_other": 6
+ },
+ "p1": {
+  "reads_pre": 2,
+  "reads_post": 179,
+  "reads_zero": 10,
+  "reads_other": 9
+ }
+}

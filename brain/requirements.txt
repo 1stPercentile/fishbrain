@@ -1,0 +1,6 @@
+# Quickstart (python -m fishbrain.demo) and the test suite.
+# Versions that produced the published hashes; newer ones are expected to match (the engine is bit-exact by design).
+numpy==2.0.2
+scipy==1.13.1
+mmh3==5.2.0
+pytest==8.4.2

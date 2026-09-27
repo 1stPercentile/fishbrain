@@ -1,0 +1,7 @@
+# Rebuilding the brain from the public Fish1 bucket (python -m fishbrain.pull, cells, readouts, bridge build).
+-r requirements.txt
+pyarrow==21.0.0
+pandas==2.3.3
+requests==2.32.5
+cloud-volume==12.15.0
+caveclient==8.2.1

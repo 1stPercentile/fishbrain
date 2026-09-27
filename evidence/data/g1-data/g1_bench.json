@@ -1,0 +1,142 @@
+{
+ "machine": "macOS-26.6.2-arm64-arm-64bit",
+ "processor": "arm",
+ "cpu_count": 10,
+ "python": "3.9.6",
+ "numpy": "2.0.2",
+ "when": "2026-09-25T21:33:20",
+ "rows": [
+  {
+   "row": "reduced",
+   "neurons": 8654,
+   "pairs": 38304,
+   "stimulated": 2048,
+   "w_syn_mV": 0.275,
+   "dt_ms": 0.1,
+   "simulated_ms": 1000.0,
+   "steps": 10000,
+   "spikes": 85698,
+   "syn_events": 225664,
+   "cpu_s": 0.611,
+   "wall_s": 3.543,
+   "rtf_cpu": 1.6375,
+   "rtf_wall": 0.2822,
+   "cpu_us_per_step": 61.07,
+   "wall_us_per_step": 354.31,
+   "network_bytes": 453558,
+   "build_s": 20.4,
+   "rss_peak_after_build_bytes": 291864576,
+   "rss_peak_bytes": 291864576,
+   "loadavg_start": [
+    55.26708984375,
+    43.0869140625,
+    42.75830078125
+   ],
+   "loadavg_end": [
+    54.84521484375,
+    43.20166015625,
+    42.80029296875
+   ],
+   "rates_sha256_of_window": "38bd7bc20224a02b0d0a4a5585cc4d069c29b65f4ee207256639dcc9c700cc2e"
+  },
+  {
+   "row": "reduced_hot",
+   "neurons": 8654,
+   "pairs": 38304,
+   "stimulated": 2048,
+   "w_syn_mV": 20.0,
+   "dt_ms": 0.1,
+   "simulated_ms": 1000.0,
+   "steps": 10000,
+   "spikes": 97711,
+   "syn_events": 276539,
+   "cpu_s": 0.519,
+   "wall_s": 1.175,
+   "rtf_cpu": 1.9271,
+   "rtf_wall": 0.8508,
+   "cpu_us_per_step": 51.89,
+   "wall_us_per_step": 117.54,
+   "network_bytes": 453558,
+   "build_s": 3.9,
+   "rss_peak_after_build_bytes": 504561664,
+   "rss_peak_bytes": 504561664,
+   "loadavg_start": [
+    55.8935546875,
+    43.818359375,
+    43.02392578125
+   ],
+   "loadavg_end": [
+    55.8935546875,
+    43.818359375,
+    43.02392578125
+   ],
+   "rates_sha256_of_window": "38bd7bc20224a02b0d0a4a5585cc4d069c29b65f4ee207256639dcc9c700cc2e"
+  },
+  {
+   "row": "forward",
+   "neurons": 126844,
+   "pairs": 235430,
+   "stimulated": 24913,
+   "w_syn_mV": 0.275,
+   "dt_ms": 0.1,
+   "simulated_ms": 1000.0,
+   "steps": 10000,
+   "spikes": 986125,
+   "syn_events": 1535745,
+   "cpu_s": 3.717,
+   "wall_s": 13.954,
+   "rtf_cpu": 0.269,
+   "rtf_wall": 0.0717,
+   "cpu_us_per_step": 371.7,
+   "wall_us_per_step": 1395.37,
+   "network_bytes": 4039796,
+   "build_s": 7.4,
+   "rss_peak_after_build_bytes": 399720448,
+   "rss_peak_bytes": 399720448,
+   "loadavg_start": [
+    56.857421875,
+    44.41796875,
+    43.2451171875
+   ],
+   "loadavg_end": [
+    56.85546875,
+    45.044921875,
+    43.490234375
+   ],
+   "rates_sha256_of_window": "38bd7bc20224a02b0d0a4a5585cc4d069c29b65f4ee207256639dcc9c700cc2e"
+  },
+  {
+   "row": "full",
+   "neurons": 13458709,
+   "pairs": 24191616,
+   "stimulated": 24913,
+   "w_syn_mV": 0.275,
+   "dt_ms": 0.1,
+   "simulated_ms": 1000.0,
+   "steps": 10000,
+   "spikes": 986125,
+   "syn_events": 2998580,
+   "cpu_s": 132.019,
+   "wall_s": 246.511,
+   "rtf_cpu": 0.0076,
+   "rtf_wall": 0.0041,
+   "cpu_us_per_step": 13201.85,
+   "wall_us_per_step": 24651.12,
+   "network_bytes": 422330989,
+   "build_s": 41.6,
+   "rss_peak_after_build_bytes": 914456576,
+   "rss_peak_bytes": 914456576,
+   "loadavg_start": [
+    54.91357421875,
+    46.357421875,
+    44.064453125
+   ],
+   "loadavg_end": [
+    16.541015625,
+    32.15771484375,
+    38.58544921875
+   ],
+   "rates_sha256_of_window": "38bd7bc20224a02b0d0a4a5585cc4d069c29b65f4ee207256639dcc9c700cc2e"
+  }
+ ]
+}

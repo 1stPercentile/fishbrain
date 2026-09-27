@@ -1,0 +1,12 @@
+{
+ "total_ms": 4395.0,
+ "python_raster_hash": "340840a6b114c909f3d8d8bc45cc72b869d4b3806ffda310fc4201e702b8120a",
+ "gate_recorded": "340840a6b114c909f3d8d8bc45cc72b869d4b3806ffda310fc4201e702b8120a",
+ "python_equals_gate": true,
+ "js_exit": 0,
+ "js_mismatches": [],
+ "js_raster_hash": "340840a6b114c909f3d8d8bc45cc72b869d4b3806ffda310fc4201e702b8120a",
+ "js_equals_gate": true,
+ "n_spikes_case": 342164,
+ "n_spikes_gate": 342164
+}

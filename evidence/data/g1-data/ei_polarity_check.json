@@ -1,0 +1,83 @@
+{
+ "habenular_axons_classified_true_excitatory": {
+  "n_segments": 70,
+  "segments_with_outputs": 70,
+  "out_type1": 1456,
+  "out_type2": 3683,
+  "cells_majority_type1": 0,
+  "cells_majority_type2": 70,
+  "cells_tied_with_outputs": 0
+ },
+ "habenular_axons_classified_false_inhibitory": {
+  "n_segments": 4,
+  "segments_with_outputs": 4,
+  "out_type1": 34,
+  "out_type2": 10,
+  "cells_majority_type1": 4,
+  "cells_majority_type2": 0,
+  "cells_tied_with_outputs": 0
+ },
+ "habenular_axons_classified_as_other": {
+  "n_segments": 42,
+  "segments_with_outputs": 42,
+  "out_type1": 881,
+  "out_type2": 1263,
+  "cells_majority_type1": 7,
+  "cells_majority_type2": 34,
+  "cells_tied_with_outputs": 1
+ },
+ "excitatory_cells_predicted_as_excitatory": {
+  "n_segments": 244,
+  "segments_with_outputs": 74,
+  "out_type1": 623,
+  "out_type2": 2309,
+  "cells_majority_type1": 8,
+  "cells_majority_type2": 63,
+  "cells_tied_with_outputs": 3
+ },
+ "excitatory_cells_predicted_as_inhibitory": {
+  "n_segments": 17,
+  "segments_with_outputs": 10,
+  "out_type1": 97,
+  "out_type2": 36,
+  "cells_majority_type1": 8,
+  "cells_majority_type2": 2,
+  "cells_tied_with_outputs": 0
+ },
+ "excitatory_cells_classified_as_other": {
+  "n_segments": 174,
+  "segments_with_outputs": 78,
+  "out_type1": 532,
+  "out_type2": 650,
+  "cells_majority_type1": 28,
+  "cells_majority_type2": 41,
+  "cells_tied_with_outputs": 9
+ },
+ "inhibitory_cells_predicted_as_inhibitory": {
+  "n_segments": 141,
+  "segments_with_outputs": 72,
+  "out_type1": 1588,
+  "out_type2": 350,
+  "cells_majority_type1": 64,
+  "cells_majority_type2": 7,
+  "cells_tied_with_outputs": 1
+ },
+ "inhibitory_cells_predicted_as_excitatory": {
+  "n_segments": 11,
+  "segments_with_outputs": 6,
+  "out_type1": 32,
+  "out_type2": 97,
+  "cells_majority_type1": 1,
+  "cells_majority_type2": 5,
+  "cells_tied_with_outputs": 0
+ },
+ "inhibitory_cells_classified_as_other": {
+  "n_segments": 116,
+  "segments_with_outputs": 65,
+  "out_type1": 606,
+  "out_type2": 621,
+  "cells_majority_type1": 30,
+  "cells_majority_type2": 28,
+  "cells_tied_with_outputs": 7
+ }
+}

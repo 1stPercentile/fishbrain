@@ -1,0 +1,34 @@
+{
+ "when": "2026-09-26 11:42:10 EDT",
+ "case": "g1c-bridged-loom_az+45_lv120-G1-seed-0.json",
+ "case_bytes": 33993690,
+ "n": 10528,
+ "nnz": 42342,
+ "exit_code": 0,
+ "mismatches": [],
+ "js_network_digest": "0b6f3369f21f5c626d9ba1ba4bc02dfefd1e51b945b3355fcd6730c9aa083b4a",
+ "python_network_digest": "0b6f3369f21f5c626d9ba1ba4bc02dfefd1e51b945b3355fcd6730c9aa083b4a",
+ "js_raster_hash": "94279d038767a509501d40317e0b6a7c156908680ff7c6c9bbd11f1ae87bb429",
+ "python_raster_hash": "94279d038767a509501d40317e0b6a7c156908680ff7c6c9bbd11f1ae87bb429",
+ "gate_recorded_spike_hash": "340840a6b114c909f3d8d8bc45cc72b869d4b3806ffda310fc4201e702b8120a",
+ "recorded_spike_hash_matches": false,
+ "active_simulator_identical": true,
+ "bridged_digest_from_js_network_digest": "279ae5fa21453de8dc8b320b6c7c5e4527877b19db45d137a0e45575dbb5b36a",
+ "bridged_digest_python": "279ae5fa21453de8dc8b320b6c7c5e4527877b19db45d137a0e45575dbb5b36a",
+ "timing": {
+  "build_ms": 70.28,
+  "sim_steps": 45000,
+  "sim_ms": 4500,
+  "run_wall_ms_best": 6096.85,
+  "rtf_best": 0.7381,
+  "repeats": 1,
+  "loadavg": [
+   6.97,
+   5.01,
+   3.8
+  ],
+  "node": "v24.21.0"
+ },
+ "wall_s": 6.3,
+ "bridged_digest_matches": true
+}

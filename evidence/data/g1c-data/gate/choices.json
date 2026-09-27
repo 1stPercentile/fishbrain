@@ -1,0 +1,15 @@
+{
+ "written_at": "2026-09-26 09:00:40 EDT",
+ "choices": {
+  "written_before": "any tuning or gate simulation of the bridged network",
+  "M1_comparison": "primary: the two booleans (H1 pass, H2 pass) of each shuffled fish (held-out H1/H2 conditions, gate seeds G1-seed-0..3) against the intact fish scored on the SAME seeds 0-3 (like for like); the page line applies when they are equal in >= 8 of 10 shuffles. Secondary rows: the same against the intact 8-seed verdict, and the per-side four booleans.",
+  "L1_nonvacuity": "L1 is scored on the bilateral-lesion trials paired with intact trials in which the intact fish escaped. t_med = the intact median first M-system spike time per held-out loom condition. Pass = 0 M-system (escape readout) spikes within +/-20 ms of t_med in those trials AND the intact fish escapes with P >= 0.5 per stimulus side on the same trials (H1's threshold). If the intact fish does not, L1 is 'not evaluable (intact did not escape)', which is not a pass.",
+  "L2_scoring": "per lesioned side X (task_criteria left or right M-system): escapes initiated on side X == 0, and the held-out looms on the other stimulus side keep P(escape) >= 0.5 and initiator-on-stimulus-side >= 0.75 (pooled over that side's 4 conditions, 32 trials). Both lesions must pass. Union sets: sensitivity rows.",
+  "H1_zero_escapes": "side and angle fractions of a side with no escapes are 0 (fail)",
+  "C1_C2_zero_loom": "a control fails when the baseline loom's mean Mauthner spikes are 0 (as G1)",
+  "deciding_cells": "headline = provenance share over the spec's deciding cells: loom -> the initiating M-system cell(s); prey -> every nIII_dorsal and nMLF cell and every turning SPN that spiked in the window. Pooled over trials as sum(measured drive) / sum(link drive). Population-level shares are a labelled secondary row.",
+  "eye_root_set": "provenance root targets = the G1c stimulated set (24,920 ids), pinned in every trace's digests",
+  "ablations_on_intact_node_set": "M2 ablations remove bridge edges from the intact bridged node set (exact; keeps the eye's target list, so the gate seeds stay paired)",
+  "workers": "process pool, spawn context; results do not depend on the worker count (every trial is seeded by its own seed string)"
+ }
+}

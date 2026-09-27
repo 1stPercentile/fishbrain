@@ -1,0 +1,1337 @@
+{
+ "built": "2026-09-26 02:33:07 EDT",
+ "halves": {
+  "calibration": [
+   183780,
+   130225,
+   166020,
+   131622,
+   166323,
+   183843,
+   116460,
+   174608,
+   90976,
+   104437,
+   147321,
+   163546,
+   178404,
+   182240,
+   155431,
+   174513,
+   145865,
+   176945,
+   147392,
+   150988,
+   141444,
+   82777,
+   160192,
+   178918,
+   86164
+  ],
+  "test": [
+   167957,
+   145368,
+   120685,
+   135349,
+   154356,
+   112031,
+   141713,
+   184533,
+   151567,
+   158660,
+   178287,
+   127337,
+   180791,
+   131049,
+   178675,
+   164353,
+   156278,
+   167248,
+   149142,
+   162060,
+   167206,
+   178639,
+   169572,
+   104213,
+   87046
+  ]
+ },
+ "t_grid": [
+  1.0,
+  1.25,
+  1.5,
+  2.0,
+  3.0,
+  5.0,
+  10.0
+ ],
+ "cap_nm": 50000.0,
+ "precision_bar": 0.8,
+ "curves": {
+  "r1": {
+   "calibration": {
+    "1.0": {
+     "recovered": 0.759845890410959,
+     "recovered_repair_only": 0.0008561643835616438,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.00064246707356248,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 502,
+     "assigned_output_weight": 3113.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "1.25": {
+     "recovered": 0.759845890410959,
+     "recovered_repair_only": 0.0008561643835616438,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0017777777777777779,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 144,
+     "assigned_output_weight": 1125.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "1.5": {
+     "recovered": 0.759417808219178,
+     "recovered_repair_only": 0.0004280821917808219,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.001443001443001443,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 62,
+     "assigned_output_weight": 693.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "2.0": {
+     "recovered": 0.759417808219178,
+     "recovered_repair_only": 0.0004280821917808219,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0036101083032490976,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 13,
+     "assigned_output_weight": 277.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "3.0": {
+     "recovered": 0.7589897260273972,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 1,
+     "assigned_output_weight": 20.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "5.0": {
+     "recovered": 0.7589897260273972,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": null,
+     "precision_syn_reads_preregistered": null,
+     "precision_frag": null,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 0,
+     "assigned_output_weight": 0.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "10.0": {
+     "recovered": 0.7589897260273972,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": null,
+     "precision_syn_reads_preregistered": null,
+     "precision_frag": null,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 0,
+     "assigned_output_weight": 0.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    }
+   },
+   "test": {
+    "1.0": {
+     "recovered": 0.5013550135501355,
+     "recovered_repair_only": 0.0009033423667570009,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 8.548469823901521e-05,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 3704,
+     "assigned_output_weight": 23396.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "1.25": {
+     "recovered": 0.5013550135501355,
+     "recovered_repair_only": 0.0009033423667570009,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.00020362451639177357,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 1483,
+     "assigned_output_weight": 9822.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "1.5": {
+     "recovered": 0.5013550135501355,
+     "recovered_repair_only": 0.0009033423667570009,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0004927322000492732,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 614,
+     "assigned_output_weight": 4059.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "2.0": {
+     "recovered": 0.500903342366757,
+     "recovered_repair_only": 0.00045167118337850043,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0008764241893076249,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 182,
+     "assigned_output_weight": 1141.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "3.0": {
+     "recovered": 0.5004516711833785,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 33,
+     "assigned_output_weight": 418.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "5.0": {
+     "recovered": 0.5004516711833785,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 3,
+     "assigned_output_weight": 22.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "10.0": {
+     "recovered": 0.5004516711833785,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": null,
+     "precision_syn_reads_preregistered": null,
+     "precision_frag": null,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 0,
+     "assigned_output_weight": 0.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    }
+   }
+  },
+  "r2": {
+   "calibration": {
+    "1.0": {
+     "recovered": 0.8154965753424658,
+     "recovered_repair_only": 0.05650684931506849,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.00045247503846037825,
+     "precision_syn_reads_preregistered": 0.0039817803384513285,
+     "precision_frag": 0.0020527396178746248,
+     "recall_frag": 0.41935483870967744,
+     "n_out": 2336,
+     "assigned_fragments": 6333,
+     "assigned_output_weight": 33151.0,
+     "median_recovered_per_neuron": 0.9060773480662984
+    },
+    "1.25": {
+     "recovered": 0.8047945205479452,
+     "recovered_repair_only": 0.04580479452054795,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0008424092905710332,
+     "precision_syn_reads_preregistered": 0.006438413863650039,
+     "precision_frag": 0.003090394025238218,
+     "recall_frag": 0.3870967741935484,
+     "n_out": 2336,
+     "assigned_fragments": 3883,
+     "assigned_output_weight": 16619.0,
+     "median_recovered_per_neuron": 0.8839779005524862
+    },
+    "1.5": {
+     "recovered": 0.793236301369863,
+     "recovered_repair_only": 0.03424657534246575,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0011981566820276498,
+     "precision_syn_reads_preregistered": 0.007373271889400922,
+     "precision_frag": 0.0039020929407591345,
+     "recall_frag": 0.3548387096774194,
+     "n_out": 2336,
+     "assigned_fragments": 2819,
+     "assigned_output_weight": 10850.0,
+     "median_recovered_per_neuron": 0.8729281767955801
+    },
+    "2.0": {
+     "recovered": 0.7803938356164384,
+     "recovered_repair_only": 0.021404109589041095,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0017098888572242804,
+     "precision_syn_reads_preregistered": 0.007124536905101168,
+     "precision_frag": 0.005186721991701245,
+     "recall_frag": 0.3225806451612903,
+     "n_out": 2336,
+     "assigned_fragments": 1928,
+     "assigned_output_weight": 7018.0,
+     "median_recovered_per_neuron": 0.7894736842105263
+    },
+    "3.0": {
+     "recovered": 0.7778253424657534,
+     "recovered_repair_only": 0.018835616438356163,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0023629489603024575,
+     "precision_syn_reads_preregistered": 0.010396975425330813,
+     "precision_frag": 0.006472491909385114,
+     "recall_frag": 0.25806451612903225,
+     "n_out": 2336,
+     "assigned_fragments": 1236,
+     "assigned_output_weight": 4232.0,
+     "median_recovered_per_neuron": 0.7368421052631579
+    },
+    "5.0": {
+     "recovered": 0.7701198630136986,
+     "recovered_repair_only": 0.01113013698630137,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.004709576138147566,
+     "precision_syn_reads_preregistered": 0.02040816326530612,
+     "precision_frag": 0.00909090909090909,
+     "recall_frag": 0.12903225806451613,
+     "n_out": 2336,
+     "assigned_fragments": 440,
+     "assigned_output_weight": 1274.0,
+     "median_recovered_per_neuron": 0.7368421052631579
+    },
+    "10.0": {
+     "recovered": 0.7602739726027398,
+     "recovered_repair_only": 0.0012842465753424657,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.04285714285714286,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 32,
+     "assigned_output_weight": 70.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    }
+   },
+   "test": {
+    "1.0": {
+     "recovered": 0.5329719963866305,
+     "recovered_repair_only": 0.032520325203252036,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.000422237860661506,
+     "precision_syn_reads_preregistered": 0.005066854327938072,
+     "precision_frag": 0.0019120458891013384,
+     "recall_frag": 0.07692307692307693,
+     "n_out": 2214,
+     "assigned_fragments": 3138,
+     "assigned_output_weight": 14210.0,
+     "median_recovered_per_neuron": 0.4636118598382749
+    },
+    "1.25": {
+     "recovered": 0.5257452574525745,
+     "recovered_repair_only": 0.025293586269196026,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0008658008658008658,
+     "precision_syn_reads_preregistered": 0.00808080808080808,
+     "precision_frag": 0.0033259423503325942,
+     "recall_frag": 0.07692307692307693,
+     "n_out": 2214,
+     "assigned_fragments": 1804,
+     "assigned_output_weight": 6930.0,
+     "median_recovered_per_neuron": 0.4555256064690027
+    },
+    "1.5": {
+     "recovered": 0.5149051490514905,
+     "recovered_repair_only": 0.014453477868112014,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0010695187165775401,
+     "precision_syn_reads_preregistered": 0.006844919786096256,
+     "precision_frag": 0.00395882818685669,
+     "recall_frag": 0.0641025641025641,
+     "n_out": 2214,
+     "assigned_fragments": 1263,
+     "assigned_output_weight": 4675.0,
+     "median_recovered_per_neuron": 0.25
+    },
+    "2.0": {
+     "recovered": 0.509936766034327,
+     "recovered_repair_only": 0.009485094850948509,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.000952078705172961,
+     "precision_syn_reads_preregistered": 0.006664550936210727,
+     "precision_frag": 0.0036275695284159614,
+     "recall_frag": 0.038461538461538464,
+     "n_out": 2214,
+     "assigned_fragments": 827,
+     "assigned_output_weight": 3151.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "3.0": {
+     "recovered": 0.5085817524841915,
+     "recovered_repair_only": 0.008130081300813009,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0017761989342806395,
+     "precision_syn_reads_preregistered": 0.010657193605683837,
+     "precision_frag": 0.005893909626719057,
+     "recall_frag": 0.038461538461538464,
+     "n_out": 2214,
+     "assigned_fragments": 509,
+     "assigned_output_weight": 1689.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "5.0": {
+     "recovered": 0.5031616982836495,
+     "recovered_repair_only": 0.0027100271002710027,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0017482517482517483,
+     "precision_syn_reads_preregistered": 0.01048951048951049,
+     "precision_frag": 0.005128205128205128,
+     "recall_frag": 0.01282051282051282,
+     "n_out": 2214,
+     "assigned_fragments": 195,
+     "assigned_output_weight": 572.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "10.0": {
+     "recovered": 0.5004516711833785,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 17,
+     "assigned_output_weight": 38.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    }
+   }
+  },
+  "r3": {
+   "calibration": {
+    "1.0": {
+     "recovered": 0.7936643835616438,
+     "recovered_repair_only": 0.034674657534246575,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.000435780482844775,
+     "precision_syn_reads_preregistered": 0.002353214607361785,
+     "precision_frag": 0.0020408163265306124,
+     "recall_frag": 0.41935483870967744,
+     "n_out": 2336,
+     "assigned_fragments": 6370,
+     "assigned_output_weight": 34421.0,
+     "median_recovered_per_neuron": 0.8918918918918919
+    },
+    "1.25": {
+     "recovered": 0.788527397260274,
+     "recovered_repair_only": 0.029537671232876712,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0007073207699691811,
+     "precision_syn_reads_preregistered": 0.0034860809377052493,
+     "precision_frag": 0.0030495552731893264,
+     "recall_frag": 0.3870967741935484,
+     "n_out": 2336,
+     "assigned_fragments": 3935,
+     "assigned_output_weight": 19793.0,
+     "median_recovered_per_neuron": 0.8784530386740331
+    },
+    "1.5": {
+     "recovered": 0.7829623287671232,
+     "recovered_repair_only": 0.023972602739726026,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0010276679841897233,
+     "precision_syn_reads_preregistered": 0.004426877470355731,
+     "precision_frag": 0.003952569169960474,
+     "recall_frag": 0.3548387096774194,
+     "n_out": 2336,
+     "assigned_fragments": 2783,
+     "assigned_output_weight": 12650.0,
+     "median_recovered_per_neuron": 0.8648648648648649
+    },
+    "2.0": {
+     "recovered": 0.7756849315068494,
+     "recovered_repair_only": 0.016695205479452056,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0016526649221870265,
+     "precision_syn_reads_preregistered": 0.005371160997107836,
+     "precision_frag": 0.005691519635742743,
+     "recall_frag": 0.3225806451612903,
+     "n_out": 2336,
+     "assigned_fragments": 1757,
+     "assigned_output_weight": 7261.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "3.0": {
+     "recovered": 0.7726883561643836,
+     "recovered_repair_only": 0.0136986301369863,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.002642007926023778,
+     "precision_syn_reads_preregistered": 0.00845442536327609,
+     "precision_frag": 0.007568590350047304,
+     "recall_frag": 0.25806451612903225,
+     "n_out": 2336,
+     "assigned_fragments": 1057,
+     "assigned_output_weight": 3785.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "5.0": {
+     "recovered": 0.7671232876712328,
+     "recovered_repair_only": 0.008133561643835616,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0035863717872086074,
+     "precision_syn_reads_preregistered": 0.011356843992827256,
+     "precision_frag": 0.009280742459396751,
+     "recall_frag": 0.12903225806451613,
+     "n_out": 2336,
+     "assigned_fragments": 431,
+     "assigned_output_weight": 1673.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    },
+    "10.0": {
+     "recovered": 0.7602739726027398,
+     "recovered_repair_only": 0.0012842465753424657,
+     "baseline_soma_segment": 0.7589897260273972,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.019230769230769232,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2336,
+     "assigned_fragments": 41,
+     "assigned_output_weight": 156.0,
+     "median_recovered_per_neuron": 0.7272727272727273
+    }
+   },
+   "test": {
+    "1.0": {
+     "recovered": 0.518970189701897,
+     "recovered_repair_only": 0.018518518518518517,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.00036105427849320016,
+     "precision_syn_reads_preregistered": 0.002467204236370201,
+     "precision_frag": 0.0018303843807199512,
+     "recall_frag": 0.07692307692307693,
+     "n_out": 2214,
+     "assigned_fragments": 3278,
+     "assigned_output_weight": 16618.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "1.25": {
+     "recovered": 0.5176151761517616,
+     "recovered_repair_only": 0.017163504968383016,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0006938822713079681,
+     "precision_syn_reads_preregistered": 0.004394587718283798,
+     "precision_frag": 0.00322234156820623,
+     "recall_frag": 0.07692307692307693,
+     "n_out": 2214,
+     "assigned_fragments": 1862,
+     "assigned_output_weight": 8647.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "1.5": {
+     "recovered": 0.509936766034327,
+     "recovered_repair_only": 0.009485094850948509,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0008417508417508417,
+     "precision_syn_reads_preregistered": 0.0035353535353535356,
+     "precision_frag": 0.0039001560062402497,
+     "recall_frag": 0.0641025641025641,
+     "n_out": 2214,
+     "assigned_fragments": 1282,
+     "assigned_output_weight": 5940.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "2.0": {
+     "recovered": 0.507226738934056,
+     "recovered_repair_only": 0.006775067750677507,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.000930809804529941,
+     "precision_syn_reads_preregistered": 0.004654049022649705,
+     "precision_frag": 0.003978779840848806,
+     "recall_frag": 0.038461538461538464,
+     "n_out": 2214,
+     "assigned_fragments": 754,
+     "assigned_output_weight": 3223.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "3.0": {
+     "recovered": 0.506323396567299,
+     "recovered_repair_only": 0.005871725383920506,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0015479876160990713,
+     "precision_syn_reads_preregistered": 0.006707946336429308,
+     "precision_frag": 0.006535947712418301,
+     "recall_frag": 0.038461538461538464,
+     "n_out": 2214,
+     "assigned_fragments": 459,
+     "assigned_output_weight": 1938.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "5.0": {
+     "recovered": 0.502710027100271,
+     "recovered_repair_only": 0.002258355916892502,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0011574074074074073,
+     "precision_syn_reads_preregistered": 0.005787037037037037,
+     "precision_frag": 0.004901960784313725,
+     "recall_frag": 0.01282051282051282,
+     "n_out": 2214,
+     "assigned_fragments": 204,
+     "assigned_output_weight": 864.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    },
+    "10.0": {
+     "recovered": 0.5004516711833785,
+     "recovered_repair_only": 0.0,
+     "baseline_soma_segment": 0.5004516711833785,
+     "precision_syn": 0.0,
+     "precision_syn_reads_preregistered": 0.0,
+     "precision_frag": 0.0,
+     "recall_frag": 0.0,
+     "n_out": 2214,
+     "assigned_fragments": 25,
+     "assigned_output_weight": 129.0,
+     "median_recovered_per_neuron": 0.017543859649122806
+    }
+   }
+  }
+ },
+ "chosen_t": {
+  "r1": null,
+  "r2": null,
+  "r3": null
+ },
+ "best_rule": null,
+ "test": {
+  "r1": {
+   "t": 10.0,
+   "t_reached_bar_on_calibration": false,
+   "recovered": 0.5004516711833785,
+   "recovered_repair_only": 0.0,
+   "baseline_soma_segment": 0.5004516711833785,
+   "precision_syn": null,
+   "precision_syn_reads_preregistered": null,
+   "precision_frag": null,
+   "recall_frag": 0.0,
+   "n_out": 2214,
+   "assigned_fragments": 0,
+   "assigned_output_weight": 0.0,
+   "median_recovered_per_neuron": 0.017543859649122806,
+   "per_neuron": [
+    {
+     "lore": 167957,
+     "recovered": 0.9186602870813397,
+     "baseline": 0.9186602870813397,
+     "n_out": 209,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 145368,
+     "recovered": 0.007042253521126761,
+     "baseline": 0.007042253521126761,
+     "n_out": 142,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 120685,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 5,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 135349,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 131,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 154356,
+     "recovered": 0.6942148760330579,
+     "baseline": 0.6942148760330579,
+     "n_out": 121,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 112031,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 2,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 141713,
+     "recovered": 0.75,
+     "baseline": 0.75,
+     "n_out": 4,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 184533,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 36,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 151567,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 103,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 158660,
+     "recovered": 0.8648648648648649,
+     "baseline": 0.8648648648648649,
+     "n_out": 37,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178287,
+     "recovered": 0.8846153846153846,
+     "baseline": 0.8846153846153846,
+     "n_out": 52,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 127337,
+     "recovered": 0.7777777777777778,
+     "baseline": 0.7777777777777778,
+     "n_out": 9,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 180791,
+     "recovered": 0.41778975741239893,
+     "baseline": 0.41778975741239893,
+     "n_out": 371,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 131049,
+     "recovered": 0.011111111111111112,
+     "baseline": 0.011111111111111112,
+     "n_out": 90,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178675,
+     "recovered": 0.8412698412698413,
+     "baseline": 0.8412698412698413,
+     "n_out": 63,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 164353,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 80,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 156278,
+     "recovered": 0.9240506329113924,
+     "baseline": 0.9240506329113924,
+     "n_out": 79,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167248,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 49,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 149142,
+     "recovered": 0.017543859649122806,
+     "baseline": 0.017543859649122806,
+     "n_out": 57,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 162060,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 4,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167206,
+     "recovered": 0.9545454545454546,
+     "baseline": 0.9545454545454546,
+     "n_out": 44,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178639,
+     "recovered": 0.9094827586206896,
+     "baseline": 0.9094827586206896,
+     "n_out": 232,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 169572,
+     "recovered": 0.9366515837104072,
+     "baseline": 0.9366515837104072,
+     "n_out": 221,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 104213,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 10,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 87046,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 63,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    }
+   ]
+  },
+  "r2": {
+   "t": 10.0,
+   "t_reached_bar_on_calibration": false,
+   "recovered": 0.5004516711833785,
+   "recovered_repair_only": 0.0,
+   "baseline_soma_segment": 0.5004516711833785,
+   "precision_syn": 0.0,
+   "precision_syn_reads_preregistered": 0.0,
+   "precision_frag": 0.0,
+   "recall_frag": 0.0,
+   "n_out": 2214,
+   "assigned_fragments": 17,
+   "assigned_output_weight": 38.0,
+   "median_recovered_per_neuron": 0.017543859649122806,
+   "per_neuron": [
+    {
+     "lore": 167957,
+     "recovered": 0.9186602870813397,
+     "baseline": 0.9186602870813397,
+     "n_out": 209,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 145368,
+     "recovered": 0.007042253521126761,
+     "baseline": 0.007042253521126761,
+     "n_out": 142,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 120685,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 5,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 135349,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 131,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 154356,
+     "recovered": 0.6942148760330579,
+     "baseline": 0.6942148760330579,
+     "n_out": 121,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 112031,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 2,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 141713,
+     "recovered": 0.75,
+     "baseline": 0.75,
+     "n_out": 4,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 184533,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 36,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 151567,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 103,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 158660,
+     "recovered": 0.8648648648648649,
+     "baseline": 0.8648648648648649,
+     "n_out": 37,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178287,
+     "recovered": 0.8846153846153846,
+     "baseline": 0.8846153846153846,
+     "n_out": 52,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 127337,
+     "recovered": 0.7777777777777778,
+     "baseline": 0.7777777777777778,
+     "n_out": 9,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 180791,
+     "recovered": 0.41778975741239893,
+     "baseline": 0.41778975741239893,
+     "n_out": 371,
+     "assigned_fragments": 2,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 131049,
+     "recovered": 0.011111111111111112,
+     "baseline": 0.011111111111111112,
+     "n_out": 90,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178675,
+     "recovered": 0.8412698412698413,
+     "baseline": 0.8412698412698413,
+     "n_out": 63,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 164353,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 80,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 156278,
+     "recovered": 0.9240506329113924,
+     "baseline": 0.9240506329113924,
+     "n_out": 79,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167248,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 49,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 149142,
+     "recovered": 0.017543859649122806,
+     "baseline": 0.017543859649122806,
+     "n_out": 57,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 162060,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 4,
+     "assigned_fragments": 5,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167206,
+     "recovered": 0.9545454545454546,
+     "baseline": 0.9545454545454546,
+     "n_out": 44,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178639,
+     "recovered": 0.9094827586206896,
+     "baseline": 0.9094827586206896,
+     "n_out": 232,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 169572,
+     "recovered": 0.9366515837104072,
+     "baseline": 0.9366515837104072,
+     "n_out": 221,
+     "assigned_fragments": 3,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 104213,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 10,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 87046,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 63,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    }
+   ]
+  },
+  "r3": {
+   "t": 10.0,
+   "t_reached_bar_on_calibration": false,
+   "recovered": 0.5004516711833785,
+   "recovered_repair_only": 0.0,
+   "baseline_soma_segment": 0.5004516711833785,
+   "precision_syn": 0.0,
+   "precision_syn_reads_preregistered": 0.0,
+   "precision_frag": 0.0,
+   "recall_frag": 0.0,
+   "n_out": 2214,
+   "assigned_fragments": 25,
+   "assigned_output_weight": 129.0,
+   "median_recovered_per_neuron": 0.017543859649122806,
+   "per_neuron": [
+    {
+     "lore": 167957,
+     "recovered": 0.9186602870813397,
+     "baseline": 0.9186602870813397,
+     "n_out": 209,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 145368,
+     "recovered": 0.007042253521126761,
+     "baseline": 0.007042253521126761,
+     "n_out": 142,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 120685,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 5,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 135349,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 131,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 154356,
+     "recovered": 0.6942148760330579,
+     "baseline": 0.6942148760330579,
+     "n_out": 121,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 112031,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 2,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 141713,
+     "recovered": 0.75,
+     "baseline": 0.75,
+     "n_out": 4,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 184533,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 36,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 151567,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 103,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 158660,
+     "recovered": 0.8648648648648649,
+     "baseline": 0.8648648648648649,
+     "n_out": 37,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178287,
+     "recovered": 0.8846153846153846,
+     "baseline": 0.8846153846153846,
+     "n_out": 52,
+     "assigned_fragments": 2,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 127337,
+     "recovered": 0.7777777777777778,
+     "baseline": 0.7777777777777778,
+     "n_out": 9,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 180791,
+     "recovered": 0.41778975741239893,
+     "baseline": 0.41778975741239893,
+     "n_out": 371,
+     "assigned_fragments": 2,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 131049,
+     "recovered": 0.011111111111111112,
+     "baseline": 0.011111111111111112,
+     "n_out": 90,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178675,
+     "recovered": 0.8412698412698413,
+     "baseline": 0.8412698412698413,
+     "n_out": 63,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 164353,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 80,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 156278,
+     "recovered": 0.9240506329113924,
+     "baseline": 0.9240506329113924,
+     "n_out": 79,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167248,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 49,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 149142,
+     "recovered": 0.017543859649122806,
+     "baseline": 0.017543859649122806,
+     "n_out": 57,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 162060,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 4,
+     "assigned_fragments": 6,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 167206,
+     "recovered": 0.9545454545454546,
+     "baseline": 0.9545454545454546,
+     "n_out": 44,
+     "assigned_fragments": 3,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 178639,
+     "recovered": 0.9094827586206896,
+     "baseline": 0.9094827586206896,
+     "n_out": 232,
+     "assigned_fragments": 1,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 169572,
+     "recovered": 0.9366515837104072,
+     "baseline": 0.9366515837104072,
+     "n_out": 221,
+     "assigned_fragments": 5,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 104213,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 10,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    },
+    {
+     "lore": 87046,
+     "recovered": 0.0,
+     "baseline": 0.0,
+     "n_out": 63,
+     "assigned_fragments": 0,
+     "correct_fragments": 0
+    }
+   ]
+  }
+ },
+ "null_runner_up_r2": {
+  "recovered": 0.6402197802197802,
+  "recovered_repair_only": 0.007032967032967033,
+  "baseline_soma_segment": 0.6331868131868131,
+  "precision_syn": 0.00011803588290840416,
+  "precision_syn_reads_preregistered": 0.0006295247088448222,
+  "precision_frag": 0.00019554165037152912,
+  "recall_frag": 0.01834862385321101,
+  "n_out": 4550,
+  "assigned_fragments": 10228,
+  "assigned_output_weight": 50832.0,
+  "median_recovered_per_neuron": 0.6324561403508772
+ },
+ "null_label_permutation_r2": {
+  "recovered": 0.00043956043956043956,
+  "recovered_repair_only": 0.00021978021978021978,
+  "baseline_soma_segment": 0.00021978021978021978,
+  "precision_syn": 0.0,
+  "precision_syn_reads_preregistered": 2.1114419036760204e-05,
+  "precision_frag": 0.0,
+  "recall_frag": 0.0,
+  "n_out": 4550,
+  "assigned_fragments": 9471,
+  "assigned_output_weight": 47361.0,
+  "median_recovered_per_neuron": 0.0
+ },
+ "r2_t1_all_neurons": {
+  "recovered": 0.6780219780219781,
+  "recovered_repair_only": 0.04483516483516484,
+  "baseline_soma_segment": 0.6331868131868131,
+  "precision_syn": 0.0004434027997719643,
+  "precision_syn_reads_preregistered": 0.004307341483499081,
+  "precision_frag": 0.0020061239573434695,
+  "recall_frag": 0.1743119266055046,
+  "n_out": 4550,
+  "assigned_fragments": 9471,
+  "assigned_output_weight": 47361.0,
+  "median_recovered_per_neuron": 0.8406827880512091
+ },
+ "oracle_ceiling_recovered": 0.8786813186813187,
+ "verdict": "NOT_VIABLE",
+ "verdict_reason": "no rule reached 80% precision on calibration"
+}

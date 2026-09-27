@@ -1,0 +1,449 @@
+{
+ "picks": 20,
+ "rows": [
+  {
+   "side": "left",
+   "seg_id": 22077059202,
+   "cls": "O-b",
+   "ventral_exc_contacts": 19,
+   "cloud_min_dT": 57.25,
+   "cloud_far_um": 99.24,
+   "mesh": {
+    "seg_id": 22077059202,
+    "vertices": 1100,
+    "min_dT": 51.95,
+    "vertices_in_T": 0,
+    "x_min_um": 465.2,
+    "x_max_um": 598.0,
+    "extent_um": [
+     132.7,
+     56.1,
+     38.1
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 20485920385,
+   "cls": "O-b",
+   "ventral_exc_contacts": 11,
+   "cloud_min_dT": 51.22,
+   "cloud_far_um": 86.79,
+   "mesh": {
+    "seg_id": 20485920385,
+    "vertices": 1289,
+    "min_dT": 46.5,
+    "vertices_in_T": 0,
+    "x_min_um": 486.7,
+    "x_max_um": 606.7,
+    "extent_um": [
+     120.0,
+     71.0,
+     43.2
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 21953649857,
+   "cls": "O-b",
+   "ventral_exc_contacts": 11,
+   "cloud_min_dT": 43.39,
+   "cloud_far_um": 119.71,
+   "mesh": {
+    "seg_id": 21953649857,
+    "vertices": 1994,
+    "min_dT": 42.01,
+    "vertices_in_T": 0,
+    "x_min_um": 452.5,
+    "x_max_um": 585.3,
+    "extent_um": [
+     132.9,
+     141.8,
+     41.2
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 22036322619,
+   "cls": "O-b",
+   "ventral_exc_contacts": 10,
+   "cloud_min_dT": 110.28,
+   "cloud_far_um": 42.64,
+   "mesh": {
+    "seg_id": 22036322619,
+    "vertices": 1336,
+    "min_dT": 110.28,
+    "vertices_in_T": 0,
+    "x_min_um": 541.2,
+    "x_max_um": 597.9,
+    "extent_um": [
+     56.7,
+     34.6,
+     69.8
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 17446497736,
+   "cls": "O-d1",
+   "ventral_exc_contacts": 9,
+   "cloud_min_dT": 101.52,
+   "cloud_far_um": 73.7,
+   "mesh": {
+    "seg_id": 17446497736,
+    "vertices": 1254,
+    "min_dT": 101.13,
+    "vertices_in_T": 0,
+    "x_min_um": 548.7,
+    "x_max_um": 585.4,
+    "extent_um": [
+     36.7,
+     40.3,
+     91.0
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 20547052236,
+   "cls": "O-b",
+   "ventral_exc_contacts": 9,
+   "cloud_min_dT": 51.09,
+   "cloud_far_um": 98.19,
+   "mesh": {
+    "seg_id": 20547052236,
+    "vertices": 1178,
+    "min_dT": 50.36,
+    "vertices_in_T": 0,
+    "x_min_um": 469.4,
+    "x_max_um": 620.5,
+    "extent_um": [
+     151.0,
+     61.4,
+     42.6
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 20669520067,
+   "cls": "O-b",
+   "ventral_exc_contacts": 9,
+   "cloud_min_dT": 53.07,
+   "cloud_far_um": 136.7,
+   "mesh": {
+    "seg_id": 20669520067,
+    "vertices": 2717,
+    "min_dT": 50.36,
+    "vertices_in_T": 0,
+    "x_min_um": 468.2,
+    "x_max_um": 661.8,
+    "extent_um": [
+     193.7,
+     146.7,
+     46.7
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 22036386161,
+   "cls": "O-d3",
+   "ventral_exc_contacts": 9,
+   "cloud_min_dT": 106.57,
+   "cloud_far_um": 46.54,
+   "mesh": {
+    "seg_id": 22036386161,
+    "vertices": 892,
+    "min_dT": 104.02,
+    "vertices_in_T": 0,
+    "x_min_um": 531.4,
+    "x_max_um": 577.9,
+    "extent_um": [
+     46.5,
+     19.3,
+     73.9
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 20568532528,
+   "cls": "O-b",
+   "ventral_exc_contacts": 8,
+   "cloud_min_dT": 56.98,
+   "cloud_far_um": 124.83,
+   "mesh": {
+    "seg_id": 20568532528,
+    "vertices": 2693,
+    "min_dT": 56.24,
+    "vertices_in_T": 0,
+    "x_min_um": 474.9,
+    "x_max_um": 679.1,
+    "extent_um": [
+     204.2,
+     153.5,
+     49.0
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "left",
+   "seg_id": 22117861097,
+   "cls": "O-b",
+   "ventral_exc_contacts": 8,
+   "cloud_min_dT": 89.27,
+   "cloud_far_um": 86.58,
+   "mesh": {
+    "seg_id": 22117861097,
+    "vertices": 1311,
+    "min_dT": 86.09,
+    "vertices_in_T": 0,
+    "x_min_um": 504.3,
+    "x_max_um": 617.0,
+    "extent_um": [
+     112.8,
+     109.8,
+     35.9
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 20669581809,
+   "cls": "O-b",
+   "ventral_exc_contacts": 13,
+   "cloud_min_dT": 41.22,
+   "cloud_far_um": 110.67,
+   "mesh": {
+    "seg_id": 20669581809,
+    "vertices": 2630,
+    "min_dT": 29.43,
+    "vertices_in_T": 0,
+    "x_min_um": 448.8,
+    "x_max_um": 587.7,
+    "extent_um": [
+     138.9,
+     104.8,
+     74.7
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 20690609348,
+   "cls": "O-b",
+   "ventral_exc_contacts": 12,
+   "cloud_min_dT": 50.39,
+   "cloud_far_um": 115.47,
+   "mesh": {
+    "seg_id": 20690609348,
+    "vertices": 1292,
+    "min_dT": 49.55,
+    "vertices_in_T": 0,
+    "x_min_um": 486.0,
+    "x_max_um": 681.7,
+    "extent_um": [
+     195.7,
+     63.7,
+     45.1
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 22117861097,
+   "cls": "O-b",
+   "ventral_exc_contacts": 9,
+   "cloud_min_dT": 89.27,
+   "cloud_far_um": 97.51,
+   "mesh": {
+    "seg_id": 22117861097,
+    "vertices": 1311,
+    "min_dT": 86.09,
+    "vertices_in_T": 0,
+    "x_min_um": 504.3,
+    "x_max_um": 617.0,
+    "extent_um": [
+     112.8,
+     109.8,
+     35.9
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 22585578987,
+   "cls": "O-b",
+   "ventral_exc_contacts": 8,
+   "cloud_min_dT": 5.61,
+   "cloud_far_um": 189.11,
+   "mesh": {
+    "seg_id": 22585578987,
+    "vertices": 1799,
+    "min_dT": 0.0,
+    "vertices_in_T": 12,
+    "x_min_um": 399.5,
+    "x_max_um": 575.2,
+    "extent_um": [
+     175.7,
+     98.6,
+     56.2
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": true
+  },
+  {
+   "side": "right",
+   "seg_id": 19160737326,
+   "cls": "O-b",
+   "ventral_exc_contacts": 6,
+   "cloud_min_dT": 47.22,
+   "cloud_far_um": 168.0,
+   "mesh": {
+    "seg_id": 19160737326,
+    "vertices": 2357,
+    "min_dT": 44.28,
+    "vertices_in_T": 0,
+    "x_min_um": 474.9,
+    "x_max_um": 733.0,
+    "extent_um": [
+     258.1,
+     62.7,
+     55.3
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 22503980906,
+   "cls": "O-b",
+   "ventral_exc_contacts": 6,
+   "cloud_min_dT": 22.83,
+   "cloud_far_um": 172.85,
+   "mesh": {
+    "seg_id": 22503980906,
+    "vertices": 2407,
+    "min_dT": 9.93,
+    "vertices_in_T": 0,
+    "x_min_um": 399.1,
+    "x_max_um": 611.4,
+    "extent_um": [
+     212.3,
+     92.6,
+     58.9
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 25361333830,
+   "cls": "O-b",
+   "ventral_exc_contacts": 6,
+   "cloud_min_dT": 63.09,
+   "cloud_far_um": 118.02,
+   "mesh": {
+    "seg_id": 25361333830,
+    "vertices": 1092,
+    "min_dT": 62.59,
+    "vertices_in_T": 0,
+    "x_min_um": 454.7,
+    "x_max_um": 611.3,
+    "extent_um": [
+     156.5,
+     67.7,
+     30.1
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 17691292999,
+   "cls": "O-b",
+   "ventral_exc_contacts": 5,
+   "cloud_min_dT": 82.42,
+   "cloud_far_um": 41.2,
+   "mesh": {
+    "seg_id": 17691292999,
+    "vertices": 594,
+    "min_dT": 67.66,
+    "vertices_in_T": 0,
+    "x_min_um": 524.2,
+    "x_max_um": 572.3,
+    "extent_um": [
+     48.1,
+     40.7,
+     35.0
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 19180368501,
+   "cls": "O-c",
+   "ventral_exc_contacts": 5,
+   "cloud_min_dT": 108.03,
+   "cloud_far_um": 18.45,
+   "mesh": {
+    "seg_id": 19180368501,
+    "vertices": 338,
+    "min_dT": 98.72,
+    "vertices_in_T": 0,
+    "x_min_um": 548.9,
+    "x_max_um": 571.3,
+    "extent_um": [
+     22.4,
+     38.0,
+     28.9
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  },
+  {
+   "side": "right",
+   "seg_id": 19180815239,
+   "cls": "O-b",
+   "ventral_exc_contacts": 5,
+   "cloud_min_dT": 51.54,
+   "cloud_far_um": 124.3,
+   "mesh": {
+    "seg_id": 19180815239,
+    "vertices": 1304,
+    "min_dT": 51.54,
+    "vertices_in_T": 0,
+    "x_min_um": 487.8,
+    "x_max_um": 688.2,
+    "extent_um": [
+     200.4,
+     61.8,
+     44.4
+    ]
+   },
+   "mesh_reaches_T_where_cloud_did_not": false
+  }
+ ],
+ "n_mesh_reaches_T": 1,
+ "n_reaches_T_where_cloud_did_not": 1,
+ "errors": 0,
+ "built": "2026-09-26 04:08:48 EDT"
+}

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, cite it as below, and cite Fish1 (the data it runs on)."
+title: "FISHBRAIN: a larval zebrafish simulated on the Fish1 wiring map, with pre-registered gates"
+authors:
+  - alias: "First Percentile"
+version: "1.0.0"
+date-released: "2026-09-27"
+license: MIT
+repository-code: "https://github.com/1stPercentile/fishbrain"
+references:
+  - type: article
+    title: "A connectomic resource for neural cataloguing and circuit dissection of the larval zebrafish brain"
+    authors:
+      - family-names: Petkova
+        given-names: Mariela D.
+      - family-names: Januszewski
+        given-names: Michał
+      - name: "et al."
+    journal: bioRxiv
+    year: 2025
+    doi: 10.1101/2025.06.10.658982
+  - type: article
+    title: "A Drosophila computational brain model reveals sensorimotor processing"
+    authors:
+      - family-names: Shiu
+        given-names: Philip K.
+      - name: "et al."
+    journal: Nature
+    volume: 634
+    start: 210
+    year: 2024

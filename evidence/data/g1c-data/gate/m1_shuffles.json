@@ -1,0 +1,1772 @@
+{
+ "when": "2026-09-26 09:51:52 EDT",
+ "gains": [
+  1,
+  4
+ ],
+ "seeds": [
+  "G1-seed-0",
+  "G1-seed-1",
+  "G1-seed-2",
+  "G1-seed-3"
+ ],
+ "n_shuffles": 10,
+ "intact_like_for_like": {
+  "H1": true,
+  "H2": true,
+  "per_side": {
+   "H1_left": true,
+   "H1_right": true,
+   "H2_left": true,
+   "H2_right": true
+  },
+  "numbers": {
+   "H1": {
+    "left": {
+     "p_escape": 1.0,
+     "side_frac": 1.0,
+     "angle_frac": 1.0,
+     "escapes": 16,
+     "trials": 16
+    },
+    "right": {
+     "p_escape": 1.0,
+     "side_frac": 1.0,
+     "angle_frac": 1.0,
+     "escapes": 16,
+     "trials": 16
+    }
+   },
+   "H2": {
+    "left": {
+     "strike_frac": 1.0,
+     "turn_toward_frac": 1.0,
+     "trials": 16
+    },
+    "right": {
+     "strike_frac": 1.0,
+     "turn_toward_frac": 1.0,
+     "trials": 16
+    }
+   }
+  }
+ },
+ "intact_8_seed": {
+  "H1": true,
+  "H2": true
+ },
+ "equal_like_for_like": 10,
+ "equal_8_seed": 10,
+ "rule": "if equal in >= 8 of 10 shuffles, the page says 'the anatomy is real; the decision runs through the model'",
+ "page_line_applies": true,
+ "rows": [
+  {
+   "shuffle": "G1c-measured-shuffle-0",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:29:33 EDT",
+   "seconds": 156.8,
+   "topology": {
+    "kept_neurons": 6969,
+    "kept_pairs": 13926,
+    "stimulated_kept": 2931,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-0",
+    "seconds": 12.5,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [
+    {
+     "pre": 9631763511,
+     "post": 16039136570,
+     "pathway": "E1_tectum_to_contra_M_system"
+    }
+   ],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "25853a670a94c9c00fbb7cba5b6d025ae2c0eddb651716d81613b6c6f4925631",
+     "8cc2d740b106f56c8356ea81cf04c908974fd26178f1ec328c83b2c7d3605404",
+     "ae6a493db0ce4c7adf44acb45cb51f274467b3ffad5b162993a488ceb1041f6d",
+     "8800d26460bd383a3f9584806729541eef4887a2aaaae52f6448e2c757adaa2e"
+    ],
+    "loom_az-45_lv120": [
+     "7d87f874c90bcb9dc31f6c6b88522a85996c11335c5b23e39b901db650b50772",
+     "d89ac7812a646823b714533923c42aa631e5218e71f23d2b22b7b9a5421d99a4",
+     "c03bf418816ac572be299ad3648edb52b460d16e87f8023a2bb757899cdfdc55",
+     "7ef10b93ee529dd7fd50ae6f889413c6fb3edcc9d419d0f63cc6a28d62e33700"
+    ],
+    "loom_az+135_lv120": [
+     "f42e0018302c2371637574409837b912dde11db37265aaa01bc109a8cc6880b2",
+     "e16cd7f50ea72089dfe70c5f075e3279a4d22492d72aac775e46a827e96f83d9",
+     "034e5d5968d2e2063a06d518139f9983d51fe0b56972105c5c2dbf8af294b388",
+     "194de5b4dc26574ea91c5ea29422f4d7e843575023fd1e3ccfc1d456498fb5d2"
+    ],
+    "loom_az-135_lv120": [
+     "315cb7f297fbd963a78d8da681fb1648eabf28b9e70b8b4c2be61f6572093cfc",
+     "b7ee226d3ee75dad84955bb05f6122ac76043fee32749285b3a5636026ac97b5",
+     "923d4671c685f024705add6d5041e04b01d4120d135ca9b1792d6b50d7c41e73",
+     "1d7183f6fe85fe14140fbf4690e00e7b4ec666085a99d10020c90b07a41da633"
+    ],
+    "loom_az+45_lv480": [
+     "8d5567c1155940e6b329fb8d435fa785249f7bf46552fc3ec10acee1eb599243",
+     "a3735c80680fdb4708903ece6663bba394ebd526f027a0a6e83dc0d9b69a8c81",
+     "2d6fc984bc4bd007c1eca4c2a305fd0947aa0445d2f066ddf66b6e20fa027686",
+     "02413e663d3275cbce9f21f31ae90612c3a0cc89b7c3c181bdc69daf4616dd41"
+    ],
+    "loom_az-45_lv480": [
+     "bb43d4266b05f4c12b7ccba8fde8a1bd77be881e1d06c26f76118a52154abb12",
+     "137f79a78aaf5bb7d8306584cd9031b11ca2a6e2180b996f0b43620115ee1405",
+     "79b116eab8e9f44f8390c507e742cb4aef736aae5914313b11c49543051c3223",
+     "ea61e7ae741d8b1e2dd3f9ab29111ce4ee93d66166bab184d1ca8d2570bd8f76"
+    ],
+    "loom_az+135_lv480": [
+     "5f5829789e37f9327b10f9e1569a58df15df342056b374a54c33973ff3d95ba5",
+     "ff90c2840dc4e92d475a9693de70517e06f96de4af8560abf4801ef7e203a1e9",
+     "d97ba1f47124b748e31c700e69b89ddea9d726b5fa9cb95b5f29df8bfb2e8479",
+     "53203d0a874b6cf2570c48ee7101c3252a6d46cc4abf716695dc6121012ae3bb"
+    ],
+    "loom_az-135_lv480": [
+     "fb47f62ccf3004901baf485ca218fa7b41d2624f5ddbbde25a85624a4334776f",
+     "325e4abeab005c028260f0ccf768cc14090bfc2a708fd1568ab33767ddabc18d",
+     "46f2c684a9ec7777baed53ab3a1962d696748af1ba832e9b9eed097e86190072",
+     "37910e142098e76a754d63ff0695d9f471b23b37ae8772f9ede5cbd9218b664a"
+    ],
+    "prey_az+15_v15": [
+     "b8b809534a9bba956cc3d7fcd17bb154f561023358d18b69315859694f67de04",
+     "4289c854da2ef76a402f756408074a12680466f2fbbd45b1b7e51ca42199aad1",
+     "a950717fb0b34e1cf2d768fac0f892807449f5af0842c8742de43b3c8b8c3291",
+     "f8d74eb4c31545e68af1d3a09673093c8806935fb302ae772169aac37055b651"
+    ],
+    "prey_az-15_v15": [
+     "0fc6335b37ad50e4472443dfb3a2fe908697334d2d36b2c08a79c6f2e9967c8f",
+     "f56cc2eee603d387d83776733d6fec42d5b8e8c91a50e8e912b053ceb7450615",
+     "fe2a15e09484e761c771f4d9b84daebe08597db109163f765109050397c2c51d",
+     "bc4465b5863ab9b9ed7fe081e3d5da5254edb5a4135c06c3cfe649f95f64d878"
+    ],
+    "prey_az+45_v15": [
+     "fcffa596dcedbfffca56dd8709b82dbe1113db50fdab03164c534ec105ff8ca3",
+     "6e9920bfca9a8631a9f48b60898c38c50ef558220fc28c5db4441785b5a70bbe",
+     "c6967e7610da02c29466a4d25c5aab33cfa340e84264036c2d9e79b7258e7877",
+     "ce1157fa4d2bdc219fab12fc2675550c73df96bff161e6237cd2f3569875ad16"
+    ],
+    "prey_az-45_v15": [
+     "990e4c7026f5c63f918e4f038700aa1af4983d19696e0d03b53e0798456ffc49",
+     "b056660f24202929cb4ac00c25d299febd082a8947993af4bcff80348771e1d5",
+     "c0dad775af2826850d29c51e4de8e810a549ea7de08e4cbefd3429eeb03450c1",
+     "df73cfb84278db37474ecf197bc2a898612058401b2048b25184f35b9ea8059d"
+    ],
+    "prey_az+15_v60": [
+     "8200b67f2e7fdbd0d7c2eeb41f25f92f1a23af5af703c7ee3d62d6a4a1787e1d",
+     "da015361549e6f75d4e627c90be4eff6bb05f46896573416dcfc995687e2a65a",
+     "febd63c90b244994e0e6794e77e6fb26ec87cd421b47c2fb26f04049cebf7931",
+     "699335f4bbaa78afdba1ff6520d303d4f51c0a9cd9caf64de2627ec1900c324c"
+    ],
+    "prey_az-15_v60": [
+     "7d845e09ccedf48e869bfbfafdc202692887db68a668c830620f94e095885d02",
+     "947a4e8c971b8538f1bae18f303bf40ce45fb5dee812fba3ed156c62b298b730",
+     "d1718c3f798d3f0a6df88b4815f535433f361327cdc91f3265ba94cb5d554aac",
+     "4cd81c8f1a7a64051e7d29825320aacb053da80eda1b5fb0505d373c20a63774"
+    ],
+    "prey_az+45_v60": [
+     "53b1401df1f81f8324ee6d638fd1a6e70e6254a4b0f247863c0fee28a5946602",
+     "b3a344e2438aefeb9ea491b4770e619ef970868be42358c25ec6ae59b076e9c8",
+     "a0e1b9f0fe2b69dc291f0896237c538e9aa7325d2fd0a17ff662de9464b140e8",
+     "9c109779128894606a7cdcec3601afa2e1644663529bc925260139c96c6150ff"
+    ],
+    "prey_az-45_v60": [
+     "edff7d0a7b3edc78f7f9b27ae690230520177642274f9a883bbf44a21f1defae",
+     "5549313a41c4df119b61a9668bb05851072181aa93ae00e9d5042f27638760db",
+     "5edb233421bfa1ac2f0ce25bc1069c1a659b5b6a67ede2ace613aacd0a156aec",
+     "d4f576b11e6f617f962d1a8541fa5fcb5fbc3cebb2afea97cd45f9eae156ed2f"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-1",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:32:04 EDT",
+   "seconds": 150.6,
+   "topology": {
+    "kept_neurons": 6909,
+    "kept_pairs": 13749,
+    "stimulated_kept": 2924,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-1",
+    "seconds": 11.9,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "f4cf733a29cdea47ec3cce255436f44d403a5adc93e68144b3c3663eda35ce46",
+     "cc1eb367034c9e56fc639bbd97d1b44a0ffa2020227ca2c405196c23f58b7858",
+     "004368bdd04974b8bc353f05f483d0912638496bdc24fe07e2db131ed7ea6310",
+     "a3436a219004a27580b66be81f092f42e0414b5803b13fb36130160a72e3485e"
+    ],
+    "loom_az-45_lv120": [
+     "efef51fa76f7d21ee0902f691ed5dc8ede061a8b3f0f5bad104897e449320a78",
+     "cf3265243df3b60ffcbf74b1d386991bbfc4ddb2054fa7a2540694a290e3f5d3",
+     "849eaf060384f9c9f7d02d15fe529c020cc48e4706dab1622b673b9d28dbdbc2",
+     "c6a60feb77336ddbab8a80c47c2d88a3ec9d51b45a4f128b65f9e66aab1cd188"
+    ],
+    "loom_az+135_lv120": [
+     "907b670e4e518229e3f023a4e84a1a1db8ead5e9f5d1ab9bf54e8cdc189ac006",
+     "c0a186ef9fb864bb1938896a6ea93fb7afe04f981fd810e447469251f9f99f08",
+     "59601f884d18a12443ac8beceaa09c4a876ae965733e491528f985597db28391",
+     "8ec223cd70f5eebc07893942a879ceb3969fa320918c78dcadd99f340fe23387"
+    ],
+    "loom_az-135_lv120": [
+     "c424cf90d537277bee5e7c9c5cd60b496cb116de76eafbec7c8dcb8d790b9c38",
+     "338db9ca55beb25e214dafc788b477a291d0fa4dd5c6747c0bf06cf12510c677",
+     "60ff16d1cc00eb38655dd87ed3fde15b8367d8e3ebe30f58e72e5742ea6d46aa",
+     "c03c414f434941fd71a9a78f27d6da988d04db2dddc6f2bfd498732f23280277"
+    ],
+    "loom_az+45_lv480": [
+     "9f174cf2cb77fccba43cc894e2b5e05f75fc7cd42a5e89d4cb51a439cafb5249",
+     "96c441a7f094c87bd321f723289e9d8b2ad41234dfb1ac10e3479969cc098a75",
+     "fff37e077dcf27a61e31818709c621c8526c2a45a45a3b1e0f09bd7f9d5a9360",
+     "c3b7abdfd7c89cff7ec7c2e630fc0fb9a34d391d11a4318b2c1d6ce6a93638da"
+    ],
+    "loom_az-45_lv480": [
+     "06191d11939fa2b6c823a469b2cda1090be3fde4908185d16c6fbe4a13045c80",
+     "0e1a0817dcbe2c54f63e368c143ad67646ec4e84e654b7b9519a31302d8af944",
+     "885277eca1a87753b35cd1e7865d2b5fb13c702b491005742eb4aa3a2cbb6e5f",
+     "ba9276d635f294cdf58871198309bc0c9351c7a1caccbda754508c3b23d2a15e"
+    ],
+    "loom_az+135_lv480": [
+     "c79520a776c6f9e845ee431a742e1cd1b5418480e19238f33d46ae532be8f651",
+     "cc6a94e336ddc215e613223ff236c0c01acf604aa722b362e2815c9a27ac37c2",
+     "476cbb582522e51e4bb4acbf3d208ae3fb5a8ae1714432310ce7d6b600de4f0d",
+     "80b1b33bade12ada541ede6726d62f3f1be27618b1d38c98ad8ebe1c2d5a1578"
+    ],
+    "loom_az-135_lv480": [
+     "066856645b56686a053c95828432da8af688174febe4cc5d1fb84c7f75ac5f5b",
+     "ee818edb9e9f77fbb6d51d268735a71cdac31b99825437c68cd19e0dfb61f760",
+     "9405198981b9b44773d2352aaf69de246157225e777af8c1ed388c4b09a7ecca",
+     "fd3cf221559c4dc3e4a20a8026e1c86f2219872d7d228598b651f39a21c27a05"
+    ],
+    "prey_az+15_v15": [
+     "e99f7ef173333b4aaf6f99db0cbbe21c214edc4f1d3d747bd354b5ddf2460bf2",
+     "e9b64f6abd2e0da021a4b5694bb9f7983d60e58b52ae6ff10fee193b847cf3bd",
+     "6cacc618f1ba897b7d5844e1c1a65bb02a3907c6e0e0f495f82b61917cfff6d2",
+     "54a430a258adb9fa518b2cc6e3ca0ff967de593fb3af61a5ac7b1c61628e90ad"
+    ],
+    "prey_az-15_v15": [
+     "a42886de95fae48c2d9b8737e6b25557777d995339b32114a268cacdcaea24ef",
+     "8e51b9a5a4ae4d3b9bbec4fb8c6f3a7462b00a96c68b701a62fd31d7272c5a96",
+     "3ebcf03eaf1542025adeb7efebf402d1c89ce4f475515513149a1dca6bdc022a",
+     "90bedb3fa74c06646cd4165211340fc9a7f138730f443e7dfeccb4a366a92b99"
+    ],
+    "prey_az+45_v15": [
+     "2ec302a3cc5dfb7af6bb6b470b8992effb154f3e3e35aa01be500b090bbcfbc0",
+     "6eb17cab7898031a3f68319106e3592e2c92ac1c9998e93f31cc53c83d3489f7",
+     "63e71620897dfecb7edf34f7cef675402a30bf379addde53c595929486b75f1b",
+     "f0d8bd28cf81a713b3593abb8e39e40f71010b086b34ec390485805175713c68"
+    ],
+    "prey_az-45_v15": [
+     "c15fa3b26a869f601db62e22385a3996b50bdfb8284cdaa07909e05e2a941f49",
+     "f701d22fddbeca140b495f22be82053d833aad594e5f12ec54e9a036bf77a12a",
+     "cf9e62f421ffe7fff3bf9876cbac7e64528c8dfef319190865189e51a07c3463",
+     "730df8bd2c681563eb5e9ca6562d562af303f21b726884d9106ece36cde0d2a5"
+    ],
+    "prey_az+15_v60": [
+     "d4f7c23634925bf1bfedb99aa6489327e53b2d457d4be0661474e690440e4de7",
+     "8b5fbec52f2b8c3404ba7f463d4582bdf5dc9f92849412d1c340105b7c8b4832",
+     "8638d061aa699d37cd2423912b03ed96f13dae8fca77a2e6be03760636418070",
+     "e40e718fe82adaba7d6508d3b70333e98e86bec7c44e7a7d489474742d3ec38e"
+    ],
+    "prey_az-15_v60": [
+     "791560709b34f395e984e19b6b8cdba3bc523520e0c11f3406ff66e6d74e32c4",
+     "d63848dee6e27d89014bb22110e84e823473a5241092feca60138d68d64e585d",
+     "94ef401721a890dd285735ebdc80f19a17ff6b10e71992158765e90315d989cd",
+     "7b765378cf3b48d52e816c2cc8ac3a8bb5658f15db38b4ee62b09b58ffc29c11"
+    ],
+    "prey_az+45_v60": [
+     "f1bb8c8923e13e8a6c9f67887e6c6a4b1ec9836fcd55e97b2355ccce5cf68554",
+     "ffdf263ca5f894704a94e15808b28a40ee6b78b8d97d360e091cac0b3ffa0bbe",
+     "761c23c07537cddd43105e9f51afd0aa07dfb9c3505a406495c81d896ede39cc",
+     "98253f5006815e9250697e61a5a6db1580603d65fd4c7c8c55dec1691e158242"
+    ],
+    "prey_az-45_v60": [
+     "1999bfd0b9aea7bb82fbc90c6094ed269abff44f881bd1c45465df0f83c290b4",
+     "9faba0108d82eaaa8b1d22992fd88afb9695465298a1c1f220efeda1d214adfe",
+     "5d08a4f0cde59fe487206fd594434e87d3443430aea74b197ae4c537826a7409",
+     "e24a13fb18829703eb2dcaba70a21b585ffdefe30e35170c30f7d0d89b8a744e"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-2",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:34:33 EDT",
+   "seconds": 149.0,
+   "topology": {
+    "kept_neurons": 7168,
+    "kept_pairs": 14560,
+    "stimulated_kept": 2988,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-2",
+    "seconds": 12.1,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "c28a34222156f83c2cb1ec95fd44eac7aff3df63fe0c11762feacef62bfd8835",
+     "2a888261b90f3cba7a325895ad6cb77e3b2f8b36297b29832d95d91c64ab8213",
+     "7e21f561a3decb589dfc91cecaf4c85a781d0112d1f4015daa38d9595d977601",
+     "7628231bb948c02bf16d55caf4daed05c07b6c0ec945934d62f6453ec06df613"
+    ],
+    "loom_az-45_lv120": [
+     "0e221dd4d653580c54a3355dcca0e968c8a464ae5298076265f0725ed5590ed8",
+     "954395e6040f38f2014f370b35addf540c91948c5d3e50fe14ba9dfa8c2f8f6b",
+     "ecaedf7686f0e990cf24c7697170c4e556d64e53aa2df058726fbd54ea79dd0f",
+     "2bcdd5d9419b777e048f45ae3f4106d227e40d40dd9b92a9f6ae164d47421172"
+    ],
+    "loom_az+135_lv120": [
+     "7ca4c2fa290ff32e0fa6b4b794ed2525d0fef1addaa03a43ee498cc1082dd4fc",
+     "aa0d1846d5770f321aab45255c2854e011d3bdab30586b64f0038d3ce74a5fb9",
+     "834fa343419d37432fef6b970352a3877135265d839247be41b5d7d2ad74325c",
+     "18c69117b6e6a35b94d83e1c30c38e550f1a1ce1a3f18d126008a810b035a853"
+    ],
+    "loom_az-135_lv120": [
+     "0c9be80a54045bb7fdf795255b4aef8125b8cc3673da0fb1cec0693e08ff4145",
+     "6ec117a3876896a48111fce48dbaa056c1e115627a936c28af342aa59edbd508",
+     "d52c491d180c1993587e865fd7c3d4baa58df5501beefb5170d9b19a7851074d",
+     "5c2bcdca5b67ec06bb8c84657732ac5641f61ad98033a6a1d32a5774299c3a38"
+    ],
+    "loom_az+45_lv480": [
+     "3449a7534171d5c7371c1d109683b17e28ca2b32407318245799adb41a297483",
+     "0456ed78e6ce2ea9f5607cf5c9f28cd5bbedf5d65b80c22dd6adceede5376d9f",
+     "43c231f3d7ac81b33904ef29675f8374c10e46903763e0f6ac7fbc8b6b0c5af7",
+     "b83ce235728ed1eafe4f43665c9aaa5c778e5b3956f165b2cfccdb984d7427c6"
+    ],
+    "loom_az-45_lv480": [
+     "fa9178484f9cc27c74ca20d668f12d14e8db63d51c4895275b516beb0ac7e4ca",
+     "154684a5c2b0a48dedce5fceae8ceb11d8378e48725dca4e1422bfb0ccf47d37",
+     "7e91e22acccd9f4c45972100769c02a2e9c3a56d085ab4bac0565aaf7a4590c2",
+     "17ca2f8f449e559f4859b1650736d2f187848e1c5bcc59f2136dc4ac7d7aaea7"
+    ],
+    "loom_az+135_lv480": [
+     "651fa3b6daa3cf738ea1d9bc5e481444d4cf463fc19c03f0db6b9ff7ce667647",
+     "3bed34a9bf819e35606094e8a275e3f2d9bc19099ca2c6a76bf8fbf8f2b01b35",
+     "e5b2810c00960f4461b03f023151a61a26c3aa94154b748b2ef9220fe823ba82",
+     "598def50495e2e8c88aedc183d368b45beb27ef3c275d8c56220ecf2d78496c7"
+    ],
+    "loom_az-135_lv480": [
+     "de9e87bb28d9be674c2d5b6db60a5a81b51f8b6e3cb700f7e03e393866dbcd85",
+     "e2f26244eac6df78183ac03124b686080d8bb93acc4cbd774b0f3134e7f56db8",
+     "77af13a3c213d1e80427765123d7e4e28eba3c2ebd6c66ecf71b6a380277eb29",
+     "4a82edb7320af4b3b6f8030280cecc3031a269e533ae35c43426e6239f544874"
+    ],
+    "prey_az+15_v15": [
+     "de5c107dcaf13e6cfd89c26e388b43fbb846d16107194d7695f2c48a841aef4d",
+     "7d40fa3486a62a126e7aa3f7da26acff4fd702d40e82cdc4613b9b92d92e701b",
+     "f7ed8e6ed5b43b8082a633c7799ac61cc783946a0412628810656af366cd19d9",
+     "81770286e8485b8aedfb4f89b2b412e1fc62558d6569ede3223ef79c1071281f"
+    ],
+    "prey_az-15_v15": [
+     "6c6c84971022c62106aa059e44cda1dd2e072d71f23f1368d10446394420b27b",
+     "e5bcf0e1adc8eeb2d1cc524ce8905ca4d07f541a801b690a576b8746f18c928c",
+     "f8c2c9b61ea56b85a9fd7069ca74d7b55244f35dc6a41c3d3cb20e262dc583a5",
+     "163e9a57cfb1b94908a4093bf7ce09e5965f42102846300f22a0f6245f17ae55"
+    ],
+    "prey_az+45_v15": [
+     "8fe9e7bb9bb5db8e48a6e6eef69147aa213f8e396b006fbeb665e4db0453ada7",
+     "068a8195dc8c25b53a14296f7d2f2514750d4797cd0c85b9219c722595114524",
+     "5255d5e06e7a6c050eaedaf560149efa18d9394ca95199b7d8f70cf3876ccae0",
+     "4eba89fe565184f29691a9adbd9687a62ca3761915393786085fe26672d8cf4d"
+    ],
+    "prey_az-45_v15": [
+     "aa4dd597177a18ffe4e463755fba8e9cd8f0b590859aaef3df2d6639e3334c5f",
+     "169854eb705811bd33660cd8b6486f00c5f87f04cbed4f880a135639f811e362",
+     "0e972d80fdae2b35e3acbb9f32eb9c13eeda373795e8cf2ae5d69f163481b1bd",
+     "55e71d8c57ecb2e86ce2ebea6a0922669c6d2f86d2180c1d3cdf81675e722e3e"
+    ],
+    "prey_az+15_v60": [
+     "ccb19cf6b5da07ee31d8c021959b9d13b098e406d2051a5ab090c4cf0574397e",
+     "db7c344fd4f93f330622a79dc26811575e1e6a4e094ede5368c55af1a091cb2e",
+     "ffc753bb7bfef492829964e8b8861c2b37cb3ba495a5449e20f2594e83a0185c",
+     "0426018405199ce31d6ca2d1f5ee0c9a42210f1e4dd168c14c1d823882693b22"
+    ],
+    "prey_az-15_v60": [
+     "91830ec52b27a34dee8c6dfe9548ef5b11c2ad90bb5585cf2e62d430ba843cfd",
+     "91e5c35555a51c2b1d8871e0f08999b2a95d3c9d638ddc5530f039e187348963",
+     "a8d6701659f5bcf39aabd8f2df70d4744dd8f018dd87f5921e5fcabf0de61d00",
+     "8be83daa5d94faec4bd1c3173857038fe301ea2e283e602cc151083933e19ae8"
+    ],
+    "prey_az+45_v60": [
+     "fc68c92bdaf56e696e4376ac25325214874dc434f805bec66840e9abb4a5ada9",
+     "65973bcfe46635d203517d47fb078f00b1cc1246b3ceff3330e245a36cc7ae5b",
+     "c8b7281b081724e9a55c53ade69a23d659d3f0e0a0fd3c99a001536c49ab0a77",
+     "47bd5ab305f9f50ed1bef67d2dc85bc7853cee3d5d6f482abe5108e632774a4a"
+    ],
+    "prey_az-45_v60": [
+     "696b9f368a8a312a28b044a009b95def3c6e0009605e51e9046f7b66f9d13a0b",
+     "75036db3d42be649df3ec9ff067565e8e7da062fbeb94253e5485b166f38e3ab",
+     "059e7a029743d7b6fec5e410cfb5afe781d416ab050b3551fd277b9d976dc0bb",
+     "b706a87821ce07f985106679ebe3f2569572e1fc9d78f2230eaf02ceaa2d5a6a"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-3",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:36:58 EDT",
+   "seconds": 145.3,
+   "topology": {
+    "kept_neurons": 7061,
+    "kept_pairs": 14361,
+    "stimulated_kept": 2911,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-3",
+    "seconds": 11.3,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "2d56dbc4f51d0de81615d7d7b0cc722c88e934190a16ab0226f6b4f4303fd58f",
+     "37cae5b5a2ae2a96e99be0ce9a2c96d349fec48814a80c08c09ce55a2651e289",
+     "8dfaa2116a4b55ca32c9a9fe0ec9c98c3d58611f33c8625b46d8b316ebce9ceb",
+     "450a349e42f1f41e761846f4c040727ddd6f9efa9f46d671efe72bff25f5667b"
+    ],
+    "loom_az-45_lv120": [
+     "203f7d252fd010aecdc588639395d74ea7824a3e46a6be7fbe1d2a8624ec4c41",
+     "dd0143f56e547a3e74803fcc73beeb63be24aad214345e06e554b1f005b7e7f3",
+     "19e6ed72bc5877b8815744845ff5c1fdf23a162f49ea7c49ba3ce9dedb5db5c1",
+     "81ac73c779cde3af8b3171b76088c844a79461ec8e8611193400e10a85b65e95"
+    ],
+    "loom_az+135_lv120": [
+     "eb8253b40f0a2fd21c2f4ba3d35841f2abee3360806c51cd897d852acc77719d",
+     "dbf5b0ff25707cfc7236efc71c85bef70b5803e3edc38bdcb44eaa40f7f0f589",
+     "af227bcdd7d3b0a921e091ba27b6f7a95c5ecc72cee42dfd949f1e821e24244c",
+     "4770294569a2b053a1bef6e9b0509e15fdc52f07ceadc91431516c1c662f80aa"
+    ],
+    "loom_az-135_lv120": [
+     "5c14404cb16c761bdefde7c8241fad1bb0de19869ba7d77fab86cb0c4aa4ffd5",
+     "8999457f1b2727a36510aebdfd06e8261a45c02570723a080c4ab697215b3724",
+     "2ba1b9889067732d68a29ca3593d51156544cc40eb65ce1f8938c17aab296551",
+     "9bd54742c628b93bdb5bf2eb8ed8005f5a7c82986fa628ea72a2e5bd5c26961a"
+    ],
+    "loom_az+45_lv480": [
+     "26c5b258fa68673583bff51921cf040c9b8f3234c6ac672e764e252e2d51c222",
+     "2a65a6e40ae187f139368a997d8001c2eb80054862b1a55ec4edb4f1704343c7",
+     "8fd63517f6ca4c2e2d7ec77aff5f6cf8142cdd25d250b90c7d19efbbf80a9c3d",
+     "0ee605c97c0c9d2f4254549944ae74aedcc103a0477438eb70d52339630c3768"
+    ],
+    "loom_az-45_lv480": [
+     "f33c9cec8be32139515601725a7332ea98cd27b52e894126de598133f2f94ca9",
+     "d141d79934836d7e04f51be363e2150b7172ecc1ce8abf46f29226d986b36494",
+     "82cc28f19d30b323b1c6f5c8e9b0630c15c7ffc8c70bc6726acc344866e8b689",
+     "65621cd4bcd53e37a71058ae6e2c05d866bc08b54b5d2f7939dd09cce94e3f47"
+    ],
+    "loom_az+135_lv480": [
+     "efeedc8691ec7ebd33d57193c72b4770e268ced0fda026ff2b4969eb8f8a5dc5",
+     "eadffca45311a78ec8de8411e2671d869bf1d23469a6050b4396396f55c5a3b8",
+     "0c6efa4b7950c411d1dce83f30ad3897af9832756a3eb69a3b77dde032e99163",
+     "d7359575fa2861253fb6cb78301c053ae0d9fa01f70c56f2279a381b1f95fcde"
+    ],
+    "loom_az-135_lv480": [
+     "88e925c4387f4d9e782c8b2c0dde1c35c89a6267e95dc867cf60c8f521189530",
+     "7d8f5959c1c882b6ec50e2b2568497ec0eb67edb7aad281fcb5df4fa1010c997",
+     "ee83bfc6aea341a893858014b96585a341f25e9565c7a07268bfcfd81480b159",
+     "4795af6ccdddb3154c1902585cc1c8294985ac69aa42f55ff24765946514a1ad"
+    ],
+    "prey_az+15_v15": [
+     "8627b670d48ffc427c3f4e93605b1ae21a48e7ea2a97bc606e6484c793809b2a",
+     "521d3d22a80aaf261ee178d79a3cca06ae70a271a5803b1f8d6de0c1e93437d0",
+     "a0788cb481bf8d50dbbc6f64e0b3dd8f9f103a1656b9ac528ffbb968bd7e1d71",
+     "5123625ce1b53215da35da8291f028b1531ce85e157789a33a448a79656ca334"
+    ],
+    "prey_az-15_v15": [
+     "7886a10351b307d92cf1f4652f385174367319a9f03e406361ee88a81df6a8cb",
+     "ece59c5a0a0a103c1fdbdeb0ce8147ffe020e0c80b6fddd883fdf501f21c5406",
+     "f135635a5b491c1d5b3ac77129e5341ec1012cff4c48e29bf3f5ba4f74a055d2",
+     "2ef0ea053064fea1e548be759ae8eff632872ee81cd4dd4f7707a272ebea2c4e"
+    ],
+    "prey_az+45_v15": [
+     "8788839cbd448f661ed503253bc59cf3569abaf9294ef0cbaf05dc57576e463b",
+     "3fb6b2a0ee8b8b3e8461acf02b8205c36fada922dda093b65a047c1cf40f483f",
+     "4e2d52a1d7a4dbd9e9e35151e464a4432a24f95dd360d09dc95c14f2de1e8e9a",
+     "fb75dd5eab57b1bf9f69a99a92ba1da27f9a5cf2f8456d0539d675fa4a24ff5d"
+    ],
+    "prey_az-45_v15": [
+     "cd8180c5dc059d4bc2f0857d34591985ec977743b826a9112a954cdc2a06ea3f",
+     "ace215391793c4d19fa24637902329db606ed5ffec08b03176aab0a8295d56e3",
+     "9e31d953d33007249db8e419cc6c069c2d73a053dddcee457b28452716c10915",
+     "71051450e70607c3ba53896a1c05e0b57ce35fe4648819547b437fb9c880cc78"
+    ],
+    "prey_az+15_v60": [
+     "de676325d04362217b4ee77cc83931cd6304bd285508b7e86a166866cda1f8bb",
+     "9ae0cb2bfeae6665d33fd7bbabdf16defcedd9e711a32e2bdcd995665d66437a",
+     "cba1a3362dc2849255829b81462a0d3a9b8058e8f9fd12718ebb747ef444a2da",
+     "fa6b27d0e66440fbbf3cfe8912953d85a59ea06d775a7133e8dfec586c02999b"
+    ],
+    "prey_az-15_v60": [
+     "745b6297f44e13b9242dde891b7557a77e86219281fe8d2e19dec8c6dc049b98",
+     "d109e6c51529609f0b7341e0c31512ddc487e6fa5bfd0ceb8dcb5bb14c89e56e",
+     "23525e4c1483bb3005e1f7c4b0a89c4b166ac69198dcf231e8a6f15b0554c43f",
+     "6dec2ceb5e58444608d38ee1a84a2619f0a315ee3cba6df66b5913fae0a8ad6e"
+    ],
+    "prey_az+45_v60": [
+     "c99873dcb47c43406cf16b0174677ab6272f3a68e55026605235d1959b34f7a7",
+     "5ea251a0c6c905724efdb07707be6b6c682a770f45b140f8e9c10e859b7d085f",
+     "ff165bf306b57539a259d94dbf0395fe5ac3fea7c0f69ef2756bb3cabecc0d6d",
+     "9caabed7bd57d4ac7a50e118b1488bf08cab34d325056ed60047f533228b743e"
+    ],
+    "prey_az-45_v60": [
+     "6969eb9d00611b35bc538e06e40618ba7d9e575c60a0a458183f7c378190bb29",
+     "829b7dad33975f77f7074c99fe3bde18f4342b185ee061ba622c69ff8ab89ce2",
+     "a605963e45ea5fe1f2907d7f6389ed7b8740a6b1821fce1fb3e877ad557fd460",
+     "1836ee6ab20957b03f3d7f91aede0413634181633c8f3aae89e9b216f5ead758"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-4",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:39:26 EDT",
+   "seconds": 147.7,
+   "topology": {
+    "kept_neurons": 7141,
+    "kept_pairs": 14481,
+    "stimulated_kept": 2987,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-4",
+    "seconds": 12.9,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [
+    {
+     "pre": 14241661373,
+     "post": 16180532787,
+     "pathway": "P3_APN_to_nMLF_bilateral"
+    }
+   ],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "f4036c3af5b91f21d302addf019589f60deb24d6c410aba12cf5bfe1ba9bc476",
+     "d6f90259549c3fde27071b7173fb758e96be0acb1f71229259c35499eba0f32a",
+     "eedcb180465e4f0f127f44b7184d4128e7479c2c4d9826d8bcb66d07a0fe9439",
+     "b90a5e76340c32656efe5ea39c4911020a09b1a6b8f60eb3814a64d262634584"
+    ],
+    "loom_az-45_lv120": [
+     "5262bec1f6a6d013516ae166e83c0d3203a61a5c08448f7adaf742921f5593de",
+     "5547023a4baf2d21102b7112df472552690e92273615a359e3c43f8be5e52bd8",
+     "e7eea764f9d73cdff3181bd1c7884924cc4b7dde396099d097634bf65dd7bcc8",
+     "18da8f328c81ba945485ad7e19c069a21f9dd3de67852d69807ede9a100436eb"
+    ],
+    "loom_az+135_lv120": [
+     "9b5551fe4e5c8373f6af3a5cec77c417aa0758bf1a74fa75aec4918eddad22a6",
+     "f7e65d311fc7410e844e05ce872892581edc280850abfb7a512881be554f829d",
+     "0c6aac8a01252d3559e5d9a76dfdeb4f153f1f62ced7f9c97e7cdd1ab2914a73",
+     "4f3be85c6c0b13e1129445f172925dedcaeea2216d49e95d08000036e729a535"
+    ],
+    "loom_az-135_lv120": [
+     "39a7d89104e4db0321c8527e7993639a553fe70052bbc14097b51229168215f5",
+     "8506608dbad58e450e18da1034e4ab0960573f7342f2b45b253165db4e3f8588",
+     "d23c76b0c7c5de2958080ce8ffb22d263a8cb0b7779cda8730f67c09f1e92a62",
+     "ee5e249efef491e4eeae6abd56bf5b6b50255c5d538172e5c101a059befb4160"
+    ],
+    "loom_az+45_lv480": [
+     "3f8583b8ad81108a1ad740183a1240b52c1ce54d10e6a8dbd88e50e5b6bcd8d2",
+     "2baaf4e00fffbbd060414bbe07cc8a8fece0924955d4b31459996104c0348e73",
+     "4caa45faee3ef49ab6afbdf1a207e488446671c38ae500c5efd23f53c68e25f3",
+     "7299cca60ea11e2998ca5ae44afb303e0e0d4be78d1ac23ee929529e89992e2d"
+    ],
+    "loom_az-45_lv480": [
+     "ac117b4864699c76056fd14453f9644d769c88b41352b3ad2263edd595804f01",
+     "d730ba3b196f0bfbcfa97d99b6bfbcae8a03f4cee4cce705661ab4ca2bcca086",
+     "f45bd481cf6d91f4204ae1ed7cc2318b9955e1c613c98a75185404cf2d50ba25",
+     "2fe1bc19ce0fa077666d179bf741482a601f73f34e307458f2eb3bb522c0ac4b"
+    ],
+    "loom_az+135_lv480": [
+     "42c9f55523ce3103740dadf10f840589d0705f6bca765a22fed8e1bf2c28a35b",
+     "dfe7ed842268a0dad88f237be912baaf6b27e2b52708bb5b11bba474a3991782",
+     "7a58ffe8d2956021a4761de3e16e73d3754d40022dc6c3375df5c95c2e1f6d71",
+     "ae760b9c9eba252626f3c7cc5a68db81c876989f4bb0a71841a086f3c4ae9aac"
+    ],
+    "loom_az-135_lv480": [
+     "bc4c1f5ceae6c19da80df6d119744201cfc3563f89266efb22d64e0b4ddd9bf0",
+     "43528e9129204a53115d8dfd6ffee134aecce7d9244359fbd77c834553d699d0",
+     "0de69f35daa5de1d208839bad089e7d26adc8155956dac97be43fdcbd865ddd4",
+     "cdf0c9f9189c6f2157b4029e326a9aa4a208756f64a11c27dbb6782606ebdbd3"
+    ],
+    "prey_az+15_v15": [
+     "b416485a00ac1d271b0676dd2b02470a41668df1d0adf2cadaab8eb1d4eb9514",
+     "0bb58e7fb48a3578bc7cb8dc5ebb843c854456ae91413648f0eb818fd768987d",
+     "c43099821adb4ac577e6c3a261455490a4e92077c02b3fa8520c726f710477b8",
+     "00503d55f0775037e1f20f797400dae867ee55d30188ff3d47ce22f2a2ce980a"
+    ],
+    "prey_az-15_v15": [
+     "65d706f04d0f6df7031a35c211061bfda915bf94df33b5cd46d7be49318f2421",
+     "603badf72c6f47f25e489d5d41fafed078e1e772f5f1934d5eeeff5e2be216bc",
+     "f68292f186ce82a12162ded64e8e411bae39a1ab6198b8db67e970ac123222b6",
+     "11198b6fb99184f839bbfcdd123ea06040bfe337e9f37f061ee88aecd455a211"
+    ],
+    "prey_az+45_v15": [
+     "e7944cdb9b70f1f86cf5bf9bdcb7c441aeb4688f4d4d0de0d6fe46d6a9693b2a",
+     "5e029958942012fed3441825af4f5ce7f060e16dee74f83f3c6b14acbdf235a9",
+     "99d10125186c4f04007051170f74620119a2748373aee2ada05883394b8e30c8",
+     "eaa31d84021d7570cdad3a31853359f734ac76ae9186f05280500043439299a3"
+    ],
+    "prey_az-45_v15": [
+     "be6b7b8f225486dfdb2fde7e5a8776b6f4f73a3acc6c78f8423cf53a298149ac",
+     "463fa0f1d26b8549643f8ccd235e975877a860d744a8a7962349766f81e09f14",
+     "d503da14b706790c67099b010315c38e62eb3b100d1c4d1c39bb879d2dc37aef",
+     "8de4398c9137f6fceb917fd565429212fccfc30403d2a9072d544bfb62336f2a"
+    ],
+    "prey_az+15_v60": [
+     "102be2034238a4ddf0e1f00b03555e2f03261d91a6c87d329c5708dbe6b9c329",
+     "875a27b9f4f40317f39d0b106b640bdb6ddaa8758ab4aaf51e6ebe63b074efe4",
+     "1ab038d33fa5ced7ec33fdb87f968f3967991ea1edb498f71978dff3b309dba2",
+     "38a46732c3fdda9aeaa5b73be5e35dbae7a2f9dcde21ebc99dc84c77df71de4a"
+    ],
+    "prey_az-15_v60": [
+     "82bbe58ef7762a595e6b62fa299b8fa1162b2af37a6c4ed1ad7b83caac499d03",
+     "8211d80215e25752e612c8b8cf5a582a31de7a523d52cd394be0fb93420629a6",
+     "38cef70036000b3657a80d749858ca26092bbe79a6128ea49340d0a2f2bdc7c6",
+     "c67bd522a672594811c50bd493def08613f5b1140f1cdb37bd47b4f9c6ae93b2"
+    ],
+    "prey_az+45_v60": [
+     "3d232346eb357b04ea581bc9990cfa580ab2126b4538793076891fb2dbf55644",
+     "58f98a9f9b7ced659387a2abf2dbf80254caf8e7fccef5fbe7aa3d6ef814a448",
+     "b2074951a5687b8177a4dbb20fc134d36b5bb61ad05d0c054f9b9dc1d804a271",
+     "ba6e31731afe30aa4ff9298dc8caeaf1a2edf6d388c7556d9cc08807587c2698"
+    ],
+    "prey_az-45_v60": [
+     "cbe7842de77e57c9a10ee086cba5cb5a66526ba23de55bb4ff48938178cf56c6",
+     "104cf8618aa521601f845706cc6cfe437dc711fde8b0c9925e2fd4a2a40fe9be",
+     "9b4fd992bcbc07dbea857fc063894d454964ef88d4da013ea866c6530d0c7c03",
+     "2702f02b98f7ffba61a424ccd4330e8add9d820b9933b1331372ca8123dcc1de"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-5",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:41:47 EDT",
+   "seconds": 141.5,
+   "topology": {
+    "kept_neurons": 7128,
+    "kept_pairs": 14309,
+    "stimulated_kept": 2962,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-5",
+    "seconds": 11.3,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "855537d8f05b2cc1e6254352c952947ff826bc332ce545e719888bcb7d895489",
+     "dad13809dff7846b36d4c3dcbbea1938c3d09e65c0d9be71b2ed0f4c5c657b11",
+     "665ae433e72bc58bf68721c919c2d4f3111ca86bf84648ad37c39289934d2b64",
+     "8d6b27db3ae9d6bd887e39f4592679828d8bc8ac7e10671ed0c399c6d7a5f0ed"
+    ],
+    "loom_az-45_lv120": [
+     "369ce07de2daa3c5a1d110c42fb7291ae833a668c0da0e1427327e187fcac5ed",
+     "a3ee39c4aaee73248c453401a83421e68af7aea7a05a10da33d3c6cc2855ebb9",
+     "fe30c060e54cfdb47eea0c3ec980c92a29e1ebd9b9505aa2af4a0950659055a5",
+     "fbd24083d5454c8bb97c0c82eb5add8eeb38613e0d1a7eb2d0d2cdf4ad1e4e8a"
+    ],
+    "loom_az+135_lv120": [
+     "24717fa5c02e9a66b4a93fb8b7792f2cc80c1248fcccb4666e0f667aabe8f973",
+     "a53ce2d240c8d3dd92d9a358e2b4f0f0faececd3084af71193fbce0ddb5559e4",
+     "26ffa78aa73e8841d6b17747892b4565ccc0c2449457fafbefc8f7766cc466fd",
+     "2155e4a27939d59773aefa38ca45daff41a915de35443b17ac96b8e7d6a53760"
+    ],
+    "loom_az-135_lv120": [
+     "bacc03fe5d1011887cae9e5464aaaf6923756c2f519221ad1bcc0602dadedd5b",
+     "0832222b2982f6e3b0f35554372b67a1342b7493c066f3f24159548b53d713ea",
+     "26c34e2936ab9ad2104f689c7d1c60c5c30c9e263ae601abed9ce97f308dde65",
+     "a8195df3cf485f13ed206629c0ca64b69b3d3a76d3e44f082224139009a1ac3d"
+    ],
+    "loom_az+45_lv480": [
+     "1052b27a3183fb9115df7c74f904fb4e7d43132b3459112b83e545e9a008e5b3",
+     "1295c0e4d4df6ad0976145c61df8ee82be314a008df36f474c45467427b42ea2",
+     "37c8eb71eaf302f812e3db7038a90aed73997dff0744e1d16f920d98f4250ba9",
+     "3c5ba4b240b959a9ff7d4c587dff53bac0d55b715ae2b1055d48d889b88fdfd2"
+    ],
+    "loom_az-45_lv480": [
+     "344c00a0210f786fadf19492dc5253d5d2b3c3120ccb023629e3955de0e73dd9",
+     "dc912167236e0c6ddaf7d3d17ecd76e178d28bc587c58e62277bc4797dfe50fa",
+     "b2fd906ba5ab19657591ca4b430b35369d2ae23b53db26efde244eeef84cabf4",
+     "ba8839a221dc10ad37ded148ab4c13253bb9f89de0d3cff74c0c17b7c2dbdc81"
+    ],
+    "loom_az+135_lv480": [
+     "0eff07e47fe669051852a24792f77b7b36b64129b12ce1fcde4a3fababe47efb",
+     "059431fa80dae9377f7c9725801f73e448cc04699d422f21df39272e63b49a67",
+     "8d30f02ad62031f59283337d0e5ba120845fff96b5b35e8a3276b3dbe248bd4e",
+     "ff2084342f2f262fa1104c41cee21e8614abc3f6f28505d5e75bdcf30255b750"
+    ],
+    "loom_az-135_lv480": [
+     "c867a9b9e969973d623ca7e01986e92ea2b0c9bfe4b568a5a969cc095d7d124a",
+     "3ddb7970bc6ba4254952915e2729106349c36ef4cc1b116965a36e284a412df0",
+     "461b9c18742a73ebcfa8bd7eec8122487fa2aab6d40e1e2a9f8e137977149e29",
+     "b5e1c1d57b918c9a5f7644e9c7fcbc9b60a54ee83e1a2515cd668736ff5834e0"
+    ],
+    "prey_az+15_v15": [
+     "e81d55d6295f4e0e9352ae5ae1e6079a26e40772bf5b9a6aa40cf5166bd2fa36",
+     "578a0bd52f840622eb1ef953ededda53b323f5c2b7afd667f8392b8845499409",
+     "87639b81d2806424662a78d06b25051ac0bdaf12989f16470be5c9fed3898972",
+     "49f93e56f4f4753830bf091a517cdcc6109456a47c5ebb7e3b3808c92c8d8a0a"
+    ],
+    "prey_az-15_v15": [
+     "0cb1723031aa0174476221dd2579f07aef5db95b9b8ab15a68fbbc79514f5232",
+     "e1bcd2ee0e3b79b409e3636ee6d78e70312eef2ef5a14d80eef0373b7198b588",
+     "8e643ac6d0609b16c1ac4a1b9d16b7b7e3bce883cc527f999adf02b8db483f6e",
+     "7f5e590c800cecc74dcbdd03ffc17514aa17724012a258fe21e0d5d50e6625c6"
+    ],
+    "prey_az+45_v15": [
+     "2fd3b981f6343f237504775228918f5ccec643fc15ecb1620e56553dd847ee5d",
+     "adf3191f2336ba999a172ad32575ee87b56f1e432976d353e7f0944408edb5f3",
+     "123a4ff1a34667c24d48f7422d3bccb4439d5d1a54822b6dfb02d38311aefd65",
+     "119e24a5f45c63596183c2f47f80cc7f69048b314abcff7b9b974331203e736e"
+    ],
+    "prey_az-45_v15": [
+     "577ba832be9b5c9b19d0e0dbd4ee301b629b4974939318ff5ac9bd85b2315d40",
+     "de8e2e1f742567d9058241ce02617633ad0ef3837ea8ebbc24715d0762e6fcb3",
+     "03f94bf595960f6c96436ca9ab5b3daade16534a19c4681db7c61d0bcc92a75c",
+     "6acfa0171b9161d360bf88597e47c7159009f167143570fae6c8666fbaf457b7"
+    ],
+    "prey_az+15_v60": [
+     "8cb7d635da2ff6dc257ccf1ab41c38fe4d52803cb747ee392cfe3d3c3ea10fa5",
+     "5c9a588896e408cebe72c485421d21a4e089a22bbf68af2e222085dc4354dd17",
+     "f1c33dbf255160ed28255c3918b2bda2913ee7775404b8dc7c703ec03bf93ea0",
+     "5964eec8dc8833785bd6e8f3bcffefabf69f292d688cf3aaf7a1398d97b883ca"
+    ],
+    "prey_az-15_v60": [
+     "2c96798f54e779f01a20ca53e8528b7797a0eb5fc2b5704534128dcfbb6f821c",
+     "88bf4483a0234cc2e2a05342d901084bc5fed6c398eb38df59daa0d8456b234d",
+     "b4927bac8158c2474086a8fd20a8b1b69781592cd82bae27bf075c050725d9d9",
+     "10e40db704e9823bb26fe99414d4977eb5c1c37bcbb97c51962aa99b92952715"
+    ],
+    "prey_az+45_v60": [
+     "5ddb1d2296844ac16bdf6f6cdd93d8cca2ee3152aa78bd5a1fd1e34503fef810",
+     "163a280d80a1fbd2aaa89c9576b2e4d531f169c1c1970b2f2ceb24354fa57420",
+     "2a7393befaab6e3936b5cd972efbff3c48d9c58e8cfa39a1fc99990a04c4eb67",
+     "6075fe5c9b26ddd826f53b458091de62e1bf19fe7cdd2764356617cacc2d7647"
+    ],
+    "prey_az-45_v60": [
+     "94dcb0fa6391466a747e7ed1cdc7064ae49cfd4be9f4fa029b68e6ffbc8401b6",
+     "58b353bc81013cf6dac99ecbb46ddb1480326790750d2f16f675341946eee77d",
+     "a99ab8bbe61cd487807fd4cecdd16367eb933762f9e497c4e53b89a7dfe08e79",
+     "f1a0fbd4fb3cb0479389db1884f1e046632ae293f84bba3de28af4fa4e783085"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-6",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:44:16 EDT",
+   "seconds": 148.3,
+   "topology": {
+    "kept_neurons": 7206,
+    "kept_pairs": 14579,
+    "stimulated_kept": 2989,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-6",
+    "seconds": 10.9,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "b241fdfbd478069ae61a6e5da10754a077862e1f0de4e6361daa7f244b6c53de",
+     "396d122881d8dc612e5787bc3726d761f0543377721e4f3257a26c5c103e42fc",
+     "297862e1bfc36c1acf9a77ef0bd053cd8c297eeff143d8800f0cd5ba881e5be1",
+     "6a5029f670df47563d115e8a0a29663b824ee89cffa2b5ccecfbe57a88c51c4d"
+    ],
+    "loom_az-45_lv120": [
+     "68175eb876ce7cc05904e772f90f4012148991cf3be43ade8e10bc812c7fb27a",
+     "6f0e891449a3148e04e43434bd0c0b2f36f497985e114d066b53bdbade4309bd",
+     "015b0e54a065e8bfc2de0430389c9c81de8eef161b788d301bdaf018be85c468",
+     "0de968ccf69c9dbecd8b55a1a8856fed717cad0c73bb895fa81202d11bb18069"
+    ],
+    "loom_az+135_lv120": [
+     "d8c760fd46549f7532e41190ad76bf7e9cc780e30ff1f85e29b37f169c66e69d",
+     "f4266a6a7076cb199493b953723af6e9b4e4aed99090a48d19000d8d0d86f670",
+     "aa0b21496c03c3e54b5f0354c76403ab538fd382821f1e9a5cadc93cdd5a0848",
+     "e22de4a6bf193a57bde8cc4fc1f1e64a830a2e940132f29873b20f57aa790454"
+    ],
+    "loom_az-135_lv120": [
+     "f145ab792f7dcf590d4cab529a5e9ca57460ba4a4afdb9ea4095ea754accfa92",
+     "8269a39858d8ce1f728db79e724fbe0c81fb8f233774d3ea7210b8348a3a7390",
+     "40833df7e74cc20aa2082549a99992e0168c89e54e7325c756b087b81750b121",
+     "8969a70cc388420a365af13fb648c4d0c9c5cac908080e04b53322b8b5e11c6c"
+    ],
+    "loom_az+45_lv480": [
+     "f84ef40932e139a760b5407494da90ac747c54f9da09ef58ba4e2e7c8d35c061",
+     "336404e7103c9f8dcbe83b3c92013bcd2e3b17ef43cfde7465bbf17263116f83",
+     "5f278c46a3bbe5929932e31a8a91b2f71be0c6b77d76e2cbe919e34705789cf4",
+     "a6f63a076d21a6a4624895836d676d7e5bc6320bb146bceaa46518d71ea9f473"
+    ],
+    "loom_az-45_lv480": [
+     "6220f0e5849056cd10fdeae143f28e8f416a8e506b66a89e617f08621dd4adab",
+     "9e02f52b9cd9b492c96fa20804b8a95466b85b3c9ebab7e652d5bf4beacb373b",
+     "f25c40bb90c65820ca7cbabf7ddad5f1cb2ca6e2487079519c64924b2a2555be",
+     "87f237c2ccdc8f0407127d2381464a8b1773882f98cc5f0fc8a67b538fdd08f7"
+    ],
+    "loom_az+135_lv480": [
+     "d8084d39409a6e3ae368b0db11dd4a6932cef29c47bd14fabcc62964cff944d7",
+     "ac7d3737e5d6f5ac6d8906c727a05fde7f6763d0e9abea5c122253c4bc2ed39b",
+     "0418ee321802e297406c71548e25d9a8d0d1eb1469918bd08eb2dc72d212ec7c",
+     "d034dfbc43324724aae67b7a61a9218a85640a8a7032fe2bffb60ba1d439e1e0"
+    ],
+    "loom_az-135_lv480": [
+     "8f6792c25103539d5f078561c5c1fd8b465d9f4b2efb70debee607b2eccd369a",
+     "a2852b49c58d1ce6a77ade72ea70d7bb79829e88dd7569600be90b0ed0cfb412",
+     "c8822aa9b22285a829a2ea72c4892514d5c6230cff191548ff49057840536087",
+     "f879872b0de3b2dd353cb867d24fbd1daaf2b81a23e12b041bba0d1c9a28e217"
+    ],
+    "prey_az+15_v15": [
+     "cae65c7a50596f74bc020de674b2edc8bbdedb25bf8dc7d9849fa748e20e3914",
+     "1a5313b32a650561ac45142eb2bdd3f279fe14801ca1711b7d6e72e941d75308",
+     "4536bd8b88ba3bb557e3e99bdda32da9929dd3677106a6d3f8db76449d1baaa9",
+     "166c6f7f4db21c61f5102571ddfdf2a30b043d93e3e9dfffaad39f890fba44da"
+    ],
+    "prey_az-15_v15": [
+     "e4f9a8ad5d1018162d8d2d4a54925171c4472164931f4e1b513cbbc369a57c73",
+     "7311ab328898c12c93dd97a4648d171ef798efa119f3b75a00ae45550f83fe8c",
+     "b3281b1c34323dfce8f724b58ea1faef2fe319f50af6e8cc53f65ae8506f33f7",
+     "00662ab126c53fe08324fa632a14a3e4997ee585d5316161e24a2f8e30407fad"
+    ],
+    "prey_az+45_v15": [
+     "e407bd98682dce11b308d3ce2b344c9e6baabf613acec5aeee2d02abe4ac8b9b",
+     "7f7900e3b579119b50ec31e0220d6b2e59ea65b3e9e6b4cab45e748ae064d64d",
+     "2a747d5e1157d59a29a2cb2cd2f6eda068752a0a7275acdd34b1ad9700602805",
+     "a66ac78741df6414965ca200eea12c417f7c2b40e7a9156197114b2615c42e2f"
+    ],
+    "prey_az-45_v15": [
+     "e98a38ea38cbed5f517b3205e7bcaa03ae2357eeca3d148c79df246b3c0f861c",
+     "5435b999ec1161077ff3892bd5ad36fe82dd072a994260b792b9c7dbf235b0b0",
+     "a0f95723703b764df13e4f065113656729494f31c51a85ed8ca313132f6c4593",
+     "22c396af76504e89337e4017fa771c16e703aba3c56ec6d87e06e3a4c4a4e4e7"
+    ],
+    "prey_az+15_v60": [
+     "233d575f8bbfab2af1b87c580ff41db3170d32a5464a7feb4666cb3e80597b9e",
+     "e6bddf3872f7ccb7e6e82db2c9d26d2eda6bb92be754cb2d166a9cdd23cedabf",
+     "d55ade61458976b241ab832b36d98ac6e825411f483a0ac67f7fc82072dcccca",
+     "1ebdac1c25c546f60cd81403d38293248ef2781114f2c7a4f4a3c45d5d85f369"
+    ],
+    "prey_az-15_v60": [
+     "5c2d0c03a7a64859fabbb05643ed525be1b1743cd3d7d837cf6dc7326ef85c30",
+     "41f8a6eeef8d3ad1c3f700bb666331226ca1fd0f9f754b3b8b993988373c6579",
+     "f28011fb786d417de86f90c205c2b652463d1f5e173878c5856896c4320f803c",
+     "bd11a9a3a8bd4aa4cb23f4ddb38a9a9b533063acaeda593f7ae8815995bd36e3"
+    ],
+    "prey_az+45_v60": [
+     "05390a83550fb74295efdf6b2aaa73c0c08a168b840f080465589fc618647bc6",
+     "cc54db71199af6ac3c3cc04368613d1ae30e85a656851a247ba763830b5686db",
+     "b814f2d2625cf2816c2bd7949cd8028207d7974d94178fb8b0bd4162edf455d8",
+     "540981ab2a5a18a720619e7a2d3eafa985b7ca4c0f021ba29af2695b1c2734a5"
+    ],
+    "prey_az-45_v60": [
+     "5bbe03707ac2677627f1f42f5ff923bf3432fa62d25cb9953a4dd15579faa5d4",
+     "e67c1e0868eb1d72b503c092e7b9d4ef887af57cc1fecd84763bdaad51663f30",
+     "e1f0fd8a810f136b2f8a52ef135cab958799114520bb112a74f74b0d44e96837",
+     "36c5c1d50222195c4386d0a93084c432e49fdabe6e3cd42b016cb4b30abe5863"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-7",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:46:46 EDT",
+   "seconds": 150.3,
+   "topology": {
+    "kept_neurons": 7252,
+    "kept_pairs": 14767,
+    "stimulated_kept": 2999,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-7",
+    "seconds": 10.8,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "f010040711629e68735c307c762e22c31435e52f4be5527d7f1481e7a64c4df6",
+     "c1bc17f1d827a148d8d94a1042e65ba9db94c7c77f6d4b730d7264fa5f40d5c8",
+     "b5a57d3702d92a046e98889e3665f7181715482cd27427c529edcb0befad8420",
+     "abd4a6a134cb6e3385e9227d576751f479864d41fe25b37d6c2f201a2c52204c"
+    ],
+    "loom_az-45_lv120": [
+     "4b1c97fb1a7645453f6f283ea51590624568a875b624ac94adaf66da94c77ab9",
+     "6de644d8ee189125ee464707b4a5efcb636a3ed20c9f4ececd19a50fb66e6f67",
+     "70377ad909dc9940533f1dadfb716d06f04319e2e84b7d6910b4a5d96012ad16",
+     "6b31cd1bf095a4fd370750f6af6a6561d647b1c7d7af6abec0a51ce3f197ffa5"
+    ],
+    "loom_az+135_lv120": [
+     "f9f22c49720005bc62ff9b4adacf36a2953654b6ac475a19bcb3ed8a97ca8549",
+     "3fcc6a47fbcff023b04c430b57ccba7dd892af0b0331c7e9e2e4cfd5baabd99c",
+     "fe1ef9d0930657c15dff6a4c6e10c5f86da210d4b49ec66e42148f5ed378489f",
+     "0ea00801121fe301631ec8c41c6756fc9a31f9a2160048c72a6bc6ba5dec1cd9"
+    ],
+    "loom_az-135_lv120": [
+     "0a63186c0a93ecd0d597d9a4ec1d4212dadeb971984dae245abaf18ad9279cee",
+     "dd9efb9bc1a15042ac628c1e403fe04acb217c778ff124844355886c7e5d8760",
+     "6b04f2c5054ba776192afec79cda10fd4c1fc8655ac2b785a11c37a00888718a",
+     "c42bf74bcdbad59865e1ac6e9078747b5edc2b20d09f213c74756bf52c5f7711"
+    ],
+    "loom_az+45_lv480": [
+     "7edb375db45e6857ac71c4986f6c257e27ff1a968bfb7271563bc52974317f05",
+     "8f43ecd5c0403a580e39c9681e8ae9d551c834c97060ebd60e83c5a08dba4e29",
+     "5c1345e0d0682c0fb1bfb531ecf36545ef7901321a24ec6141f9d1bcd6208c8c",
+     "5cbbcf8ef56942b96174cad32e55eaed7e2f319cb7587c402732f64899fb2690"
+    ],
+    "loom_az-45_lv480": [
+     "02f12699419101ff756e249928b2cc67f6cc8866c7c465d6e289efa37f8caa1d",
+     "7ca55328e7312febcb900257e0cb857442e96a399e4beaf59f26ff173b6990d5",
+     "82796f1a91213839eee8ee7c2bab3129512f0fde2c6505f4d1d6357424b769ca",
+     "71bf5f94609a4a6c87ce7f9789ac386832510f6681752b0664d1aa0d5e9cd25a"
+    ],
+    "loom_az+135_lv480": [
+     "ca8805e19ed99ae2c3217c805476e9bfa0b3178db1153860655f8e460f6d9ec5",
+     "c7125eea9386e982b8b44d5d329d04a4260eef1c0762af8c699c260e4416a97e",
+     "ce3a7451d1d0bb4827f11f68d740a79a898680258061df92013c0f180909d732",
+     "52716f55ebec34c3c4a6b73f36cfdc1137c24a07f27db95b0115187c0e4af02e"
+    ],
+    "loom_az-135_lv480": [
+     "3a89b1f6dd2ceeb689284c2e4130a9ae291887b37ed04325bff84f4125a5a572",
+     "6501be49bd1424be17ad6cbcc3911f092fc8d7175db7dafbcdd12c726d9dd73c",
+     "5b389d5b44f4305fff53527273a26a4cab6948dad390d8ed373fa684607f1c2e",
+     "b84a9188befb65b0d459d55b40fb984cf7eab736286ff4149ebca6f0ded32fd4"
+    ],
+    "prey_az+15_v15": [
+     "412fe7e36e46dc5eae18d8897dc317ca6c1eb86ba3c31a42a90a3c9c9ae86704",
+     "ef4f4bb7c57adae4f897e5b7e9aaceba2caae86378053f8af3380aae02de2687",
+     "c36a2c4531e10d008be68b2013b7a83b5e30f1d03cdcf4824cfbfa4894415e63",
+     "f6b2b06ce37b1e4f12720dbf88195cfd2bae91715863ed23213d71ec5f53bbc6"
+    ],
+    "prey_az-15_v15": [
+     "e12ba0975a0af1259b3a64a86904a9445fa1743b80e9e70c0ea69648e123bcc0",
+     "a044a0604d6e8783c2ce8eb2759084be4f853d6b4fd9b43935b6f54035074b74",
+     "dcf332a96d0d72fe4284fa7485004bfe4cb23e345aac8e6b9a52544cd96920a4",
+     "a1ed33591d9aea8efffd40db32bab9e91559e3745bcca9e32146906dcb4d84bc"
+    ],
+    "prey_az+45_v15": [
+     "38d8d30a790acd0d5041d3a885e404d67df83ebb095b1c7d3ba04dc377e28c2c",
+     "f117f71c7649093a27509faec16c9df45370a9941961356832ffb8a4a2002990",
+     "3d42d447eebcadf49bc14ebfda11a2143ba5b1531967abeccfe1231bd9e96f4e",
+     "376b8dff3382565ae2c7c45a162ed99925a5cdee8b7a79f930ef5a4b9622c2a5"
+    ],
+    "prey_az-45_v15": [
+     "461b3c43fac32721952cbe22505b5113a46e33b2cbb4f159f638e938c65b63b9",
+     "a8c2a247143798036b22e191b205b07f472f853df9f1078f57fdb5fd96425aea",
+     "101e8af31322cf37e03b515d3985898cc7a690ec5735b2f8441eaba9aa5bc2a3",
+     "e4a3a79ebdb1942b611dd297f2726f8fb0387e2b9a8af75320a5a568565bcf73"
+    ],
+    "prey_az+15_v60": [
+     "5a9f187e53c657fc04fa306f92bedcd3500e98458d5e722cfe17c0335ca57c9a",
+     "1f8f4e84f466e64b9b676f014a35a4398315f64e760dd9ae51221e94ac682e34",
+     "c7c55aa0d5305c7e97f2dddccafa11f383e0e7e6529f00f469661727617f0f2b",
+     "22535e6d0196187de892aa0929ebbd0a710366d5916b784d46af2225be213ad1"
+    ],
+    "prey_az-15_v60": [
+     "35c4248f93b362d42ce3b3619322351ef8973419dd8c59f15d4ef9b1717494c4",
+     "79ec7f7fe26f2b53f49e8f6716e651d917e2e9af4a06f7a279342d1a784addd3",
+     "0f8a880bcf8fe3c8952cbdbba2cc27dd13dba332d8a6b26dca5f546c2ff6f629",
+     "0ea22bb44b1584c1f4873a03ba489978894f3040849623ad13775721622ecafc"
+    ],
+    "prey_az+45_v60": [
+     "ffd889ff5750bbb1458ac8e2a474d49b589d424fe8b6e450ceb39f04176786f9",
+     "70e00a0d13320d5216b7bf5d105df76885eab51eb3ce9ce8ee89468c4c7b7ad6",
+     "dbc6850725f16f3ec169940bb8a908e322a22fc9277e647baf451e586f3d6802",
+     "21d58101c3c3a1f0b572252c768557d79543562821895c02c0336343e713a0bf"
+    ],
+    "prey_az-45_v60": [
+     "e5b0bc640f66fbcce1774711560271c6b6fa77dbd5fd8145e9cc56e72b59c905",
+     "64b1cf57a190651a839ad173ae927253b4bdec6188a65f7cc9f52882b98b2ca0",
+     "0fc3460a539bb869b12f4a33b22956a50f8e1e0238935f0ca4d634866c9263f6",
+     "f0b8627ba9727168f7473a8c9f09a39faa84fe575c15006e572f5f646712f8a7"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-8",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:49:06 EDT",
+   "seconds": 140.0,
+   "topology": {
+    "kept_neurons": 7415,
+    "kept_pairs": 15293,
+    "stimulated_kept": 3007,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-8",
+    "seconds": 10.7,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "9635e021a80460981c44f5bd3f796602e336a32fbd0c3970bd44162e259396cf",
+     "728bc467841008ac34a0eb9b0be48e42be087361305878c3e88592ecf3a4b1c9",
+     "3eea0c3e8b6389d4044579548cb3484b336bcf6d109f13014a96d458f98295f4",
+     "ccdbe5a6f6ddf651d423022c526758f0d8837995e9304abeda91b3baec48f1cf"
+    ],
+    "loom_az-45_lv120": [
+     "406be2dcabfef6d2e8f85db705b87e964d8f87ecb0a2207c72d2f497cb66211e",
+     "9cb24411bbf604375fdbe0c091e16f95356e29d1aaf585eca87a917ffddde245",
+     "51c0aab9d70f9117fa1dd21ee30cebd9a63eec85c77fae68cca2a99643904b81",
+     "8ef251cecb6da90784d523cee6ab3b15b190c153341ff785db3d888bd1103118"
+    ],
+    "loom_az+135_lv120": [
+     "aec36f3a4dd74bbcf088c22aa6cc93bf00f71d79d99404a0f71458e075f92847",
+     "ed14f86a4d2afa501faed397b74e555424227bf724e61f1975ac2b4b2d909286",
+     "e2cb36f52ac49d902808ab0adbe592f68394fe5be571a641c98771533a9d47e8",
+     "462bd081771ac840367963014132876cedf8d811e980de3f2920a07ac334900f"
+    ],
+    "loom_az-135_lv120": [
+     "aa64f0346aefd181da88c3868fb8571d50ef270e716b4280b2e4d3bffba15273",
+     "909f6c747898c5874196961852c93d0712ffa98d2a80ade6c3bdf781f434e8f7",
+     "0d8ce006ff68fe49237e09899f688c65afa65b463855345fb4136b9690ed2be8",
+     "216a502f7448513ad70e00415c851265bde21f936118fb2d53c8afe0b6129f0d"
+    ],
+    "loom_az+45_lv480": [
+     "a792e946a50ee1c16136030f6cedc55b2b836910c0eda1955cb3c3db6df45afa",
+     "ebb8991d92734ee72e8c65ddef933b53d18eeaf1ab3fbdd9df7b172e8febab1d",
+     "dd755dc7df69e2d5b1ff891181f25951f57d9a982b4968f943dc600ff4682507",
+     "ec25d6a55f28277136ea8fcb4fdf3d3c97d0a32810362fd0701331b6197d7b5b"
+    ],
+    "loom_az-45_lv480": [
+     "4141fd700bbd97b4f974bd9f8fc040dc118d704e0038b2825776fb449b702c3c",
+     "7df985d3f8a5d78dd119b9b2a108f0d71dbcfb3ed3d3b67d6f927cd89285357c",
+     "3445761bd41951a666d4772ccd06ad0dde02f3854699530dbc5eeacca7a0dce7",
+     "426b3bbcc01e541dd3f78a174fc60aef54ad14a7728e8342d39c97ea3d3ac36e"
+    ],
+    "loom_az+135_lv480": [
+     "9508f9306e7ad39f0382f96ce421b00e7d1cf81f27d548362ff33302ba596dbc",
+     "1a243348188510e91e21803bb1284d63870dbbd75ff4fd2fb1ea13e77888ae9d",
+     "3bb06c50a330646d39c5ac5c0ff96ea7523fd1464bef5ea6c8453a0acd7440a5",
+     "b94bb54ef2b613b3df6a57581a6ee21df45fcfb6c3c51d6f8efbde988cbf7ec2"
+    ],
+    "loom_az-135_lv480": [
+     "1b454384450e04ce8c33d039e3e2bc4f2d6dd11150173dcc93ced8f400591503",
+     "9005a93b8c26b158e595f73f4f0a6d19c17f453872a1bc594e473d3ea952d296",
+     "9cd89f6209df3d22bae85059cbe6b03bb58ab4ab35376ddbaf9e37c0626d5d11",
+     "5bc9e9ea59516a5f2ffbd83e8c91066bbf5d32d4b8de3d2f18467dc20ebbb641"
+    ],
+    "prey_az+15_v15": [
+     "ea3e01c893365240cde7b7c51a476d0a2938c124573bd4270ddad1d80dfef478",
+     "1f7c437cfb0fc793bbf3a0772b964094e848ab5de4619312ed6e9b5a6965eeb7",
+     "8a26eef2fa52694bcc2ee2e8ee4c2c3962469b101bf6f0fd5a52075a73e6cec2",
+     "e83c38e4763a5a02ae1d845c18ae073b1bc0cd3c7fd2d85876a1c10b3911bb7e"
+    ],
+    "prey_az-15_v15": [
+     "ce6f2068c918b56931ed73595c5bd42b4d28cc4421f969c1500c7de106cd16ab",
+     "56a6efcf8503449e4cc6e11a6da3152102ed8771cc48a1ce5e2d967bf8230c00",
+     "3fe1870b47293625fcaaaee74d1926ee911ad3a67340aac1550e9685c7e7331a",
+     "96567dc46960bb29af8fd303b1fb3bfeb6b9ad21e61c5c0c4a06d77c6f758e0a"
+    ],
+    "prey_az+45_v15": [
+     "62715ea0c4045c864062bfc92e4c0f5c8ce9d57a1e606da38dd998f25610bd43",
+     "c83fffa9332d5d61abde1252ef4226e084a4727743e602e9d37e97743a21eefb",
+     "c9945340895252b91a65aed3eff9611e9897fd7c64662a5b960d798cb86b5d4a",
+     "eaa81fc0fe83e32ee1ad8d19add1e41bf4c694b7ef7ea48dee4e6de58050683a"
+    ],
+    "prey_az-45_v15": [
+     "379f2ce47b0683a7978955a9d505734babbe7f9fc7893789c97ad5116611564a",
+     "93162ddcf6c75e59ae8691d0d9fa383038f965971bed3f87c010a6417911e820",
+     "c9b3b5efe31763e216f14dd0d48674cbacc2f6302a882856ef8a16b7c9a43563",
+     "141caf93c0d2529fe0acb85d9b5a03331967d663259cc167bc70831857715c1c"
+    ],
+    "prey_az+15_v60": [
+     "922bfb40ed9c110eaf27bcb7f1e0f191ffe077128bedfb36dcdb49587391e922",
+     "0d345eebcf293b4a0d5edbd9acd63a56dfb5c1ebb56b0214f842a1840e6890c0",
+     "9addd13e028c6410e9cbb5334eb0ac31cdea69a5df3eb127828ed5813223c975",
+     "05af20c706ebe04fa7e61206f39d48823d14658b39bf46d5822b440dcdf9381c"
+    ],
+    "prey_az-15_v60": [
+     "e1f96965da77c2082c6e6bb47f5210443ec7a47765325af2efc7ac98d45b9a07",
+     "f083364fb6f09f0f618840ae19d015bee2fad29d0ee23af6c11a345d9c74d373",
+     "fe400e3dc521a520d33f1da23ae797f2b186ffd2cc83dde7606d43ade3277c95",
+     "eda6e9a41648dcd2c400edee17016228586fe632379464cf9ae2179bb2b1cf0f"
+    ],
+    "prey_az+45_v60": [
+     "05a0c0bd14deab715e40ac301bffa5d87e92d6449dec192bfacfcd8ff28248b9",
+     "43970e0b710c66fea17fc8e43342336f52502a248b9391102cc1eba6b9afcee4",
+     "ec0d9a95b691cfa21d46d855795f53c8d18ac401542062c1e0ccafe91a589c29",
+     "f049a3f403c55ea86678f327fb8b17eb70356bb063943e633ad81561ae067145"
+    ],
+    "prey_az-45_v60": [
+     "7a8f2c4a7051d70dc43a4edf1bfd63a686898ea146e769c3f58de72396e2580d",
+     "add641667b9d13c0896580028d66fbdd6545eec26111b048c3f83263a822e3b9",
+     "3a9ac93357961b48620142574323b513ab8befc3dfbfa668baa12d8ca775fb76",
+     "2524e2b1936d6670d0c15eb6c9482d73c57adea61c6c84d35f0ff625c39e749f"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  },
+  {
+   "shuffle": "G1c-measured-shuffle-9",
+   "g": [
+    1,
+    4
+   ],
+   "when": "2026-09-26 09:51:52 EDT",
+   "seconds": 166.5,
+   "topology": {
+    "kept_neurons": 7430,
+    "kept_pairs": 15578,
+    "stimulated_kept": 3012,
+    "bridge_edges_kept": 1780
+   },
+   "shuffle_meta": {
+    "seed_tag": "shuffle",
+    "rounds": 2,
+    "unrepaired_pairs": 0,
+    "seed": "G1c-measured-shuffle-9",
+    "seconds": 14.3,
+    "pairs": 24191616
+   },
+   "bridge_collisions": [
+    {
+     "pre": 10917477978,
+     "post": 16039136570,
+     "pathway": "E1_tectum_to_contra_M_system"
+    }
+   ],
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 16,
+       "trials": 16
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 16
+      }
+     }
+    }
+   },
+   "equal_to_intact_like_for_like": true,
+   "equal_to_intact_8_seed": true,
+   "per_side_equal_like_for_like": true,
+   "hashes": {
+    "loom_az+45_lv120": [
+     "0c10a36dfeb0dae093ec1905ac092db9f4df7f2e6aafb6e9c01c34e6651b2fb5",
+     "893f89cc3160dd01d8bc74969e360210c7a26034a0155702646c5f448da46d17",
+     "22f390636428ce36d8974c728eebde6934819dc4ab82890218bbf55f11b3be79",
+     "43eb9ff598b23ce71f4b37d144f9823ea96c8f709c3405740e35fd4327c559c5"
+    ],
+    "loom_az-45_lv120": [
+     "61205f386bb65c5f90fe0a9d1df886ec6465d96f209b58225ed821e3a62122ea",
+     "53ecf4bd44f9ce7b1a2bb880bdc24723983cfbc6b726bf9478790ee06362bd81",
+     "c689fd6ec5d67f2b1079eeb0a9043a8931122029a4de510ada9c8e53a007bb1b",
+     "5246b04c6c61aada2a74ea92e5be7add646b6a69b777d4417449c18ac79bd2b4"
+    ],
+    "loom_az+135_lv120": [
+     "1ff7b5306768afb625b2354c16bc96eaf5016059db9afa83ae2ee38c3945f51b",
+     "ca1287a9985c79659eff3aa88bca35f2710dd0c77f79d6653417eb30a5c1ffda",
+     "7a64460fd67112dcc68c595736332f6002b97e5e66e9724c8a18b5d66205bf35",
+     "a5b888756dc8e099d6e58bd42108ef6e26b3efe01f27db47f99411f8a03f6493"
+    ],
+    "loom_az-135_lv120": [
+     "e575ca8ecebda4aa473bb04351ef1227e00add7374eefb6a63c39f1d88199bab",
+     "557c3b7fd51099b382d5b558e1b4390fd65155e8f23f5681f493ec826399989e",
+     "d6a0e4da6924fe416b322bcf5c8e22683fb8622e732261423162ba43aedcf9d3",
+     "e25906a9918ff5bea22a4d034b5ae16fe04476bdb9b19d98f6c62a13b8e9f685"
+    ],
+    "loom_az+45_lv480": [
+     "baa86b8cc0a0105322a3ffd5c1e599ce52974b081b204f2a465d93328279302d",
+     "cec2349b79f3e0b66a218efee7e58496f798a567aa30817403ff44531f032c7a",
+     "bc35cddd39332f1b7a6972228c20594fa2ade65ad57da750cc9b027a3dc07dc2",
+     "acfe2f51e01fa1c3e2c182d0e078ca55ee2c3cbb0266abe6fb55cd843eecc23a"
+    ],
+    "loom_az-45_lv480": [
+     "0f7474b5efbceaa695734db6fe17986310116e896516b03b44fd3ac5fbe5e3db",
+     "2aae01d7e2bde342a571a438ccea02ad4bd8f00317bfe6304092685003a0eaa0",
+     "9b80373d06f6646b47cb169e49e7631e4a229ce0667bc3487b185bc2f828ba0b",
+     "90321847c990a0e089f94722089bf6952a1ba2e7a793d77c97ea0a0d7bf552ca"
+    ],
+    "loom_az+135_lv480": [
+     "9aa7c9e5d5f3eae4cc7f305e8b768c47fbcd3c20034911f07022b61ce26d6cfd",
+     "2044a1af3e6f63b14dc64737514c5679111b07ade069086edccd080124d0d8e6",
+     "ad2eb594a3547d506d5c173118672137369bb70c3f058e42513729efb6fa30f0",
+     "e75a38124903bcfef43a8b8b73ec72db8b6032d1ee182edbb1f15cfae9f890ac"
+    ],
+    "loom_az-135_lv480": [
+     "ddda383b74fdc72cf1fda622ed081def4cf58ceecb61eec138e1681cd8fbc238",
+     "924586ba51ba30a418796785b51f0e979a430b02a35e035367067ece22b32f46",
+     "3ce010fcaacab17f4e8e286a2c7365f623dab61077adb5d368020ec611011d48",
+     "b5b7440ee40a50fe713d09c6a4c0fd4dcafc24f1ae2d6bae0e89b257e320efac"
+    ],
+    "prey_az+15_v15": [
+     "ddfba2063a22ee1e66cab7582fa76f7881d56159e181d7149d2c7c999e7a8e13",
+     "e46a54eee07274fb762deeb2eee0fa6a43a5b8ae0ee682992b2433c45f4f5fc4",
+     "ab1ab088df6bd41ff8df9a0269754436915cc75d3774bec0a11f281a4bf55ad4",
+     "3e1d6ec83bf4a6e17fbba49034ae6067af4a449a6b1ae01d45e61af2880893bc"
+    ],
+    "prey_az-15_v15": [
+     "f985513a6ce33ba3e33557ef404169237e16813ac8d49aeb7ff82fffac34c18f",
+     "3d71a1b9a9232e9ea550850dcd556fe8c4626ca47b7f28718550bbc3e9d7e9e9",
+     "82bf87dcfe568c4c6d3ebfa91d110520e92caafd47e595eefda790587dcd54eb",
+     "288399d25ce60cf78e811b76e86560d8b90e1fda435968d3724821bdb2bd8e51"
+    ],
+    "prey_az+45_v15": [
+     "a7239c330e28d7a3c5fe4d7f91679edc006357254afa15747fe21d8b0d10be88",
+     "b78d9c55420f226b9efb28b09f6a7291a2a5e938be53997358f907fd2aa42dad",
+     "5a0f3f57505c5634bb41b90eeaf18d25ca012101be58807b6a8cc84211c26df9",
+     "93e602769232e0243aae071e7182d47ec538f993f3cdb2fd0975356b8638b1b2"
+    ],
+    "prey_az-45_v15": [
+     "b390798389e529393851973504f71b746e64a1bfd49ee9f448dc89efd79225da",
+     "e46bb4b712533f69f27e1427b3316f15b6806da3a1f14af31287d03d3275b93f",
+     "f4d9489c3aeefdc21e2dde38cb7d93f0b8de8073035ef3e07fe41066b1328fde",
+     "ca496c290c9a07cc96cab643d307bf69d7de6bc777749ab0e32571ca0ba12753"
+    ],
+    "prey_az+15_v60": [
+     "f25d250fe0465b0ab0f5e557ff5fa3cf1ea20d80c706d5eb6821819b3d37577a",
+     "662a4742174866a6763fac587230abd30ecd1598080b14fb5a7e4e1c0c7f9ac9",
+     "abc3c91791e6fab5870aa9d0f672f1f23165f85a54691ad59d1143fd24c8c9b4",
+     "f768a66aff39be7ff0fee233777a47f4f99b1f8b9c6753caa95a6e1da88f871f"
+    ],
+    "prey_az-15_v60": [
+     "f0a04a5fc10546f4efe1f79848a64c37f8a9d6744f55086d11de7c7d4ecdbacb",
+     "fe33ada78c9151761606e643f9f7104427538dc20d2d082e98c214a334261a38",
+     "4457cbdbee85426cbe7efb2c7ff39eb30c815a285cbb9518bc95d33b10dffdf4",
+     "ac265d8a2be38704534f44af668b1e5db511a257f9611be76e41129b35713689"
+    ],
+    "prey_az+45_v60": [
+     "f5606999faa4eaaca7816b7b27520093cf54c2921a12d09516b5f68e4011e0b5",
+     "dc2c96caaf6fc2b92168f9b924fde2b667f698f53f220fe8de85e200248e4199",
+     "7cd10ad6ff4c613a8d3d6bbf395c79f80e48176ec9bb19bf00f93abf959d8329",
+     "3bba4de0e739a24852a269880f41cad4935ac77aa90b7b6fa8e9111336953ce1"
+    ],
+    "prey_az-45_v60": [
+     "8ea8733504a23f9a92d6a63660fffed037f091661761f642e7f02290e2400e13",
+     "9b5c55c7278fc008da10e90d5a07878809bd23fe6054b8532ded0aae581198ad",
+     "67563751af119456e32ae41b607b7db7a3f143e98ca7d517c03b982d35462304",
+     "11385a902b99e6d5afced889ce2ab4a7a5ecac1ea6a53fface8d186888c01a57"
+    ]
+   },
+   "crosstalk": {
+    "strikes_on_loom": 32,
+    "escapes_on_prey": 0
+   }
+  }
+ ]
+}

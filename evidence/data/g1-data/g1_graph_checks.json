@@ -1,0 +1,135 @@
+{
+ "graph_checks": {
+  "mauthner_left": {
+   "seg_id": 15773771512,
+   "in": 5849,
+   "in_type1": 1294,
+   "in_type2": 4555,
+   "out": 38,
+   "rank_among_hindbrain_soma_segments": 1,
+   "top_percent": 0.002,
+   "inputs_from_spiral_fiber_cluster_segments": {
+    "segments": 0,
+    "synapses": 0,
+    "type2": 0,
+    "type1": 0
+   },
+   "inputs_beyond_50um_lateral": {
+    "synapses": 2363,
+    "pre_segments": 734,
+    "pre_segments_with_a_soma": 57,
+    "type2": 1673,
+    "max_lateral_um": 95.9
+   },
+   "inputs_in_axon_cap_box": {
+    "synapses": 29,
+    "from_spiral_fiber_cluster": 0
+   }
+  },
+  "mauthner_right": {
+   "seg_id": 16304202596,
+   "in": 4173,
+   "in_type1": 629,
+   "in_type2": 3544,
+   "out": 25,
+   "rank_among_hindbrain_soma_segments": 2,
+   "top_percent": 0.0041,
+   "inputs_from_spiral_fiber_cluster_segments": {
+    "segments": 0,
+    "synapses": 0,
+    "type2": 0,
+    "type1": 0
+   },
+   "inputs_beyond_50um_lateral": {
+    "synapses": 1738,
+    "pre_segments": 682,
+    "pre_segments_with_a_soma": 21,
+    "type2": 1444,
+    "max_lateral_um": 96.5
+   },
+   "inputs_in_axon_cap_box": {
+    "synapses": 92,
+    "from_spiral_fiber_cluster": 0
+   }
+  },
+  "runner_ups": {
+   "17405827637": {
+    "in": 2603,
+    "in_type1": 871,
+    "in_type2": 1732,
+    "out": 12
+   },
+   "16039136570": {
+    "in": 2734,
+    "in_type1": 967,
+    "in_type2": 1767,
+    "out": 0
+   }
+  },
+  "spn_158660": {
+   "in": 117,
+   "in_type1": 57,
+   "in_type2": 60,
+   "out": 35
+  },
+  "hindbrain_soma_segments": 49047,
+  "spiral_fiber_cluster_somas": 15,
+  "spiral_fiber_cluster_segments": 15
+ },
+ "lobe_prediction_per_synapse": {
+  "left_lobe_only": {
+   "mauthner_left": {
+    "exc_synapses_from_fireable": 543,
+    "inh_synapses_from_fireable": 44,
+    "hops": 3
+   },
+   "mauthner_right": {
+    "exc_synapses_from_fireable": 262,
+    "inh_synapses_from_fireable": 5,
+    "hops": 3
+   },
+   "fireable_cells": 106283
+  },
+  "right_lobe_only": {
+   "mauthner_left": {
+    "exc_synapses_from_fireable": 543,
+    "inh_synapses_from_fireable": 44,
+    "hops": 3
+   },
+   "mauthner_right": {
+    "exc_synapses_from_fireable": 267,
+    "inh_synapses_from_fireable": 5,
+    "hops": 2
+   },
+   "fireable_cells": 106325
+  }
+ },
+ "lobe_prediction_dale_majority": {
+  "left_lobe_only": {
+   "mauthner_left": {
+    "exc_synapses_from_fireable": 706,
+    "inh_synapses_from_fireable": 162,
+    "hops": 2
+   },
+   "mauthner_right": {
+    "exc_synapses_from_fireable": 371,
+    "inh_synapses_from_fireable": 26,
+    "hops": 3
+   },
+   "fireable_cells": 115829
+  },
+  "right_lobe_only": {
+   "mauthner_left": {
+    "exc_synapses_from_fireable": 701,
+    "inh_synapses_from_fireable": 162,
+    "hops": 3
+   },
+   "mauthner_right": {
+    "exc_synapses_from_fireable": 378,
+    "inh_synapses_from_fireable": 26,
+    "hops": 2
+   },
+   "fireable_cells": 116218
+  }
+ }
+}

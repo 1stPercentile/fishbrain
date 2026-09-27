@@ -1,0 +1,2580 @@
+{
+ "fragments": [
+  {
+   "idx": 604852,
+   "seg_id": 8183346363,
+   "readouts": [
+    {
+     "readout": "strike_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 147,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 182,
+     "in_tectum": 143,
+     "in_tectum_neuropil": 136,
+     "tectal_inputs_from_afferents": 115,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 115
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    351.7,
+    475.8
+   ],
+   "z_um_range": [
+    68.2,
+    257.6
+   ],
+   "tectal_end_8nm": [
+    45255,
+    39766,
+    2876
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 7,
+    "18": 136
+   },
+   "column_field_deg": {
+    "theta": -9.2,
+    "elev": 21.3,
+    "nearest_somas_um": 6.1
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 2.7e-05,
+    "prey": 0.069135
+   }
+  },
+  {
+   "idx": 1170967,
+   "seg_id": 9695179340,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "contra",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "contra",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 147,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 168,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": false,
+   "x_um_range": [
+    450.0,
+    614.9
+   ],
+   "z_um_range": [
+    88.8,
+    208.1
+   ],
+   "tectal_end_8nm": [
+    56555,
+    13268,
+    6385
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 2
+   },
+   "column_field_deg": {
+    "theta": 68.2,
+    "elev": -42.8,
+    "nearest_somas_um": 6.8
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.000879,
+    "prey": 0.000404
+   }
+  },
+  {
+   "idx": 1770091,
+   "seg_id": 11182734458,
+   "readouts": [
+    {
+     "readout": "strike_right",
+     "syn": 2,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "contra",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 286,
+     "in_tectum": 153,
+     "in_tectum_neuropil": 125
+    },
+    "in": {
+     "synapses": 115,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    337.6,
+    439.7
+   ],
+   "z_um_range": [
+    98.0,
+    257.9
+   ],
+   "tectal_end_8nm": [
+    49890,
+    44432,
+    4371
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 28,
+    "18": 125
+   },
+   "column_field_deg": {
+    "theta": 17.5,
+    "elev": -7.9,
+    "nearest_somas_um": 8.2
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.000304,
+    "prey": 0.815999
+   }
+  },
+  {
+   "idx": 1789012,
+   "seg_id": 11203134117,
+   "readouts": [
+    {
+     "readout": "strike_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 108,
+     "in_tectum": 48,
+     "in_tectum_neuropil": 46
+    },
+    "in": {
+     "synapses": 29,
+     "in_tectum": 6,
+     "in_tectum_neuropil": 5,
+     "tectal_inputs_from_afferents": 4,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 4
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    375.3,
+    438.0
+   ],
+   "z_um_range": [
+    103.2,
+    189.2
+   ],
+   "tectal_end_8nm": [
+    51265,
+    44121,
+    4174
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 3,
+    "18": 51
+   },
+   "column_field_deg": {
+    "theta": 28.1,
+    "elev": -5.0,
+    "nearest_somas_um": 5.9
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.002651,
+    "prey": 0.798355
+   }
+  },
+  {
+   "idx": 1895041,
+   "seg_id": 11426688881,
+   "readouts": [
+    {
+     "readout": "strike_left",
+     "syn": 1,
+     "exc": 0,
+     "comp": null,
+     "lobe_rel": "contra",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 44,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 262,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    312.4,
+    415.7
+   ],
+   "z_um_range": [
+    114.0,
+    191.1
+   ]
+  },
+  {
+   "idx": 2692715,
+   "seg_id": 13181211444,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       0,
+       0
+      ],
+      "lateral": [
+       1,
+       1
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 153,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 2
+    },
+    "in": {
+     "synapses": 136,
+     "in_tectum": 16,
+     "in_tectum_neuropil": 12,
+     "tectal_inputs_from_afferents": 9,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 9
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    364.7,
+    791.3
+   ],
+   "z_um_range": [
+    110.9,
+    195.5
+   ],
+   "tectal_end_8nm": [
+    46734,
+    22600,
+    4043
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 4,
+    "18": 14
+   },
+   "column_field_deg": {
+    "theta": -7.0,
+    "elev": -0.5,
+    "nearest_somas_um": 3.0
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 1e-06,
+    "prey": 0.197768
+   }
+  },
+  {
+   "idx": 3421411,
+   "seg_id": 14650651033,
+   "readouts": [
+    {
+     "readout": "strike_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 4,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 126,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    419.7,
+    438.9
+   ],
+   "z_um_range": [
+    141.6,
+    199.3
+   ]
+  },
+  {
+   "idx": 3444120,
+   "seg_id": 14670990755,
+   "readouts": [
+    {
+     "readout": "strike_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 7,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 151,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    423.6,
+    443.1
+   ],
+   "z_um_range": [
+    142.1,
+    181.9
+   ]
+  },
+  {
+   "idx": 3865478,
+   "seg_id": 15629698215,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 5,
+     "exc": 4,
+     "comp": {
+      "ventral": [
+       5,
+       4
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 161,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 42,
+     "in_tectum": 14,
+     "in_tectum_neuropil": 2,
+     "tectal_inputs_from_afferents": 1,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 1
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    406.2,
+    587.3
+   ],
+   "z_um_range": [
+    139.9,
+    255.1
+   ],
+   "tectal_end_8nm": [
+    51907,
+    51544,
+    5936
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 12,
+    "18": 2
+   },
+   "column_field_deg": {
+    "theta": 30.6,
+    "elev": -40.1,
+    "nearest_somas_um": 2.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 2.9e-05,
+    "prey": 0.024072
+   }
+  },
+  {
+   "idx": 3911400,
+   "seg_id": 15710979012,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       0,
+       0
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       1,
+       1
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "turning_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 364,
+     "in_tectum": 54,
+     "in_tectum_neuropil": 45
+    },
+    "in": {
+     "synapses": 13,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    375.4,
+    616.9
+   ],
+   "z_um_range": [
+    136.6,
+    222.7
+   ],
+   "tectal_end_8nm": [
+    49163,
+    47278,
+    5095
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 9,
+    "18": 45
+   },
+   "column_field_deg": {
+    "theta": 11.3,
+    "elev": -20.6,
+    "nearest_somas_um": 5.8
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 1.6e-05,
+    "prey": 0.333398
+   }
+  },
+  {
+   "idx": 4628394,
+   "seg_id": 16670127295,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 159,
+     "in_tectum": 5,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 668,
+     "in_tectum": 662,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 18,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    410.6,
+    644.5
+   ],
+   "z_um_range": [
+    144.6,
+    256.4
+   ],
+   "tectal_end_8nm": [
+    54285,
+    6535,
+    5648
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 667
+   },
+   "column_field_deg": {
+    "theta": 48.5,
+    "elev": -58.5,
+    "nearest_somas_um": 8.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 7e-06,
+    "prey": 0.000291
+   }
+  },
+  {
+   "idx": 4647812,
+   "seg_id": 17057069410,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    },
+    {
+     "readout": "turning_left",
+     "syn": 1,
+     "exc": 0,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 215,
+     "in_tectum": 6,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 501,
+     "in_tectum": 435,
+     "in_tectum_neuropil": 402,
+     "tectal_inputs_from_afferents": 297,
+     "tectal_inputs_from_b1_tectal_cells": 5,
+     "all_inputs_from_afferents": 297
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    357.6,
+    581.8
+   ],
+   "z_um_range": [
+    150.6,
+    252.9
+   ],
+   "tectal_end_8nm": [
+    46738,
+    52439,
+    5493
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 39,
+    "18": 402
+   },
+   "column_field_deg": {
+    "theta": -7.5,
+    "elev": -41.9,
+    "nearest_somas_um": 8.7
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.01291
+   }
+  },
+  {
+   "idx": 4763626,
+   "seg_id": 17281899416,
+   "readouts": [
+    {
+     "readout": "turning_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a0"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 95,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 219,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": true,
+   "x_um_range": [
+    388.1,
+    640.2
+   ],
+   "z_um_range": [
+    178.3,
+    256.9
+   ]
+  },
+  {
+   "idx": 5454197,
+   "seg_id": 18016345121,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 10,
+     "exc": 9,
+     "comp": {
+      "ventral": [
+       10,
+       9
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 3,
+     "exc": 3,
+     "comp": {
+      "ventral": [
+       3,
+       3
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 242,
+     "in_tectum": 5,
+     "in_tectum_neuropil": 1
+    },
+    "in": {
+     "synapses": 24,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    414.6,
+    659.4
+   ],
+   "z_um_range": [
+    166.7,
+    245.5
+   ],
+   "tectal_end_8nm": [
+    52207,
+    13828,
+    5858
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 4,
+    "18": 1
+   },
+   "column_field_deg": {
+    "theta": 27.7,
+    "elev": -36.9,
+    "nearest_somas_um": 3.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 2.6e-05,
+    "prey": 0.044998
+   }
+  },
+  {
+   "idx": 5467802,
+   "seg_id": 18036992749,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 8,
+     "exc": 6,
+     "comp": {
+      "ventral": [
+       8,
+       6
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 5,
+     "exc": 4,
+     "comp": {
+      "ventral": [
+       5,
+       4
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "turning_right",
+     "syn": 2,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 310,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 60,
+     "in_tectum": 15,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    429.4,
+    673.9
+   ],
+   "z_um_range": [
+    163.7,
+    255.9
+   ],
+   "tectal_end_8nm": [
+    54366,
+    11194,
+    6451
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 15
+   },
+   "column_field_deg": {
+    "theta": 44.5,
+    "elev": -49.7,
+    "nearest_somas_um": 3.5
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 2.4e-05,
+    "prey": 0.001696
+   }
+  },
+  {
+   "idx": 5467963,
+   "seg_id": 18036999791,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 3,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       3,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 198,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 12,
+     "in_tectum": 9,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    425.5,
+    623.9
+   ],
+   "z_um_range": [
+    157.0,
+    244.1
+   ],
+   "tectal_end_8nm": [
+    54626,
+    11511,
+    6283
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 11
+   },
+   "column_field_deg": {
+    "theta": 46.6,
+    "elev": -47.5,
+    "nearest_somas_um": 1.4
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 5.2e-05,
+    "prey": 0.002214
+   }
+  },
+  {
+   "idx": 5573064,
+   "seg_id": 18648533550,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 229,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 78,
+     "in_tectum": 8,
+     "in_tectum_neuropil": 1,
+     "tectal_inputs_from_afferents": 1,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 1
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    395.3,
+    626.8
+   ],
+   "z_um_range": [
+    175.9,
+    259.1
+   ],
+   "tectal_end_8nm": [
+    49550,
+    51934,
+    6513
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 7,
+    "18": 1
+   },
+   "column_field_deg": {
+    "theta": 12.2,
+    "elev": -47.1,
+    "nearest_somas_um": 2.1
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.006575
+   }
+  },
+  {
+   "idx": 6555818,
+   "seg_id": 19525883657,
+   "readouts": [
+    {
+     "readout": "turning_right",
+     "syn": 1,
+     "exc": 0,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 125,
+     "in_tectum": 1,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 3,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    413.2,
+    577.5
+   ],
+   "z_um_range": [
+    163.3,
+    247.5
+   ],
+   "tectal_end_8nm": [
+    52065,
+    14601,
+    6088
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 3
+   },
+   "column_field_deg": {
+    "theta": 22.0,
+    "elev": -36.2,
+    "nearest_somas_um": 3.0
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 1.4e-05,
+    "prey": 0.055388
+   }
+  },
+  {
+   "idx": 6560746,
+   "seg_id": 19546036317,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 144,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 1
+    },
+    "in": {
+     "synapses": 0,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    394.0,
+    608.0
+   ],
+   "z_um_range": [
+    175.6,
+    252.5
+   ],
+   "tectal_end_8nm": [
+    49512,
+    13662,
+    6269
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 1,
+    "18": 1
+   },
+   "column_field_deg": {
+    "theta": 5.1,
+    "elev": -40.6,
+    "nearest_somas_um": 1.9
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.016507
+   }
+  },
+  {
+   "idx": 6591536,
+   "seg_id": 19607736501,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 4,
+     "exc": 4,
+     "comp": {
+      "ventral": [
+       4,
+       4
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 210,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 26,
+     "in_tectum": 9,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 2,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    433.2,
+    636.5
+   ],
+   "z_um_range": [
+    195.9,
+    252.2
+   ],
+   "tectal_end_8nm": [
+    54615,
+    10149,
+    6889
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 9
+   },
+   "column_field_deg": {
+    "theta": 42.5,
+    "elev": -55.9,
+    "nearest_somas_um": 4.2
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 6e-06,
+    "prey": 0.000425
+   }
+  },
+  {
+   "idx": 6658569,
+   "seg_id": 20219074049,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 5,
+     "exc": 4,
+     "comp": {
+      "ventral": [
+       5,
+       4
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 4,
+     "exc": 3,
+     "comp": {
+      "ventral": [
+       4,
+       3
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 347,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 53,
+     "in_tectum": 9,
+     "in_tectum_neuropil": 1,
+     "tectal_inputs_from_afferents": 1,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 1
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    380.9,
+    627.7
+   ],
+   "z_um_range": [
+    176.2,
+    248.7
+   ],
+   "tectal_end_8nm": [
+    47699,
+    50540,
+    6575
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 8,
+    "18": 1
+   },
+   "column_field_deg": {
+    "theta": 0.8,
+    "elev": -43.6,
+    "nearest_somas_um": 2.5
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.007954
+   }
+  },
+  {
+   "idx": 7847119,
+   "seg_id": 21096682251,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 7,
+     "exc": 4,
+     "comp": {
+      "ventral": [
+       7,
+       4
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "turning_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 234,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 43,
+     "in_tectum": 9,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    422.4,
+    635.8
+   ],
+   "z_um_range": [
+    193.2,
+    251.2
+   ],
+   "tectal_end_8nm": [
+    52943,
+    12717,
+    6594
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 9
+   },
+   "column_field_deg": {
+    "theta": 28.4,
+    "elev": -47.0,
+    "nearest_somas_um": 2.3
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 6e-06,
+    "prey": 0.007179
+   }
+  },
+  {
+   "idx": 7872086,
+   "seg_id": 21178473331,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 240,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 43,
+     "in_tectum": 13,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    428.6,
+    677.6
+   ],
+   "z_um_range": [
+    199.5,
+    256.3
+   ],
+   "tectal_end_8nm": [
+    55063,
+    8882,
+    7006
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 13
+   },
+   "column_field_deg": {
+    "theta": 49.6,
+    "elev": -59.9,
+    "nearest_somas_um": 4.9
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 4e-06,
+    "prey": 0.000109
+   }
+  },
+  {
+   "idx": 7887895,
+   "seg_id": 21688132282,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 6,
+     "exc": 5,
+     "comp": {
+      "ventral": [
+       6,
+       5
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "turning_left",
+     "syn": 3,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 274,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 67,
+     "in_tectum": 8,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    413.8,
+    608.8
+   ],
+   "z_um_range": [
+    186.8,
+    255.5
+   ],
+   "tectal_end_8nm": [
+    52190,
+    52873,
+    6494
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 8
+   },
+   "column_field_deg": {
+    "theta": 31.6,
+    "elev": -49.7,
+    "nearest_somas_um": 4.1
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 5e-06,
+    "prey": 0.003666
+   }
+  },
+  {
+   "idx": 7888212,
+   "seg_id": 21688200235,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 5,
+     "exc": 5,
+     "comp": {
+      "ventral": [
+       5,
+       5
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 216,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 55,
+     "in_tectum": 17,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    413.1,
+    649.9
+   ],
+   "z_um_range": [
+    192.6,
+    258.7
+   ],
+   "tectal_end_8nm": [
+    52397,
+    52954,
+    6597
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 17
+   },
+   "column_field_deg": {
+    "theta": 32.4,
+    "elev": -50.9,
+    "nearest_somas_um": 3.7
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 5e-06,
+    "prey": 0.002696
+   }
+  },
+  {
+   "idx": 7890850,
+   "seg_id": 21728808901,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 8,
+     "exc": 8,
+     "comp": {
+      "ventral": [
+       8,
+       8
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 304,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 11,
+     "in_tectum": 4,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    402.0,
+    670.3
+   ],
+   "z_um_range": [
+    192.5,
+    253.3
+   ],
+   "tectal_end_8nm": [
+    50460,
+    51330,
+    6517
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 4
+   },
+   "column_field_deg": {
+    "theta": 18.3,
+    "elev": -45.0,
+    "nearest_somas_um": 2.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 2e-06,
+    "prey": 0.011934
+   }
+  },
+  {
+   "idx": 7892304,
+   "seg_id": 21729058924,
+   "readouts": [
+    {
+     "readout": "turning_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 303,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 534,
+     "in_tectum": 2,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": false,
+   "x_um_range": [
+    383.0,
+    615.1
+   ],
+   "z_um_range": [
+    190.3,
+    250.6
+   ],
+   "tectal_end_8nm": [
+    53586,
+    50858,
+    6385
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 2
+   },
+   "column_field_deg": {
+    "theta": 42.9,
+    "elev": -41.6,
+    "nearest_somas_um": 6.2
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.000135,
+    "prey": 0.008949
+   }
+  },
+  {
+   "idx": 7905913,
+   "seg_id": 21789748483,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 6,
+     "exc": 6,
+     "comp": {
+      "ventral": [
+       6,
+       6
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 6,
+     "exc": 6,
+     "comp": {
+      "ventral": [
+       6,
+       6
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "turning_left",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 189,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 42,
+     "in_tectum": 3,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    374.3,
+    626.2
+   ],
+   "z_um_range": [
+    201.7,
+    253.0
+   ],
+   "tectal_end_8nm": [
+    46789,
+    48648,
+    6723
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 3
+   },
+   "column_field_deg": {
+    "theta": -4.3,
+    "elev": -39.5,
+    "nearest_somas_um": 1.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.010757
+   }
+  },
+  {
+   "idx": 7906341,
+   "seg_id": 21789873167,
+   "readouts": [
+    {
+     "readout": "m_system_left",
+     "syn": 8,
+     "exc": 7,
+     "comp": {
+      "ventral": [
+       8,
+       7
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_left",
+     "syn": 3,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       3,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 223,
+     "in_tectum": 3,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 21,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    389.2,
+    637.8
+   ],
+   "z_um_range": [
+    186.5,
+    245.8
+   ],
+   "tectal_end_8nm": [
+    48669,
+    48542,
+    6264
+   ],
+   "tectal_end_side": "left",
+   "tectal_end_m2": {
+    "17": 3
+   },
+   "column_field_deg": {
+    "theta": 6.9,
+    "elev": -35.1,
+    "nearest_somas_um": 4.6
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 1e-06,
+    "prey": 0.05042
+   }
+  },
+  {
+   "idx": 9129263,
+   "seg_id": 22545347363,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 8,
+     "exc": 5,
+     "comp": {
+      "ventral": [
+       8,
+       5
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 225,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 422,
+     "in_tectum": 5,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": true,
+   "b1_tectal": false,
+   "x_um_range": [
+    427.3,
+    635.9
+   ],
+   "z_um_range": [
+    194.0,
+    255.1
+   ],
+   "tectal_end_8nm": [
+    57921,
+    11550,
+    6674
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 5
+   },
+   "column_field_deg": {
+    "theta": 88.2,
+    "elev": -50.9,
+    "nearest_somas_um": 5.1
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.000221,
+    "prey": 7e-06
+   }
+  },
+  {
+   "idx": 9146033,
+   "seg_id": 22606097961,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 5,
+     "exc": 3,
+     "comp": {
+      "ventral": [
+       5,
+       3
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 160,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 6,
+     "in_tectum": 3,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    415.9,
+    622.5
+   ],
+   "z_um_range": [
+    188.8,
+    251.2
+   ],
+   "tectal_end_8nm": [
+    52050,
+    13981,
+    6506
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 3
+   },
+   "column_field_deg": {
+    "theta": 18.6,
+    "elev": -43.2,
+    "nearest_somas_um": 5.7
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 4e-06,
+    "prey": 0.01705
+   }
+  },
+  {
+   "idx": 9157948,
+   "seg_id": 22687700860,
+   "readouts": [
+    {
+     "readout": "turning_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": null,
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 149,
+     "in_tectum": 4,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 1,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    416.7,
+    609.2
+   ],
+   "z_um_range": [
+    204.6,
+    253.6
+   ],
+   "tectal_end_8nm": [
+    52157,
+    11318,
+    7126
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 4
+   },
+   "column_field_deg": {
+    "theta": 21.1,
+    "elev": -54.2,
+    "nearest_somas_um": 3.0
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.001498
+   }
+  },
+  {
+   "idx": 10326857,
+   "seg_id": 24258372909,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 2,
+     "exc": 2,
+     "comp": {
+      "ventral": [
+       2,
+       2
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 272,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 17,
+     "in_tectum": 14,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    410.1,
+    648.0
+   ],
+   "z_um_range": [
+    210.6,
+    257.3
+   ],
+   "tectal_end_8nm": [
+    51317,
+    8684,
+    7263
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 14
+   },
+   "column_field_deg": {
+    "theta": 18.6,
+    "elev": -61.2,
+    "nearest_somas_um": 2.7
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 0.0,
+    "prey": 0.000234
+   }
+  },
+  {
+   "idx": 11102450,
+   "seg_id": 25341829035,
+   "readouts": [
+    {
+     "readout": "m_system_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    },
+    {
+     "readout": "mauthner_right",
+     "syn": 1,
+     "exc": 1,
+     "comp": {
+      "ventral": [
+       1,
+       1
+      ],
+      "lateral": [
+       0,
+       0
+      ],
+      "soma": [
+       0,
+       0
+      ]
+     },
+     "lobe_rel": "ipsi",
+     "cls": "O-a1"
+    }
+   ],
+   "roles": {
+    "out": {
+     "synapses": 201,
+     "in_tectum": 0,
+     "in_tectum_neuropil": 0
+    },
+    "in": {
+     "synapses": 17,
+     "in_tectum": 6,
+     "in_tectum_neuropil": 0,
+     "tectal_inputs_from_afferents": 0,
+     "tectal_inputs_from_b1_tectal_cells": 0,
+     "all_inputs_from_afferents": 0
+    }
+   },
+   "soma": false,
+   "b1_tectal": false,
+   "x_um_range": [
+    439.1,
+    646.1
+   ],
+   "z_um_range": [
+    226.1,
+    259.4
+   ],
+   "tectal_end_8nm": [
+    55614,
+    7493,
+    7638
+   ],
+   "tectal_end_side": "right",
+   "tectal_end_m2": {
+    "17": 6
+   },
+   "column_field_deg": {
+    "theta": 54.1,
+    "elev": -66.1,
+    "nearest_somas_um": 4.0
+   },
+   "patch_drive_rel_post_hoc": {
+    "loom": 1e-06,
+    "prey": 1.7e-05
+   }
+  }
+ ],
+ "n": 34,
+ "built": "2026-09-26 04:25:49 EDT",
+ "note": "column_field_deg = median B1 preferred field of the 20 tectal somas nearest the tectal-end centroid (choice)"
+}

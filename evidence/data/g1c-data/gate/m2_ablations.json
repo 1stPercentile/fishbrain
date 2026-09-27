@@ -1,0 +1,4406 @@
+{
+ "when": "2026-09-26 09:26:57 EDT",
+ "gains": [
+  1,
+  4
+ ],
+ "rows": {
+  "i_all_bridge_removed": {
+   "ablate": [
+    "all"
+   ],
+   "digest": "9c8940f4acee29314c956eaf2d4afcddcb3f8696c1ed5ec9f95514f035cb6012",
+   "network_digest": "55fa82c9216dfe8188930c31fe9c5495fb3fbee7643b41dd92ea24d6ae686271",
+   "outcomes": {
+    "H1": false,
+    "H2": false,
+    "per_side": {
+     "H1_left": false,
+     "H1_right": false,
+     "H2_left": false,
+     "H2_right": false
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      },
+      "right": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      },
+      "right": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      }
+     }
+    }
+   },
+   "headline": {
+    "per_condition": {
+     "loom_az+45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "by_group": {
+     "escape": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "strike": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "turn": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "loom_escape": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "prey_strike_turn": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "all_held_out": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "population_secondary": {
+     "Mauthner_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 7444.165537214962,
+      "link_drive_mV_ms": 7444.165537214962,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 78,
+      "mean_direct_eye_share": 0.0
+     },
+     "Mauthner_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 7939.159920923383,
+      "link_drive_mV_ms": 7939.159920923383,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 56,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_left": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "MiD2cm_right": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "MiD3cm_left": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "MiD3cm_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 10052.510942478491,
+      "link_drive_mV_ms": 10052.510942478491,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 80,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 42584.64182731535,
+      "link_drive_mV_ms": 42584.64182731535,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48561.69901059467,
+      "link_drive_mV_ms": 48561.69901059467,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 5281.315077289004,
+      "link_drive_mV_ms": 5281.315077289004,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 76,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48040.5799233016,
+      "link_drive_mV_ms": 48040.5799233016,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 85,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 20008.772977013843,
+      "link_drive_mV_ms": 20008.772977013843,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_right": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    }
+   },
+   "synapse_count_reduced": {
+    "measured_share": 1.0,
+    "class_share": {
+     "a": 0.0,
+     "b": 0.0,
+     "c": 0.0
+    },
+    "synapses": {
+     "measured": 52052,
+     "total": 52052,
+     "a": 0,
+     "b": 0,
+     "c": 0
+    },
+    "pairs": 40562,
+    "pairs_with_bridge_part": 0,
+    "pairs_bridge_only": 0,
+    "bridge_pairs_skipped_dead": 0,
+    "unit": "|signed synapse count| per pair part, as the simulator sees it (mixed-type pairs net out)"
+   },
+   "crosstalk": {
+    "strikes_on_loom": 0,
+    "escapes_on_prey": 0
+   },
+   "per_condition": {
+    "loom_az+45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "provenance_self_checks_ok": true,
+   "seconds": 312.9
+  },
+  "ii_class_a_removed": {
+   "ablate": [
+    "a"
+   ],
+   "digest": "793215cc531c3a1b33b1a9bd3edac7b3a984cae51c1db1dedfc0b24e51d7fba3",
+   "network_digest": "e9b49cc1d5cf851e523348f4a19e15f6fa182a0244d2d341e2a85063748abae6",
+   "outcomes": {
+    "H1": true,
+    "H2": true,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 32,
+       "trials": 32
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 32,
+       "trials": 32
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 32
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 32
+      }
+     }
+    }
+   },
+   "headline": {
+    "per_condition": {
+     "loom_az+45_lv120": {
+      "m": 0.0020357935036918323,
+      "measured_drive_mV_ms": 829.1155927116047,
+      "link_drive_mV_ms": 407269.0040556843,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9979642064963083
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9979642064963083
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-45_lv120": {
+      "m": 0.001492927007250446,
+      "measured_drive_mV_ms": 613.2430420387657,
+      "link_drive_mV_ms": 410765.5893828245,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9985070729927498
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9985070729927498
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+135_lv120": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 337602.6695019247,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-135_lv120": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 338724.6567716637,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+45_lv480": {
+      "m": 0.0016325554944095746,
+      "measured_drive_mV_ms": 1709.1056081932397,
+      "link_drive_mV_ms": 1046889.7468084844,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9983674445055902
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9983674445055902
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-45_lv480": {
+      "m": 0.0015206293543532448,
+      "measured_drive_mV_ms": 1616.9816534475058,
+      "link_drive_mV_ms": 1063363.4348951797,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9984793706456467
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9984793706456467
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+135_lv480": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 862082.2186665542,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-135_lv480": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 859640.2463735928,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+15_v15": {
+      "m": 5.093269350424759e-05,
+      "measured_drive_mV_ms": 2447.4722305583,
+      "link_drive_mV_ms": 48053068.90659906,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999490673064957
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999490673064957
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-15_v15": {
+      "m": 5.375362474492557e-05,
+      "measured_drive_mV_ms": 2752.718767178494,
+      "link_drive_mV_ms": 51209918.96343428,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999462463752553
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999462463752553
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+45_v15": {
+      "m": 1.319640347773766e-06,
+      "measured_drive_mV_ms": 42.6245163748918,
+      "link_drive_mV_ms": 32300100.89248891,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999986803596523
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999986803596523
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-45_v15": {
+      "m": 0.0002978239770328088,
+      "measured_drive_mV_ms": 10559.880185779624,
+      "link_drive_mV_ms": 35456783.20122738,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997021760229671
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997021760229671
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+15_v60": {
+      "m": 6.282091385383843e-05,
+      "measured_drive_mV_ms": 4589.697924496406,
+      "link_drive_mV_ms": 73060031.17329645,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999371790861462
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999371790861462
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-15_v60": {
+      "m": 7.095568365177784e-05,
+      "measured_drive_mV_ms": 5477.937846373183,
+      "link_drive_mV_ms": 77202241.80006093,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999290443163482
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999290443163482
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+45_v60": {
+      "m": 1.4544972604398714e-06,
+      "measured_drive_mV_ms": 68.7492199595029,
+      "link_drive_mV_ms": 47266654.82938871,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999985455027395
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999985455027395
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-45_v60": {
+      "m": 0.0003093658128039513,
+      "measured_drive_mV_ms": 16051.567876144749,
+      "link_drive_mV_ms": 51885396.54934921,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9996906341871962
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9996906341871962
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     }
+    },
+    "by_group": {
+     "escape": {
+      "m": 0.0008952579210190753,
+      "measured_drive_mV_ms": 4768.445896391116,
+      "link_drive_mV_ms": 5326337.566455906,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9991047420789811
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9991047420789811
+      },
+      "trials_with_drive": 64,
+      "mean_direct_eye_share": 0.0
+     },
+     "strike": {
+      "m": 0.0001837390286205097,
+      "measured_drive_mV_ms": 120792.379468847,
+      "link_drive_mV_ms": 657412746.6316847,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.999816260971379
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.999816260971379
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turn": {
+      "m": 5.756778163336603e-05,
+      "measured_drive_mV_ms": 15010.704685957986,
+      "link_drive_mV_ms": 260748360.62916568,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999424322183661
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999424322183661
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     }
+    },
+    "loom_escape": {
+     "m": 0.0008952579210190753,
+     "measured_drive_mV_ms": 4768.445896391116,
+     "link_drive_mV_ms": 5326337.566455906,
+     "through": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9991047420789811
+     },
+     "only": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9991047420789811
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "prey_strike_turn": {
+     "m": 0.00010083381465391785,
+     "measured_drive_mV_ms": 41990.64856686515,
+     "link_drive_mV_ms": 416434196.31584495,
+     "through": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9998991661853461
+     },
+     "only": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9998991661853461
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "all_held_out": {
+     "m": 0.00011086645313358112,
+     "measured_drive_mV_ms": 46759.09446325626,
+     "link_drive_mV_ms": 421760533.88230085,
+     "through": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9998891335468665
+     },
+     "only": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.9998891335468665
+     },
+     "trials_with_drive": 128,
+     "mean_direct_eye_share": 0.0
+    },
+    "population_secondary": {
+     "Mauthner_left": {
+      "m": 0.006275078873128583,
+      "measured_drive_mV_ms": 7444.165537214962,
+      "link_drive_mV_ms": 1186306.2899643688,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9937249211268713
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9937249211268713
+      },
+      "trials_with_drive": 112,
+      "mean_direct_eye_share": 0.0
+     },
+     "Mauthner_right": {
+      "m": 0.0067335434018506715,
+      "measured_drive_mV_ms": 7939.159920923383,
+      "link_drive_mV_ms": 1179046.3723366444,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9932664565981495
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9932664565981495
+      },
+      "trials_with_drive": 118,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1178862.1244271537,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1171107.2124157213,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1178862.1244271537,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_right": {
+      "m": 0.008510712601931444,
+      "measured_drive_mV_ms": 10052.510942478491,
+      "link_drive_mV_ms": 1181159.7233582,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9914892873980684
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9914892873980684
+      },
+      "trials_with_drive": 112,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_left": {
+      "m": 0.00015520631570384885,
+      "measured_drive_mV_ms": 42584.64182731535,
+      "link_drive_mV_ms": 274374413.4006225,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998447936842965
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998447936842965
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_right": {
+      "m": 0.00021390980517715518,
+      "measured_drive_mV_ms": 48561.69901059467,
+      "link_drive_mV_ms": 227019509.3225249,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997860901948228
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997860901948228
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_left": {
+      "m": 7.443992051111096e-05,
+      "measured_drive_mV_ms": 5281.315077289004,
+      "link_drive_mV_ms": 70947349.76914316,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999255600794889
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999255600794889
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_right": {
+      "m": 0.0005640250340006761,
+      "measured_drive_mV_ms": 48040.5799233016,
+      "link_drive_mV_ms": 85174552.59484814,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9994359749659995
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9994359749659995
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_left": {
+      "m": 0.00013171268799583205,
+      "measured_drive_mV_ms": 20008.772977013843,
+      "link_drive_mV_ms": 151912266.62724403,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998682873120048
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998682873120048
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 108848522.48590592,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     }
+    }
+   },
+   "synapse_count_reduced": {
+    "measured_share": 0.6375796178343949,
+    "class_share": {
+     "a": 0.0,
+     "b": 0.0,
+     "c": 0.36242038216560507
+    },
+    "synapses": {
+     "measured": 52052,
+     "total": 81640,
+     "a": 0,
+     "b": 0,
+     "c": 29588
+    },
+    "pairs": 41696,
+    "pairs_with_bridge_part": 1134,
+    "pairs_bridge_only": 1134,
+    "bridge_pairs_skipped_dead": 0,
+    "unit": "|signed synapse count| per pair part, as the simulator sees it (mixed-type pairs net out)"
+   },
+   "crosstalk": {
+    "strikes_on_loom": 64,
+    "escapes_on_prey": 0
+   },
+   "per_condition": {
+    "loom_az+45_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-45_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+135_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-135_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+45_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-45_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+135_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-135_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    }
+   },
+   "provenance_self_checks_ok": true,
+   "seconds": 343.0
+  },
+  "iii_class_c_removed": {
+   "ablate": [
+    "c"
+   ],
+   "digest": "1e91d0cca711cdf804a11c1b06ece5a69e160469628f355527a55975cc176332",
+   "network_digest": "018dbfe8b2482960a8aec80aaf88f48a439a6bf56c9ab908e812e87f83f93781",
+   "outcomes": {
+    "H1": false,
+    "H2": false,
+    "per_side": {
+     "H1_left": false,
+     "H1_right": false,
+     "H2_left": false,
+     "H2_right": false
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      },
+      "right": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      },
+      "right": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      }
+     }
+    }
+   },
+   "headline": {
+    "per_condition": {
+     "loom_az+45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "by_group": {
+     "escape": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "strike": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "turn": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "loom_escape": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "prey_strike_turn": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "all_held_out": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "population_secondary": {
+     "Mauthner_left": {
+      "m": 0.8360098826436074,
+      "measured_drive_mV_ms": 7444.165537214962,
+      "link_drive_mV_ms": 8904.398969154798,
+      "through": {
+       "a": 0.1639901173563931,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.1639901173563931,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 81,
+      "mean_direct_eye_share": 0.0
+     },
+     "Mauthner_right": {
+      "m": 0.9167989838043821,
+      "measured_drive_mV_ms": 7939.159920923383,
+      "link_drive_mV_ms": 8659.651746098974,
+      "through": {
+       "a": 0.08320101619561775,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.08320101619561775,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 56,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 2132.6008031437814,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 41,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 796.1159671310434,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 45,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 105.87379873763446,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 27,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 10052.510942478491,
+      "link_drive_mV_ms": 10052.510942478491,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 80,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 42584.64182731535,
+      "link_drive_mV_ms": 42584.64182731535,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48561.69901059467,
+      "link_drive_mV_ms": 48561.69901059467,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_left": {
+      "m": 0.9441986234021631,
+      "measured_drive_mV_ms": 5281.315077289004,
+      "link_drive_mV_ms": 5593.436535905147,
+      "through": {
+       "a": 0.05580137659783684,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.05580137659783684,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 76,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48040.5799233016,
+      "link_drive_mV_ms": 48040.5799233016,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 85,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_left": {
+      "m": 0.9846403680898577,
+      "measured_drive_mV_ms": 20008.772977013843,
+      "link_drive_mV_ms": 20320.89443562998,
+      "through": {
+       "a": 0.015359631910142677,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.015359631910142677,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 252.99712945097068,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 40,
+      "mean_direct_eye_share": 0.0
+     }
+    }
+   },
+   "synapse_count_reduced": {
+    "measured_share": 0.9877414702645262,
+    "class_share": {
+     "a": 0.012258529735473832,
+     "b": 0.0,
+     "c": 0.0
+    },
+    "synapses": {
+     "measured": 52052,
+     "total": 52698,
+     "a": 646,
+     "b": 0,
+     "c": 0
+    },
+    "pairs": 41208,
+    "pairs_with_bridge_part": 646,
+    "pairs_bridge_only": 646,
+    "bridge_pairs_skipped_dead": 0,
+    "unit": "|signed synapse count| per pair part, as the simulator sees it (mixed-type pairs net out)"
+   },
+   "crosstalk": {
+    "strikes_on_loom": 0,
+    "escapes_on_prey": 0
+   },
+   "per_condition": {
+    "loom_az+45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "provenance_self_checks_ok": true,
+   "seconds": 308.1
+  },
+  "iv_E1_removed": {
+   "ablate": [
+    "E1"
+   ],
+   "digest": "e53f14173c7ce2512e4f7ed940158e5320ccfb5c80d4d1d9024c2ab9e4c25502",
+   "network_digest": "54ee8905ed5582f1e8d1da23f9de0f4ed1c252ba7578aabe36cdf9819ba099ae",
+   "outcomes": {
+    "H1": false,
+    "H2": true,
+    "per_side": {
+     "H1_left": false,
+     "H1_right": false,
+     "H2_left": true,
+     "H2_right": true
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      },
+      "right": {
+       "p_escape": 0.0,
+       "side_frac": 0.0,
+       "angle_frac": 0.0,
+       "escapes": 0,
+       "trials": 32
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 32
+      },
+      "right": {
+       "strike_frac": 1.0,
+       "turn_toward_frac": 1.0,
+       "trials": 32
+      }
+     }
+    }
+   },
+   "headline": {
+    "per_condition": {
+     "loom_az+45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv120": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-45_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az+135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "loom_az-135_lv480": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v15": {
+      "m": 5.093269350424759e-05,
+      "measured_drive_mV_ms": 2447.4722305583,
+      "link_drive_mV_ms": 48053068.90659906,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999490673064957
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999490673064957
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-15_v15": {
+      "m": 5.375362474492557e-05,
+      "measured_drive_mV_ms": 2752.718767178494,
+      "link_drive_mV_ms": 51209918.96343428,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999462463752553
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999462463752553
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+45_v15": {
+      "m": 1.319640347773766e-06,
+      "measured_drive_mV_ms": 42.6245163748918,
+      "link_drive_mV_ms": 32300100.89248891,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999986803596523
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999986803596523
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-45_v15": {
+      "m": 0.0002978239770328088,
+      "measured_drive_mV_ms": 10559.880185779624,
+      "link_drive_mV_ms": 35456783.20122738,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997021760229671
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997021760229671
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+15_v60": {
+      "m": 6.28208807498768e-05,
+      "measured_drive_mV_ms": 4589.697924496406,
+      "link_drive_mV_ms": 73060069.67285964,
+      "through": {
+       "a": 5.269576575783561e-07,
+       "b": 0.0,
+       "c": 0.9999366521615924
+      },
+      "only": {
+       "a": 5.269576575783561e-07,
+       "b": 0.0,
+       "c": 0.9999366521615924
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-15_v60": {
+      "m": 7.095568365177784e-05,
+      "measured_drive_mV_ms": 5477.937846373183,
+      "link_drive_mV_ms": 77202241.80006093,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999290443163482
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9999290443163482
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+45_v60": {
+      "m": 1.4544971335061457e-06,
+      "measured_drive_mV_ms": 68.7492199595029,
+      "link_drive_mV_ms": 47266658.9543419,
+      "through": {
+       "a": 8.726982801036874e-08,
+       "b": 0.0,
+       "c": 0.9999984582330385
+      },
+      "only": {
+       "a": 8.726982801036874e-08,
+       "b": 0.0,
+       "c": 0.9999984582330385
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az-45_v60": {
+      "m": 0.0003093658128039513,
+      "measured_drive_mV_ms": 16051.567876144749,
+      "link_drive_mV_ms": 51885396.54934921,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9996906341871962
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9996906341871962
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     }
+    },
+    "by_group": {
+     "escape": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "strike": {
+      "m": 0.0001837389413863228,
+      "measured_drive_mV_ms": 120792.379468847,
+      "link_drive_mV_ms": 657413058.7531433,
+      "through": {
+       "a": 4.747722219088802e-07,
+       "b": 0.0,
+       "c": 0.9998157862863912
+      },
+      "only": {
+       "a": 4.747722219088802e-07,
+       "b": 0.0,
+       "c": 0.9998157862863912
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turn": {
+      "m": 5.7567664760007016e-05,
+      "measured_drive_mV_ms": 15010.704685957986,
+      "link_drive_mV_ms": 260748889.99815938,
+      "through": {
+       "a": 2.0301869499498505e-06,
+       "b": 0.0,
+       "c": 0.9999404021482894
+      },
+      "only": {
+       "a": 2.0301869499498505e-06,
+       "b": 0.0,
+       "c": 0.9999404021482894
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     }
+    },
+    "loom_escape": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "prey_strike_turn": {
+     "m": 0.00010083380433297836,
+     "measured_drive_mV_ms": 41990.64856686515,
+     "link_drive_mV_ms": 416434238.9403613,
+     "through": {
+      "a": 1.023559361577763e-07,
+      "b": 0.0,
+      "c": 0.9998990638397309
+     },
+     "only": {
+      "a": 1.023559361577763e-07,
+      "b": 0.0,
+      "c": 0.9998990638397309
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "all_held_out": {
+     "m": 0.00010083380433297836,
+     "measured_drive_mV_ms": 41990.64856686515,
+     "link_drive_mV_ms": 416434238.9403613,
+     "through": {
+      "a": 1.023559361577763e-07,
+      "b": 0.0,
+      "c": 0.9998990638397309
+     },
+     "only": {
+      "a": 1.023559361577763e-07,
+      "b": 0.0,
+      "c": 0.9998990638397309
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "population_secondary": {
+     "Mauthner_left": {
+      "m": 0.8360098826436074,
+      "measured_drive_mV_ms": 7444.165537214962,
+      "link_drive_mV_ms": 8904.398969154798,
+      "through": {
+       "a": 0.1639901173563931,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.1639901173563931,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 81,
+      "mean_direct_eye_share": 0.0
+     },
+     "Mauthner_right": {
+      "m": 0.9167989838043821,
+      "measured_drive_mV_ms": 7939.159920923383,
+      "link_drive_mV_ms": 8659.651746098974,
+      "through": {
+       "a": 0.08320101619561775,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.08320101619561775,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 56,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 2132.6008031437814,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 41,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 796.1159671310434,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 45,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 105.87379873763446,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 27,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 10052.510942478491,
+      "link_drive_mV_ms": 10052.510942478491,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 80,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_left": {
+      "m": 0.00015520631570384885,
+      "measured_drive_mV_ms": 42584.64182731535,
+      "link_drive_mV_ms": 274374413.4006225,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998447936842965
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9998447936842965
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_right": {
+      "m": 0.00021390980517715518,
+      "measured_drive_mV_ms": 48561.69901059467,
+      "link_drive_mV_ms": 227019509.3225249,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997860901948228
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9997860901948228
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_left": {
+      "m": 7.443959302608959e-05,
+      "measured_drive_mV_ms": 5281.315077289004,
+      "link_drive_mV_ms": 70947661.8906018,
+      "through": {
+       "a": 4.399319869024306e-06,
+       "b": 0.0,
+       "c": 0.9999211610871046
+      },
+      "only": {
+       "a": 4.399319869024306e-06,
+       "b": 0.0,
+       "c": 0.9999211610871046
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_right": {
+      "m": 0.0005640250340006761,
+      "measured_drive_mV_ms": 48040.5799233016,
+      "link_drive_mV_ms": 85174552.59484814,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9994359749659995
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9994359749659995
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_left": {
+      "m": 0.00013171241737731823,
+      "measured_drive_mV_ms": 20008.772977013843,
+      "link_drive_mV_ms": 151912578.74870262,
+      "through": {
+       "a": 2.0546123381425953e-06,
+       "b": 0.0,
+       "c": 0.9998662329702854
+      },
+      "only": {
+       "a": 2.0546123381425953e-06,
+       "b": 0.0,
+       "c": 0.9998662329702854
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 108848775.4830354,
+      "through": {
+       "a": 2.3242992705085734e-06,
+       "b": 0.0,
+       "c": 0.9999976757007292
+      },
+      "only": {
+       "a": 2.3242992705085734e-06,
+       "b": 0.0,
+       "c": 0.9999976757007292
+      },
+      "trials_with_drive": 128,
+      "mean_direct_eye_share": 0.0
+     }
+    }
+   },
+   "synapse_count_reduced": {
+    "measured_share": 0.6392866792758714,
+    "class_share": {
+     "a": 0.007933973618923633,
+     "b": 0.0,
+     "c": 0.352779347105205
+    },
+    "synapses": {
+     "measured": 52052,
+     "total": 81422,
+     "a": 646,
+     "b": 0,
+     "c": 28724
+    },
+    "pairs": 42126,
+    "pairs_with_bridge_part": 1564,
+    "pairs_bridge_only": 1564,
+    "bridge_pairs_skipped_dead": 0,
+    "unit": "|signed synapse count| per pair part, as the simulator sees it (mixed-type pairs net out)"
+   },
+   "crosstalk": {
+    "strikes_on_loom": 64,
+    "escapes_on_prey": 0
+   },
+   "per_condition": {
+    "loom_az+45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-45_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-135_lv120": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-45_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "loom_az+135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "loom_az-135_lv480": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    },
+    "prey_az+45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    "prey_az-45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 8,
+     "turns": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ]
+    }
+   },
+   "provenance_self_checks_ok": true,
+   "seconds": 352.7
+  },
+  "v_P1_P4_removed": {
+   "ablate": [
+    "P"
+   ],
+   "digest": "ef14e594f9ab8144381185534febd0e8c014cf9257f0eeb1d5815ba12a526bb5",
+   "network_digest": "f4608d4154a8509ed1e5e213cb727ab3815e04f4ad114e6d4241ad6be0f52c86",
+   "outcomes": {
+    "H1": true,
+    "H2": false,
+    "per_side": {
+     "H1_left": true,
+     "H1_right": true,
+     "H2_left": false,
+     "H2_right": false
+    },
+    "numbers": {
+     "H1": {
+      "left": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 32,
+       "trials": 32
+      },
+      "right": {
+       "p_escape": 1.0,
+       "side_frac": 1.0,
+       "angle_frac": 1.0,
+       "escapes": 32,
+       "trials": 32
+      }
+     },
+     "H2": {
+      "left": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      },
+      "right": {
+       "strike_frac": 0.0,
+       "turn_toward_frac": 0.0,
+       "trials": 32
+      }
+     }
+    }
+   },
+   "headline": {
+    "per_condition": {
+     "loom_az+45_lv120": {
+      "m": 0.0020355048760975596,
+      "measured_drive_mV_ms": 829.1155927116047,
+      "link_drive_mV_ms": 407326.7534004503,
+      "through": {
+       "a": 0.00014177645903167083,
+       "b": 0.0,
+       "c": 0.9978227186648709
+      },
+      "only": {
+       "a": 0.00014177645903167083,
+       "b": 0.0,
+       "c": 0.9978227186648709
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-45_lv120": {
+      "m": 0.0014921128786738688,
+      "measured_drive_mV_ms": 613.2430420387657,
+      "link_drive_mV_ms": 410989.71183989244,
+      "through": {
+       "a": 0.0005453237650758759,
+       "b": 0.0,
+       "c": 0.9979625633562506
+      },
+      "only": {
+       "a": 0.0005453237650758759,
+       "b": 0.0,
+       "c": 0.9979625633562506
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+135_lv120": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 337602.6695019247,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-135_lv120": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 338724.6567716637,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+45_lv480": {
+      "m": 0.0016323068053931066,
+      "measured_drive_mV_ms": 1709.1056081932397,
+      "link_drive_mV_ms": 1047049.2449987903,
+      "through": {
+       "a": 0.00015233112584521371,
+       "b": 0.0,
+       "c": 0.9982153620687616
+      },
+      "only": {
+       "a": 0.00015233112584521371,
+       "b": 0.0,
+       "c": 0.9982153620687616
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-45_lv480": {
+      "m": 0.0015195879539058872,
+      "measured_drive_mV_ms": 1616.9816534475058,
+      "link_drive_mV_ms": 1064092.1766267505,
+      "through": {
+       "a": 0.0006848483125596271,
+       "b": 0.0,
+       "c": 0.9977955637335344
+      },
+      "only": {
+       "a": 0.0006848483125596271,
+       "b": 0.0,
+       "c": 0.9977955637335344
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az+135_lv480": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 862082.2186665542,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "loom_az-135_lv480": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 859640.2463735928,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 1.0
+      },
+      "trials_with_drive": 8,
+      "mean_direct_eye_share": 0.0
+     },
+     "prey_az+15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v15": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-15_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az+45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "prey_az-45_v60": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "by_group": {
+     "escape": {
+      "m": 0.0008950612902768202,
+      "measured_drive_mV_ms": 4768.445896391116,
+      "link_drive_mV_ms": 5327507.678179618,
+      "through": {
+       "a": 0.00021963585871556375,
+       "b": 0.0,
+       "c": 0.9988853028510076
+      },
+      "only": {
+       "a": 0.00021963585871556375,
+       "b": 0.0,
+       "c": 0.9988853028510076
+      },
+      "trials_with_drive": 64,
+      "mean_direct_eye_share": 0.0
+     },
+     "strike": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     },
+     "turn": {
+      "m": null,
+      "link_drive_mV_ms": 0.0,
+      "trials_with_drive": 0
+     }
+    },
+    "loom_escape": {
+     "m": 0.0008950612902768202,
+     "measured_drive_mV_ms": 4768.445896391116,
+     "link_drive_mV_ms": 5327507.678179618,
+     "through": {
+      "a": 0.00021963585871556375,
+      "b": 0.0,
+      "c": 0.9988853028510076
+     },
+     "only": {
+      "a": 0.00021963585871556375,
+      "b": 0.0,
+      "c": 0.9988853028510076
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "prey_strike_turn": {
+     "m": null,
+     "link_drive_mV_ms": 0.0,
+     "trials_with_drive": 0
+    },
+    "all_held_out": {
+     "m": 0.0008950612902768202,
+     "measured_drive_mV_ms": 4768.445896391116,
+     "link_drive_mV_ms": 5327507.678179618,
+     "through": {
+      "a": 0.00021963585871556375,
+      "b": 0.0,
+      "c": 0.9988853028510076
+     },
+     "only": {
+      "a": 0.00021963585871556375,
+      "b": 0.0,
+      "c": 0.9988853028510076
+     },
+     "trials_with_drive": 64,
+     "mean_direct_eye_share": 0.0
+    },
+    "population_secondary": {
+     "Mauthner_left": {
+      "m": 0.006267364326727327,
+      "measured_drive_mV_ms": 7444.165537214962,
+      "link_drive_mV_ms": 1187766.5233963083,
+      "through": {
+       "a": 0.0012293943322837883,
+       "b": 0.0,
+       "c": 0.9925032413409891
+      },
+      "only": {
+       "a": 0.0012293943322837883,
+       "b": 0.0,
+       "c": 0.9925032413409891
+      },
+      "trials_with_drive": 115,
+      "mean_direct_eye_share": 0.0
+     },
+     "Mauthner_right": {
+      "m": 0.006729431180086465,
+      "measured_drive_mV_ms": 7939.159920923383,
+      "link_drive_mV_ms": 1179766.8641618197,
+      "through": {
+       "a": 0.000610706951570023,
+       "b": 0.0,
+       "c": 0.992659861868344
+      },
+      "only": {
+       "a": 0.000610706951570023,
+       "b": 0.0,
+       "c": 0.992659861868344
+      },
+      "trials_with_drive": 118,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1180994.7252302975,
+      "through": {
+       "a": 0.0018057665776008592,
+       "b": 0.0,
+       "c": 0.9981942334223991
+      },
+      "only": {
+       "a": 0.0018057665776008592,
+       "b": 0.0,
+       "c": 0.9981942334223991
+      },
+      "trials_with_drive": 107,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD2cm_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1171903.3283828525,
+      "through": {
+       "a": 0.000679335869989916,
+       "b": 0.0,
+       "c": 0.99932066413001
+      },
+      "only": {
+       "a": 0.000679335869989916,
+       "b": 0.0,
+       "c": 0.99932066413001
+      },
+      "trials_with_drive": 109,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_left": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 1178967.9982258915,
+      "through": {
+       "a": 8.980209717053654e-05,
+       "b": 0.0,
+       "c": 0.9999101979028293
+      },
+      "only": {
+       "a": 8.980209717053654e-05,
+       "b": 0.0,
+       "c": 0.9999101979028293
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "MiD3cm_right": {
+      "m": 0.008510712601931444,
+      "measured_drive_mV_ms": 10052.510942478491,
+      "link_drive_mV_ms": 1181159.7233582,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9914892873980684
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.9914892873980684
+      },
+      "trials_with_drive": 112,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_left": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 42584.64182731535,
+      "link_drive_mV_ms": 42584.64182731535,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 96,
+      "mean_direct_eye_share": 0.0
+     },
+     "nIII_dorsal_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48561.69901059467,
+      "link_drive_mV_ms": 48561.69901059467,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_left": {
+      "m": 0.9441986234021631,
+      "measured_drive_mV_ms": 5281.315077289004,
+      "link_drive_mV_ms": 5593.436535905147,
+      "through": {
+       "a": 0.05580137659783684,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.05580137659783684,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 76,
+      "mean_direct_eye_share": 0.0
+     },
+     "nMLF_right": {
+      "m": 1.0,
+      "measured_drive_mV_ms": 48040.5799233016,
+      "link_drive_mV_ms": 48040.5799233016,
+      "through": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 85,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_left": {
+      "m": 0.9846403680898577,
+      "measured_drive_mV_ms": 20008.772977013843,
+      "link_drive_mV_ms": 20320.89443562998,
+      "through": {
+       "a": 0.015359631910142677,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 0.015359631910142677,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 95,
+      "mean_direct_eye_share": 0.0
+     },
+     "turning_right": {
+      "m": 0.0,
+      "measured_drive_mV_ms": 0.0,
+      "link_drive_mV_ms": 252.99712945097068,
+      "through": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "only": {
+       "a": 1.0,
+       "b": 0.0,
+       "c": 0.0
+      },
+      "trials_with_drive": 40,
+      "mean_direct_eye_share": 0.0
+     }
+    }
+   },
+   "synapse_count_reduced": {
+    "measured_share": 0.9718083716067362,
+    "class_share": {
+     "a": 0.012060789365595011,
+     "b": 0.0,
+     "c": 0.016130839027668868
+    },
+    "synapses": {
+     "measured": 52052,
+     "total": 53562,
+     "a": 646,
+     "b": 0,
+     "c": 864
+    },
+    "pairs": 41424,
+    "pairs_with_bridge_part": 862,
+    "pairs_bridge_only": 862,
+    "bridge_pairs_skipped_dead": 0,
+    "unit": "|signed synapse count| per pair part, as the simulator sees it (mixed-type pairs net out)"
+   },
+   "crosstalk": {
+    "strikes_on_loom": 0,
+    "escapes_on_prey": 0
+   },
+   "per_condition": {
+    "loom_az+45_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv120": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+45_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-45_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az+135_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "loom_az-135_lv480": {
+     "escapes": 8,
+     "initiator_sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v15": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-15_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az+45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "prey_az-45_v60": {
+     "escapes": 0,
+     "initiator_sides": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "strikes": 0,
+     "turns": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "provenance_self_checks_ok": true,
+   "seconds": 322.8
+  }
+ }
+}
