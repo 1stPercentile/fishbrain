@@ -20,13 +20,14 @@ added after a result are labelled post hoc.
 `data/g1c-data/gate/x` here, and the `public/data/` that [hashes.md](hashes.md) describes is `data/` here
 (check it with `cd evidence/data && shasum -a 256 -c SHA256SUMS`). `data/SHA256SUMS` pins every file.
 
-**Names and paths in the record.** Every copied note (all but [G1d.md](G1d.md), a summary written for this release)
-opens with the same `publication_copy` line, the publication edit's own summary: "Local paths made repo-relative;
-machine-owner, internal coordination, account and credential details removed." The notes still contain, as
-recorded: workstream ("lane") ownership statements such as "No file owned by another lane was edited"; review
-roles and notes ("decision-brief agent", "Verifier correction", "reviewer", "page owner"); work items ("task B", "task S"); and the
-phrase "session scratchpad" in a pinned file. Times are the analysis machine's clock (EDT). `launches/fishbrain/`
-in a note or a pinned file is this repository's root, so `cd launches/fishbrain/brain` means `cd brain`. Commit
-hashes the notes cite are in the project's working history, which is not public. The data and kit files are
-sha256-pinned and cannot change without breaking their hashes; the notes are left as published, so every number in
-them stays exactly as recorded.
+**Names and paths in the record.** Every copied note (all but [index.md](index.md), [hashes.md](hashes.md) and
+[G1d.md](G1d.md), which were written for publication) carries the same sentence in its `publication_copy` line, the
+publication edit's own summary: "Local paths made repo-relative; machine-owner, internal coordination, account and
+credential details removed." The notes still contain, as recorded: workstream ("lane") ownership statements such
+as "No file owned by another lane was edited"; review notes and roles ("Verifier correction", "reviewer", "page
+owner"); and work items ("task B", "task S"). The pinned `bridge_spec.json` also contains "decision-brief agent"
+and "session scratchpad". Times are the analysis machine's clock (EDT). `launches/fishbrain/` in a note or a
+pinned file is this repository's root, so `cd launches/fishbrain/brain` means `cd brain`. Commit hashes the notes
+cite are in the project's working history, which is not public. The data and kit files are sha256-pinned and
+cannot change without breaking their hashes; the notes are left as published, so every number in them stays
+exactly as recorded.
