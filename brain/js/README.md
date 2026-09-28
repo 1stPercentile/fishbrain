@@ -120,7 +120,7 @@ On the real G1c network (g_a 1, g_c 4) the table is 2.03 MB (42,342 pairs). JS p
 3 ms. In the test, a 7,000-step window of the bridged gate fish verifies end to end with it.
 
 **`trustedBrains` is required (fails closed, 2026-09-26).** The table accounts for every count, so a table that moves
-bridged counts into the measured column still sums to the same counts. The bridge forge review built a count-swap:
+bridged counts into the measured column still sums to the same counts. An adversarial review built a count-swap:
 the 216 escape-crossing links labelled measured, and 216 measured pairs with equal counts labelled bridged. It kept
 **every summary number identical** to the honest table. So an "ok but untrusted" result would hide the lie rather
 than show it. Verify therefore refuses at `bridge` unless `opts.trustedBrains` lists the receipt's `(network, bridge)`
@@ -165,7 +165,7 @@ facts, so a page can back it with an RPC or with a supplied proof. Verify cannot
 posted exactly one run-commit for the run. A second commit is a second roll, and that check is the
 page's, over the committing account's history.
 
-**What `seed_anchored: true` does and does not prove (from the 2026-09-26 re-forge review).** It proves the commit
+**What `seed_anchored: true` does and does not prove (from an adversarial review, 2026-09-26).** It proves the commit
 memo landed before `seed_slot` and that the slot's blockhash equals the seed, *as reported by `chainLookup`*. Verify
 trusts `chainLookup` completely, and it does **not** check who signed the memo. So the page must: (1) back `chainLookup`
 with an RPC or proof it trusts; (2) check that the run-commit transaction was signed by the run's published account;
@@ -324,7 +324,7 @@ The gate window was not re-run in a browser.
 
 Tests: `.venv/bin/python -m pytest -q tests/test_verify.py` (163 passed). Honest receipts pass
 through every anchor path. Each forgery fails at its named check, including every forgery in the
-adversary's 2026-09-26 harness:
+adversarial review's 2026-09-26 harness:
 - the fabricated Mauthner state, synthetic and on the real gate;
 - the negative-start stream move;
 - the all-zero seed;
@@ -350,7 +350,7 @@ bridged gate fish: the table's digests equal the gate's recorded ones, and hidin
 
 This is the real gate case: 8,654 neurons, 38,304 connections (CSR entries), 35,000 steps (3.5 s simulated) in
 7 windows, with a digest after each. RTF = simulated ms / wall ms, so above 1 means faster than real
-time. Each figure is a single run with other sessions loading the machine (load average about 4 to
+time. Each figure is a single run on a loaded machine (load average about 4 to
 7).
 
 | where | case | full | gated |
@@ -360,13 +360,13 @@ time. Each figure is a single run with other sessions loading the machine (load 
 | Chrome 152, hidden tab | real gate | 2.34 s (RTF 1.50) | 1.15 s (RTF 3.05) |
 
 In the browser, the 16 MB case took 50 to 80 ms to fetch and parse, and 155 to 300 ms to build. An
-earlier coordinator run (03:31) measured RTF 0.78 in Node under unrecorded load. Treat the figures
+earlier run (03:31) measured RTF 0.78 in Node under unrecorded load. Treat the figures
 as load-dependent. The synthetic cases run in 20 to 300 ms each.
 
 ## Tests
 
 ```sh
-cd launches/fishbrain/brain && .venv/bin/python -m pytest -q tests/test_js_parity.py   # 52 passed, ~19 s
+cd brain && .venv/bin/python -m pytest -q tests/test_js_parity.py   # 52 passed, ~19 s
 ```
 
 - **Parity:** the 5 synthetic cases (exported fresh into a tmp dir by `export_case.py --out`) and the

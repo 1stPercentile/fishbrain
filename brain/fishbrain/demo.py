@@ -5,7 +5,7 @@
     python -m fishbrain.demo loom --az -45            # a looming shadow on the left
     python -m fishbrain.demo prey --az 15 --speed 60  # a prey dot on the right
     python -m fishbrain.demo recede --side left       # the control the G1c fish failed
-    python -m fishbrain.demo loom --ablate c          # remove the model's crossing pathway
+    python -m fishbrain.demo loom --ablate c          # remove bridge class c (escape crossing + prey relays)
     python -m fishbrain.demo loom --lesion unilateral_left
     python -m fishbrain.demo loom --g-c 8 --seed my-fish
 

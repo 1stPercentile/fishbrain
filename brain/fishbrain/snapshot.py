@@ -1,7 +1,7 @@
 """Serialized checkpoints, canonical inputs and the seed rule: what Verify needs from the engine.
 
 `sim.Simulator.snapshot()` / `restore()` are in-process deep copies with no wire format. This module
-gives the engine's state a canonical byte format, so a browser can resume the brain at a trade's
+gives the engine's state a canonical byte format, so a browser can resume the brain at a decision's
 window instead of replaying from step 0, and it pins the two things a receipt must bind that the
 simulator itself does not: the complete input specification and the seed string.
 

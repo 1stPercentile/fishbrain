@@ -1,4 +1,4 @@
-// FISHBRAIN Verify: re-run one trade's decision window in the viewer's browser and check its receipt.
+// FISHBRAIN Verify: re-run one decision window in the viewer's browser and check its receipt.
 //
 //   import { verify } from "./verify.mjs";
 //   const r = await verify(receipt, fetcher, { trustedKernels: ["<sha256 of the published kernel>"] });
@@ -846,7 +846,7 @@ async function run(receipt, fetcher, opts, link) {
 }
 
 /**
- * Verify one trade receipt. opts: {trustedKernels: [sha256, ...] (required), gated = true,
+ * Verify one decision receipt. opts: {trustedKernels: [sha256, ...] (required), gated = true,
  * trustedCheckpoints: [{step, snapshot, network, params, inputs, seed}, ...], chain: [link, ...],
  * chainLookup: async (query) => answer, trustedBrains: [{network, bridge}, ...]}. A window past step 0
  * FAILS at "anchor" unless a trusted checkpoint or a verified chain anchors its start. Returns {ok: true,

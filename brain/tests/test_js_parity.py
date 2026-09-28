@@ -31,7 +31,7 @@ Controls (a test that cannot fail is not a test)
     are hashed (network_digest, params_digest), so the washout does not open a gap there.
   * One synapse count changed by one must change the network digest, the weights and the dynamics.
 
-Needs Node (FISHBRAIN_NODE, default the nvm v24 binary, then `node` on PATH).
+Needs Node (FISHBRAIN_NODE, then `node` on PATH).
 """
 import base64
 import copy

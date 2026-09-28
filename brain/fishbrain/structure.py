@@ -1,7 +1,7 @@
 """FISHBRAIN G1b structure (task S): does the Fish1 wiring carry side and stimulus information?
 
 Graph analysis only; nothing is simulated. Pre-registration, definitions, results and every choice:
-``launches/fishbrain/evidence/G1b-structure.md``.
+``evidence/G1b-structure.md``.
 
 1. **Path weight.** Every (pre, post) pair of the brain of record becomes an input fraction:
    excitatory E[j, i] = t2(i->j) / n_in(j), signed S[j, i] = (t2 - t1)(i->j) / n_in(j), where n_in(j)

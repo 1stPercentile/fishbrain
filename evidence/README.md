@@ -20,6 +20,10 @@ added after a result are labelled post hoc.
 `data/g1c-data/gate/x` here, and the `public/data/` that [hashes.md](hashes.md) describes is `data/` here
 (check it with `cd evidence/data && shasum -a 256 -c SHA256SUMS`). `data/SHA256SUMS` pins every file.
 
-**Names in the record.** Notes and hash-pinned files name internal review roles and work items ("decision-brief",
-"task B") and give times in the analysis machine's clock (EDT). They are left as recorded: the pinned files
-cannot change without breaking their hashes.
+**Names and paths in the record.** Each note's `publication_copy` line says what was removed for publication:
+owner, account and credential details, and local machine paths. Internal role and work-item labels were kept as
+recorded: review roles ("decision-brief", "verifier", "reviewer"), work items ("task B", "task S") and
+"lanes" (parallel workstreams). Times are the analysis machine's clock (EDT). `launches/fishbrain/` in a note or
+a pinned file is this repository's root, so `cd launches/fishbrain/brain` means `cd brain`. Commit hashes the
+notes cite are in the project's working history, which is not public; [hashes.md](hashes.md) says so. The pinned
+files cannot change without breaking their hashes, so all of this is left as recorded.

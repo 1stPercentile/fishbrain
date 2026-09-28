@@ -1,6 +1,6 @@
 """Simulator and stimuli tests on synthetic graphs only (G1, task B2).
 
-Run from launches/fishbrain/brain:  .venv/bin/python -m pytest tests/test_sim_synthetic.py
+Run from brain:  .venv/bin/python -m pytest tests/test_sim_synthetic.py
 """
 import hashlib
 import math

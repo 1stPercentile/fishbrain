@@ -115,7 +115,7 @@ escape and 0.01% for strike-and-turn. The second number is the pre-registered he
 | [brain/fishbrain/](brain/fishbrain/) | the engine. `sim.py`: leaky integrate-and-fire with Shiu et al. 2024 parameters, exact update, seeded PCG64 streams, hashes for wiring, parameters, spikes and state. `bridge.py`: the G1c fish. `provenance.py`: the decision-path share. `snapshot.py`: checkpoints and receipts. `pull.py`: the Fish1 download |
 | [brain/js/](brain/js/) | `fishbrain-sim.mjs`, a bit-exact JavaScript port (checked in Node and Chromium; Firefox and WebKit untested), and `verify.mjs`, which replays a receipt in the browser and fails closed |
 | [brain/kit/](brain/kit/) | the G1c fish in five pinned files |
-| [brain/tests/](brain/tests/) | the test suite. From `brain/`: `python -m pytest tests`. The JavaScript parity tests need Node.js on `PATH` (or `FISHBRAIN_NODE`); tests that need the full Fish1 download are skipped by name ([rebuild_only.txt](brain/tests/rebuild_only.txt)) unless you pass `--rebuild` |
+| [brain/tests/](brain/tests/) | the test suite. From `brain/`: `python -m pytest tests`. The JavaScript tests (`test_js_parity.py`, `test_verify.py`) need Node.js on `PATH` (or `FISHBRAIN_NODE`) and fail, not skip, without it; tests that need the full Fish1 download are skipped by name ([rebuild_only.txt](brain/tests/rebuild_only.txt)) unless you pass `--rebuild` |
 | [evidence/](evidence/) | the public record of every gate: notes, data, sha256 of every file |
 | [assets/](assets/) | these images, drawn from the Fish1 soma table, the G1c fish's cells and three simulated gate trials whose spike hashes match the record |
 

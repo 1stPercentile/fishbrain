@@ -24,7 +24,7 @@ regenerates that file.
 6. ``gate()`` runs the held-out stimuli, controls, lesions, determinism, provenance (the
    decision-path share), the measured-wiring shuffles (M1) and the bridge ablations (M2).
 
-Run from launches/fishbrain/brain:  PYTHONPATH=. .venv/bin/python -m fishbrain.bridge <step>
+Run from brain:  PYTHONPATH=. .venv/bin/python -m fishbrain.bridge <step>
 Outputs go to data/g1c/gate/ (git-ignored). Nothing here writes into data/net/.
 """
 from __future__ import annotations

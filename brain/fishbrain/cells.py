@@ -10,7 +10,7 @@ Two halves:
    that must never receive direct visual input). Run ``python -m fishbrain.cells`` to rebuild.
 
 Every rule and parameter that is our choice (not measured) is listed in
-``launches/fishbrain/evidence/G1-cells.md`` under "Choices we made". Coordinates are voxels of
+``evidence/G1-cells.md`` under "Choices we made". Coordinates are voxels of
 8 x 8 x 30 nm (x, y, z) throughout: x anterior->posterior, y fish's right->left, z dorsal->ventral.
 
 Stimulus conventions (ours):

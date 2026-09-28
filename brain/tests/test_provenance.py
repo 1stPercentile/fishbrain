@@ -1,7 +1,7 @@
 """G1c provenance (the pre-registered decision-path share): synthetic cases with hand-computed
 answers, the bookkeeping mirroring the simulator, and the gate bundle when its data are present.
 
-Run from launches/fishbrain/brain:  .venv/bin/python -m pytest -q tests/test_provenance.py
+Run from brain:  .venv/bin/python -m pytest -q tests/test_provenance.py
 """
 import os
 import sys

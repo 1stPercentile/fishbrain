@@ -25,7 +25,7 @@ What this module builds (``python -m fishbrain.readouts``) and writes to ``data/
    excitatory input each population receives from cells that can fire when one lobe is driven
    (G1's ``lobe_prediction`` method), against a seeded post-permutation null.
 
-Every rule that is ours is listed in ``launches/fishbrain/evidence/G1b-readouts.md`` ("Choices").
+Every rule that is ours is listed in ``evidence/G1b-readouts.md`` ("Choices").
 Coordinates: 8 x 8 x 30 nm voxels (x anterior->posterior, y fish's right->left, z dorsal->ventral).
 
 Caches (atlas and soma boxes read from the public bucket) go to ``$FISHBRAIN_READOUTS_CACHE``

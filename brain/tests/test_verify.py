@@ -31,7 +31,7 @@ Controls (a test that cannot fail is not a test)
     receipt's hash recomputed (attribution). A resealed relabel and a null claim pass untrusted (a
     documented limit) and fail when opts.trustedBrains vouches only for the honest pair.
 
-Needs Node (FISHBRAIN_NODE, default the nvm v24 binary, then `node` on PATH); a missing Node fails.
+Needs Node (FISHBRAIN_NODE, then `node` on PATH); a missing Node fails.
 The gate scenarios need brain/data/js/real-gate-*.json (git-ignored) and skip without it.
 """
 import base64

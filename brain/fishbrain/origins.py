@@ -1,7 +1,7 @@
 """FISHBRAIN G1c measure: what is real before bridging.
 
 Graph and geometry only; nothing is simulated. Pre-registration, results and every choice:
-``launches/fishbrain/evidence/G1c-measure.md`` (section 0 was written before any number here was computed).
+``evidence/G1c-measure.md`` (section 0 was written before any number here was computed).
 
 1. **Fragment origins.** Every segment that synapses onto a deciding readout (the M-system, turning, strike) gets a
    synapse cloud (all its pre and post synapses in ``synapses.parquet``) and atlas labels (mece0/1/2 at 4096 nm). Its

@@ -3,7 +3,7 @@
 Brain of record, public, no login:
   gs://fish1-public/syn_241003_agg241003_reorient_axde_ei_bayes_idx_pre_250410.precomputed
 
-Strategy (justified in launches/fishbrain/evidence/G1-pull.md):
+Strategy (justified in evidence/G1-pull.md):
   * download every by_id shard whole (1.95 GB): each by_id entry carries the full annotation record
     (both line endpoints, pre/post confidence, type) plus its pre_synaptic_cell / post_synaptic_cell,
     so by_id alone is the complete wiring;
@@ -12,7 +12,7 @@ Strategy (justified in launches/fishbrain/evidence/G1-pull.md):
   * the pre/post_synaptic_cell relationship indexes (1.82 GB) are NOT downloaded whole; a random
     sample of segments is fetched by byte range and cross-checked against by_id instead.
 
-Usage (from launches/fishbrain/brain):
+Usage (from brain):
   .venv/bin/python -m fishbrain.pull list       # bucket listing -> data/raw/listing.json
   .venv/bin/python -m fishbrain.pull download   # resumable, md5-verified -> data/raw/<key>/<file>
   .venv/bin/python -m fishbrain.pull parse      # -> data/synapses_raw.parquet, synapses.parquet, cells.parquet
@@ -21,7 +21,7 @@ Usage (from launches/fishbrain/brain):
   .venv/bin/python -m fishbrain.pull report     # markdown tables, content hash, graph shape
   .venv/bin/python -m fishbrain.pull all        # download, parse, cells, check
 
-Measured 2026-09-25 (launches/fishbrain/evidence/G1-pull.md): 29,474,316 synapses, 13,458,709 segments.
+Measured 2026-09-25 (evidence/G1-pull.md): 29,474,316 synapses, 13,458,709 segments.
 
 Reuses fishbrain.precomputed (RECORD, decode_multiple, decode_by_id, shard_location, BASE);
 only the local-file shard reader is new here.
@@ -458,7 +458,7 @@ def parse(procs=4):
     log(f"by_id decoded: {n:,} annotations, {dup_ids} duplicate ids, {len(anomalies)} anomalies, "
         f"{time.time() - t0:.0f} s")
 
-    # Memory: this Mac swaps hard under other sessions, so every step below frees what it no longer
+    # Memory: this machine swaps hard under load, so every step below frees what it no longer
     # needs, and the per-cell table is a separate pass over synapses.parquet (build_cells).
     raw_cols = ["syn_id", "pre", "post", "type", "pre_conf", "post_conf",
                 "x0", "y0", "z0", "x1", "y1", "z1", "k_pre", "k_post", "k_site"]
