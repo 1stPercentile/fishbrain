@@ -20,10 +20,13 @@ added after a result are labelled post hoc.
 `data/g1c-data/gate/x` here, and the `public/data/` that [hashes.md](hashes.md) describes is `data/` here
 (check it with `cd evidence/data && shasum -a 256 -c SHA256SUMS`). `data/SHA256SUMS` pins every file.
 
-**Names and paths in the record.** Each note's `publication_copy` line says what was removed for publication:
-owner, account and credential details, and local machine paths. Internal role and work-item labels were kept as
-recorded: review roles ("decision-brief", "verifier", "reviewer"), work items ("task B", "task S") and
-"lanes" (parallel workstreams). Times are the analysis machine's clock (EDT). `launches/fishbrain/` in a note or
-a pinned file is this repository's root, so `cd launches/fishbrain/brain` means `cd brain`. Commit hashes the
-notes cite are in the project's working history, which is not public; [hashes.md](hashes.md) says so. The pinned
-files cannot change without breaking their hashes, so all of this is left as recorded.
+**Names and paths in the record.** Every copied note (all but [G1d.md](G1d.md), a summary written for this release)
+opens with the same `publication_copy` line, the publication edit's own summary: "Local paths made repo-relative;
+machine-owner, internal coordination, account and credential details removed." The notes still contain, as
+recorded: workstream ("lane") ownership statements such as "No file owned by another lane was edited"; review
+roles and notes ("decision-brief agent", "Verifier correction", "reviewer", "page owner"); work items ("task B", "task S"); and the
+phrase "session scratchpad" in a pinned file. Times are the analysis machine's clock (EDT). `launches/fishbrain/`
+in a note or a pinned file is this repository's root, so `cd launches/fishbrain/brain` means `cd brain`. Commit
+hashes the notes cite are in the project's working history, which is not public. The data and kit files are
+sha256-pinned and cannot change without breaking their hashes; the notes are left as published, so every number in
+them stays exactly as recorded.

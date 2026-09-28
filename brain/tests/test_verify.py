@@ -1004,8 +1004,8 @@ def syn(tmp_path_factory):
                       "retarget": {"frames_same": RT["inputs"]["frames"] == R["inputs"]["frames"], "spec_differs": RT["inputs"]["spec"] != R["inputs"]["spec"],
                                    "spikes_differ": RT["brain"]["spikes"] != R["brain"]["spikes"]}}
     unbound = copy.deepcopy(R)
-    unbound["learned"] = {"run": "evo-0003", "gen": 12, "params": hashlib.sha256(b"never checked").hexdigest()}
-    unbound["chain"], unbound["trade"], unbound["id"] = {"tx": "not-a-signature", "memo": "0" * 64}, "x-44", "f" * 64
+    unbound["extra"] = {"run": "run-0003", "gen": 12, "params": hashlib.sha256(b"never checked").hexdigest()}
+    unbound["chain"], unbound["note"], unbound["id"] = {"tx": "not-a-signature", "memo": "0" * 64}, "x-44", "f" * 64
     flipped = copy.deepcopy(R)
     flipped["brain"]["spikes"] = ("0" if flipped["brain"]["spikes"][0] != "0" else "1") + flipped["brain"]["spikes"][1:]
 
@@ -1450,7 +1450,7 @@ def test_limits_inputs_spec_is_only_as_good_as_its_commitment(syn, syn_results):
     assert lim["retarget"] == {"frames_same": True, "spec_differs": True, "spikes_differ": True}, lim["retarget"]
     for sid in ("syn-retina-weight-x4", "syn-retina-retargeted", "syn-unbound-fields"):
         assert syn_results[sid]["ok"] is True, sid
-    # verify reads none of learned / chain / trade / id: they are the stage's to bind
+    # verify reads none of these extra fields (extra / chain / note / id)
     assert syn_results["syn-spikes-flipped"]["check"] == "spikes"
 
 

@@ -3,8 +3,8 @@ message: "If you use this software, cite it as below, and cite Fish1 (the data i
 title: "FISHBRAIN: a larval zebrafish simulated on the Fish1 wiring map, with pre-registered gates"
 authors:
   - alias: "First Percentile"
-version: "1.0.0"
-date-released: "2026-09-27"
+version: "1.0.3"
+date-released: "2026-09-28"
 license: MIT
 repository-code: "https://github.com/1stPercentile/fishbrain"
 references:

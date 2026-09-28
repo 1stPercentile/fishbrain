@@ -335,7 +335,7 @@ reopen one hole, and each must flip the scenario that guards it. They include: e
 fetcher's buffer, importing a static kernel, skipping one check, skipping the anchor, not replaying
 a chain link, not checking where a chain ends or starts, a trusted entry that ignores the inputs, the
 degenerate-seed rule, and the seed anchor's slot order and blockhash comparison. A v2-count kernel
-copy must reopen hole A. Five of the mutants are for the bridge check:
+copy must reopen the negative-start hole. Five of the mutants are for the bridge check:
 - not comparing the table's hash (a relabelled table passes);
 - not checking per-pair totals (a dropped link, another gain or a stale build passes when resealed);
 - not checking the pairs (a bridge part named on a pair the network lacks passes);
@@ -360,13 +360,13 @@ time. Each figure is a single run on a loaded machine (load average about 4 to
 | Chrome 152, hidden tab | real gate | 2.34 s (RTF 1.50) | 1.15 s (RTF 3.05) |
 
 In the browser, the 16 MB case took 50 to 80 ms to fetch and parse, and 155 to 300 ms to build. An
-earlier run (03:31) measured RTF 0.78 in Node under unrecorded load. Treat the figures
+earlier run (2026-09-26 03:31 EDT) measured RTF 0.78 in Node under unrecorded load. Treat the figures
 as load-dependent. The synthetic cases run in 20 to 300 ms each.
 
 ## Tests
 
 ```sh
-cd brain && .venv/bin/python -m pytest -q tests/test_js_parity.py   # 52 passed, ~19 s
+cd brain && .venv/bin/python -m pytest -q tests/test_js_parity.py   # 44 passed, 4 skipped in a fresh clone; 52 with data/js/ cases
 ```
 
 - **Parity:** the 5 synthetic cases (exported fresh into a tmp dir by `export_case.py --out`) and the
