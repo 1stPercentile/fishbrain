@@ -37,8 +37,9 @@ with no tuning.
 - **It is not general expansion selectivity.** A static dark disc and a translated dark disc each cause 16/16
   escapes. All 64 receding presentations still fired the escape system at the static onset, before the disc moved.
 - **Attribution.** Measured excitatory-link drive: **0.0450469%** (loom), **0.00823497%** (prey),
-  **0.00882306%** pooled. The model's crossing pathway (bridge class c) provides **99.9910%** pooled. These are G1d's
-  own numbers. G1c's 0.09% / 0.01% do not transfer to G1d, and G1d's do not transfer back.
+  **0.00882306%** pooled. The model's literature pathways (bridge class c: the escape crossing and the prey
+  relays) provide **99.9910%** pooled. These are G1d's own numbers. G1c's 0.09% / 0.01% do not transfer to G1d,
+  and G1d's do not transfer back.
 
 Nulls and diagnostics were registered disclosures, not extra kill criteria; the candidate's registered behaviour and
 lesion conditions pass. The fish in this repository, and the one `python -m fishbrain.demo` runs, remains the G1c fish.

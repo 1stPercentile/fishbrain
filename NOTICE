@@ -1,0 +1,15 @@
+FISHBRAIN
+Copyright (c) 2026 First Percentile
+
+Scope and third-party notices
+
+The MIT licence in LICENSE covers the code and the text written for this
+repository. It does not cover the Fish1 data or anything derived from it (brain/kit/, evidence/data/,
+assets/). Fish1 carries no licence of its own; its data policy asks every work
+that uses it to cite: Petkova, M. D., Januszewski, M., et al. (2025). A
+connectomic resource for neural cataloguing and circuit dissection of the larval
+zebrafish brain. bioRxiv. doi:10.1101/2025.06.10.658982. See evidence/G0-licence.md.
+
+brain/fishbrain/sim.py reuses the ragged-gather spike propagation pattern of
+flycoinrh (github.com/fruitflydev/flycoinrh), MIT License,
+Copyright (c) 2026 fruitflydev.

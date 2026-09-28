@@ -39,5 +39,5 @@
 <text x="865.4" y="528" fill="#8e9390" font-size="11" text-anchor="middle">4000</text>
 <text x="936" y="528" fill="#8e9390" font-size="11" text-anchor="end">ms</text>
 <text x="24" y="580" fill="#c9cdca" font-size="12">no escape · stimulus left</text>
-<text x="24" y="598" fill="#8e9390" font-size="11">Simulated spikes on the G1c fish (Fish1 wiring + a disclosed bridge) · spike hash c172fc60d5b59ea1</text>
+<text x="24" y="598" fill="#8e9390" font-size="11">Simulated spikes on the G1c fish with bridge links 'c' removed · spike hash c172fc60d5b59ea1</text>
 </svg>

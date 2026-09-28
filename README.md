@@ -23,7 +23,7 @@ simulated spikes. Orange is where the model fills in.
 
 ## Check it yourself
 
-About a minute on a laptop. No login, no 2.5 GB download: numpy and scipy only.
+About a minute on a laptop. No login, no 2.5 GB download: the demo needs only numpy and scipy.
 
 ```sh
 git clone https://github.com/1stPercentile/fishbrain
@@ -63,7 +63,7 @@ and a receipt (JSON) to `brain/runs/`. Results below are seed `G1-seed-0`.
 | `python -m fishbrain.demo loom --az 45` | the same, on the right | escape left, 3,368.7 ms |
 | `python -m fishbrain.demo prey --az -15 --speed 60` | a small dot sweeps on the left | strike, turn left |
 | `python -m fishbrain.demo recede --side left` | a disc that shrinks away, which a fish should ignore | **escape right, 1,518.7 ms: the control G1c failed** |
-| `python -m fishbrain.demo loom --ablate c` | delete the model's crossing pathway | **no escape; no deciding cell fires** |
+| `python -m fishbrain.demo loom --ablate c` | delete the model's literature pathways (bridge class c: the escape crossing and the prey relays) | **no escape; no deciding cell fires** |
 | `python -m fishbrain.demo loom --ablate a` | delete the reattached fragments instead | escape right, unchanged |
 | `python -m fishbrain.demo loom --lesion unilateral_left` | silence the left escape cells | the right one fires late (3,844.4 ms): the fish bends toward the threat |
 | `python -m fishbrain.demo loom --g-c 8 --seed <anything>` | double the model's gain, choose your own seed | yours to find out |
@@ -71,11 +71,11 @@ and a receipt (JSON) to `brain/runs/`. Results below are seed `G1-seed-0`.
 <table>
   <tr>
     <td width="50%"><img src="assets/demo-g1c.svg" alt="Spike raster of the G1c fish during a loom from the left: the escape cells fire from 3,106.5 ms."></td>
-    <td width="50%"><img src="assets/demo-ablate-c.svg" alt="The same trial with the model's crossing pathway removed: the eye input is unchanged and no deciding cell fires."></td>
+    <td width="50%"><img src="assets/demo-ablate-c.svg" alt="The same trial with the model's literature pathways (bridge class c) removed: the eye input is unchanged and no deciding cell fires."></td>
   </tr>
   <tr>
     <td><b>The G1c fish.</b> The escape cells fire from 3,106.5 ms.</td>
-    <td><b>The crossing pathway removed.</b> The eye still sees the loom. Nothing downstream fires.</td>
+    <td><b>Bridge class c removed.</b> The eye still sees the loom. Nothing downstream fires.</td>
   </tr>
 </table>
 
@@ -97,7 +97,9 @@ can rerun your command and get the same hash.
 | **G1c** · 2026-09-26 | Fill the gaps with a published model. How much still runs on real wiring? | **KILL** | [G1c-gate.md](evidence/G1c-gate.md) |
 | **G1d** · 2026-09-27 | A separate eye model | **not promoted** | [G1d.md](evidence/G1d.md) (summary; full record next release) |
 
-Every rule and pass mark was written down before the result it judged. Start at [evidence/index.md](evidence/index.md).
+Every test fixed its rules and pass marks before it saw a result, with one disclosed deviation: a G1b readout rule
+set aside after the data were seen ([G1b-readouts.md](evidence/G1b-readouts.md) s.4). Checks added after a result are
+labelled post hoc. Start at [evidence/index.md](evidence/index.md).
 
 ## How much of the fish is the real brain
 
@@ -111,9 +113,9 @@ escape and 0.01% for strike-and-turn. The second number is the pre-registered he
 | path | what |
 |---|---|
 | [brain/fishbrain/](brain/fishbrain/) | the engine. `sim.py`: leaky integrate-and-fire with Shiu et al. 2024 parameters, exact update, seeded PCG64 streams, hashes for wiring, parameters, spikes and state. `bridge.py`: the G1c fish. `provenance.py`: the decision-path share. `snapshot.py`: checkpoints and receipts. `pull.py`: the Fish1 download |
-| [brain/js/](brain/js/) | `fishbrain-sim.mjs`, a bit-exact JavaScript port (Node, Chromium, Firefox, WebKit), and `verify.mjs`, which replays a receipt in the browser and fails closed |
+| [brain/js/](brain/js/) | `fishbrain-sim.mjs`, a bit-exact JavaScript port (checked in Node and Chromium; Firefox and WebKit untested), and `verify.mjs`, which replays a receipt in the browser and fails closed |
 | [brain/kit/](brain/kit/) | the G1c fish in five pinned files |
-| [brain/tests/](brain/tests/) | the test suite. From `brain/`: `python -m pytest tests` |
+| [brain/tests/](brain/tests/) | the test suite. From `brain/`: `python -m pytest tests`. The JavaScript parity tests need Node.js on `PATH` (or `FISHBRAIN_NODE`); tests that need the full Fish1 download are skipped by name ([rebuild_only.txt](brain/tests/rebuild_only.txt)) unless you pass `--rebuild` |
 | [evidence/](evidence/) | the public record of every gate: notes, data, sha256 of every file |
 | [assets/](assets/) | these images, drawn from the Fish1 soma table, the G1c fish's cells and three simulated gate trials whose spike hashes match the record |
 
@@ -144,5 +146,5 @@ cataloguing and circuit dissection of the larval zebrafish brain.* bioRxiv,
 Lichtman and Engert laboratories at Harvard University with the Connectomics team at Google. Used without endorsement.
 Neuron model: Shiu et al. 2024, *Nature* 634:210.
 
-Code: MIT. The Fish1 data and anything derived from it are not covered by that licence; see [LICENSE](LICENSE) and
+Code: MIT. The Fish1 data and anything derived from it are not covered by that licence; see [LICENSE](LICENSE), [NOTICE](NOTICE) and
 [evidence/G0-licence.md](evidence/G0-licence.md).

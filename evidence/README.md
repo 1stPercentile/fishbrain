@@ -1,7 +1,9 @@
 # Evidence
 
 Start at **[index.md](index.md)**: the plain-language record of the brain gate (G1, G1b, G1c), then one note per
-test. Every rule and pass mark was written down before the result it judged; each note says when.
+test. Every test fixed its rules and pass marks before it saw a result, and each note says when. One deviation is
+disclosed: a G1b readout rule set aside after the data were seen ([G1b-readouts.md](G1b-readouts.md) s.4). Checks
+added after a result are labelled post hoc.
 
 | note | what it holds |
 |---|---|
@@ -15,4 +17,9 @@ test. Every rule and pass mark was written down before the result it judged; eac
 | [hashes.md](hashes.md) | sha256 of every data file |
 
 **Data** is in [data/](data/). The notes cite it by its working path: `../g1c-data/gate/x` in a note is
-`data/g1c-data/gate/x` here. `data/SHA256SUMS` pins every file.
+`data/g1c-data/gate/x` here, and the `public/data/` that [hashes.md](hashes.md) describes is `data/` here
+(check it with `cd evidence/data && shasum -a 256 -c SHA256SUMS`). `data/SHA256SUMS` pins every file.
+
+**Names in the record.** Notes and hash-pinned files name internal review roles and work items ("decision-brief",
+"task B") and give times in the analysis machine's clock (EDT). They are left as recorded: the pinned files
+cannot change without breaking their hashes.

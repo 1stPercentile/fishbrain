@@ -26,7 +26,7 @@ mismatches. The kernel's own `sha256Hex` of the fetched source equaled `shasum -
 
 ## Verify: how the front end calls it
 
-`verify.mjs` checks one trade receipt by re-running the fish's brain for the decision window in
+`verify.mjs` checks one decision receipt by re-running the fish's brain for the decision window in
 the viewer's browser. It has **no static imports**. It fetches the kernel once, copies the bytes
 into memory only it holds, hashes them with WebCrypto, and imports the module from exactly those
 bytes: a `blob:` URL in browsers, or a `data:` URL where `blob:` modules are unsupported (Node).
@@ -141,7 +141,7 @@ with probability below 1e-37. Python `snapshot.seed_string` and JS `seedString` 
 and a parity test holds them to it at the 7/8 boundary.
 
 **The seed anchor: format checks cannot stop grinding.** Any well-formed value could have been picked
-by an operator who tried many and kept the one whose noise made the trade look good. The seed is
+by an operator who tried many and kept the one whose noise made the decision look good. The seed is
 unpickable only when it is the real blockhash of a slot fixed *before* that slot existed. Verify
 checks that when the page passes `chainLookup` and the receipt carries `seed.commit`, the signature
 of the run-commit Memo:
@@ -163,13 +163,13 @@ the slot was skipped, or the transaction is not a run-commit. Without a `chainLo
 says `seed_anchored: false`. Verify does the comparisons itself. The lookup only reports chain
 facts, so a page can back it with an RPC or with a supplied proof. Verify cannot check that the fish
 posted exactly one run-commit for the run. A second commit is a second roll, and that check is the
-page's, over the fish wallet's history.
+page's, over the committing account's history.
 
 **What `seed_anchored: true` does and does not prove (from the 2026-09-26 re-forge review).** It proves the commit
 memo landed before `seed_slot` and that the slot's blockhash equals the seed, *as reported by `chainLookup`*. Verify
 trusts `chainLookup` completely, and it does **not** check who signed the memo. So the page must: (1) back `chainLookup`
-with an RPC or proof it trusts; (2) check that the run-commit transaction was signed by the fish's published wallet;
-(3) check that the wallet posted exactly one run-commit for the run. Without all three, show "seed committed" rather
+with an RPC or proof it trusts; (2) check that the run-commit transaction was signed by the run's published account;
+(3) check that the account posted exactly one run-commit for the run. Without all three, show "seed committed" rather
 than "seed proven unpickable".
 
 **Trusted kernels:** list only the current kernel (`fishbrain-js-kernel-v3`, sha256
@@ -231,8 +231,8 @@ in one of three ways:
   `to.snapshot` digest. A failure names the link and its inner check. `r.anchor` is
   `{by: "chain", root: "genesis" | "trusted", links}`.
 - **A trusted checkpoint (the fast path).** `opts.trustedCheckpoints` lists window starts the page
-  has itself verified. For example, it found a `fishbrain:ckpt:v1` memo from the fish wallet that
-  predates the trade. Each entry is the full tuple `{step, snapshot, network, params, inputs, seed}`
+  has itself verified. For example, it found a `fishbrain:ckpt:v1` memo from the run's account that
+  predates the decision. Each entry is the full tuple `{step, snapshot, network, params, inputs, seed}`
   (seed = the blockhash value). Every field must equal the receipt's. **A bare digest is refused.**
   `state_digest()` covers u, h, spikes, slots, source names and stream positions, but not rates,
   weights, targets or start/stop. A bare digest would therefore vouch for the honest state at step S
@@ -263,18 +263,17 @@ When the page trusts the forged tuple, the fabricated state passes. That control
 is the check that stops it.
 
 **Commit on-chain (proposal).** Commitments stop fabrication only if each one was published before
-anyone knew the decision it would produce. One Solana Memo per commitment, from the fish's wallet:
+anyone knew the decision it would produce. One Solana Memo per commitment, from the run's account:
 1. **Run start:** `fishbrain:run:v1 network=<hex> params=<hex> kernel=<hex> seed_slot=<n>`
    (`snapshot.run_commit_memo`). The seed is the blockhash of `seed_slot`, a slot after this memo
    lands, so the brain is fixed before the noise exists (commit, then reveal). Verify checks this
    with `chainLookup` (above).
 2. **Checkpoints:** `fishbrain:ckpt:v1 <run> <step> <state digest> <inputs digest>` at a fixed
-   cadence of simulated time, and at every trade window's `start_step`. A page that finds the memo
-   for `window.snapshot`, predating the trade's transaction, passes that tuple in
+   cadence of simulated time, and at every decision window's `start_step`. A page that finds the memo
+   for `window.snapshot`, predating the decision, passes that tuple in
    `trustedCheckpoints`. Otherwise it serves the chain of links.
-3. **Trade:** the receipt hash in the swap transaction's Memo, as the schema already says.
 
-**Receipt fields this needs (proposed; `stage/contract/EVENTS.md` is owned by the stage session):**
+**Receipt fields this needs (proposed):**
 - `brain.bridge` (new, **required**): the sha256 of the network's fishbrain-bridge-table-v1, or `null` for an unbridged
   network. Absent fails at `receipt`, **before** `kernel`, so a simulated receipt without it now stops at `receipt`
   instead of `kernel`. Simulated receipts should carry `"bridge": null`.
@@ -304,32 +303,6 @@ localhost, on a synthetic window with a negative-start source. It passed through
 honest checkpoint, the fabricated state, and a chain claiming the forged digest, all at `anchor`.
 The gate window was not re-run in a browser.
 
-**Schema note for the stage owner.** `contract/events.schema.json` sets
-`additionalProperties: false` on `receipt.inputs` (only `spec` and `frames`), `receipt.window` and
-`receipt.seed` (only `source`, `value`, `simulated`). `seed.commit` needs adding before a receipt
-can carry the seed anchor. The stage's `replay.mjs`, `EVENTS.md` and `invariants.test.mjs` still
-name `fishbrain-js-kernel-v2`. EVENTS.md's `verify_result.anchored` is "found on chain". None of
-verify's three anchor paths is that by itself (a trusted entry is the page's own chain check), so
-verify reports `anchor.by` and `seed_anchored` rather than a bare `anchored`.
-
-**Schema proposal for the stage owner (bridge; not edited here).**
-- `events.schema.json`, `$defs/receipt/properties/brain`: add
-  `"bridge": {"anyOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]}` and list it in `required`.
-  `brain` has `additionalProperties: false`, so today a real receipt from `snapshot.window_receipt`
-  fails the schema until this lands.
-- Every simulated receipt fixture gets `"bridge": null`, or a stand-in hash. A stand-in hash would
-  stop at `bridge` if a table were ever fetched, but simulated receipts already stop at `kernel`.
-- EVENTS.md, "verify()'s result": add `bridge: {sha256, bridged, trusted, classes, gains,
-  synapse_count_share, edge_provenance, bridged_digest, decision_path_share: {computed: false,
-  source}, mask, table}`. The UI colours `mask != 0` links `--bridge` orange. `decision_path_share`
-  stays the server's number from G1c-gate.md s.5, so the headline pairing is unchanged.
-- The page's `trustedBrains` for the G1c fish is
-  `{network: "0b6f3369f21f5c626d9ba1ba4bc02dfefd1e51b945b3355fcd6730c9aa083b4a", bridge:
-  "2340789188ee7f8ac4aab405503800f863645e04b95ac255cbe3dc44f2cb1f4a"}`.
-  The bridge value is the sha256 of `bridgetable.from_bridged(bridge.network(topo, 1, 4))`.
-- Optional, later: add a `bridge=<hex|none>` key to the run-commit memo (`fishbrain:run:v1`), so
-  the table is committed before the seed exists. Not built. `run_commit_memo` is unchanged.
-
 **Limits.**
 - The trusted kernel list is the root of trust. A viewer who doubts the page can run
   `verify.mjs` from the repo in Node with the same receipt.
@@ -340,7 +313,7 @@ verify reports `anchor.by` and `seed_anchored` rather than a bare `anchored`.
   commitment the page checks: the run-commit (or each ckpt memo) naming the inputs digest or an
   inputs policy, compared against `inputs.spec`. Not built. The tests keep these cases as passing
   controls and assert their specs differ from the honest one.
-- Verify does not read `learned`, `chain.tx`, `chain.memo`, `trade` or `id`. Those belong to the stage.
+- Verify reads only the fields above. Anything else a receipt carries is for display.
 - A case carries whole-run input arrays. The gate retina is about 11 MB of float64, so a checkpoint
   can embed its inputs (the default) or leave them to the case (`embed_inputs=False`). Live inputs
   grow without bound, so production needs input sources re-based at each checkpoint. That is not

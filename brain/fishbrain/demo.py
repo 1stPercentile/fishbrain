@@ -72,17 +72,17 @@ def ensure_kit() -> None:
             sums[name.strip()] = digest
     if set(sums) != set(KIT_FILES):
         raise SystemExit(f"brain/kit/SHA256SUMS lists {sorted(sums)}, expected {sorted(KIT_FILES)}")
+    # every check first, then every copy: a bad file leaves data/ exactly as it was
     for name, dest in KIT_FILES.items():
-        src = KIT / name
-        if _sha(src) != sums[name]:
+        if _sha(KIT / name) != sums[name]:
             raise SystemExit(f"brain/kit/{name} does not match its sha256; re-clone the repo")
-        if dest.exists():
-            if _sha(dest) != sums[name]:
-                raise SystemExit(f"{dest.relative_to(BRAIN)} exists and differs from brain/kit/{name}. "
-                                 f"Move it away to run the demo on the G1c fish.")
-            continue
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(src, dest)
+        if dest.exists() and _sha(dest) != sums[name]:
+            raise SystemExit(f"{dest.relative_to(BRAIN)} exists and differs from brain/kit/{name}. "
+                             f"Move it away to run the demo on the G1c fish.")
+    for name, dest in KIT_FILES.items():
+        if not dest.exists():
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(KIT / name, dest)
 
 
 def build_fish(g_a: int, g_c: int, ablate: List[str]):
@@ -142,7 +142,7 @@ def run_trial(bw, retina, cond: dict, seed: str, lesion: Optional[str] = None) -
     rc = BR.readout_counts(raster, net, sets, tuple(cond["window"]))
     score = BR.score_trial(rc, cond)
     return {"cond": cond, "seed": seed, "raster": raster, "net": net, "rates_sha256": diag["rates_sha256"],
-            "stim_idx": bw.stim_idx,
+            "stim_idx": bw.stim_idx, "ablate": list(bw.ablate),
             "score": score, "wall_s": wall, "lesion": lesion, "lesioned_ids": lesioned, "sets": sets}
 
 
@@ -225,8 +225,12 @@ def raster_svg(tr: dict, title: str) -> str:
         out.append(f'<text x="{x(ms):.1f}" y="{yb}" fill="#8e9390" font-size="11" text-anchor="middle">{ms}</text>')
     out.append(f'<text x="{W - right}" y="{yb}" fill="#8e9390" font-size="11" text-anchor="end">ms</text>')
     out.append(f'<text x="24" y="{H - 30}" fill="#c9cdca" font-size="12">{_esc(say(tr))}</text>')
-    out.append(f'<text x="24" y="{H - 12}" fill="#8e9390" font-size="11">Simulated spikes on the G1c fish (Fish1 wiring '
-               f'+ a disclosed bridge) · spike hash {S.spike_hash(raster)[:16]}</text>')
+    fish = ("the G1c fish (Fish1 wiring + a disclosed bridge)" if not tr["ablate"] else
+            f"the G1c fish with bridge links '{','.join(tr['ablate'])}' removed")
+    if tr["lesion"]:
+        fish += f", lesion {tr['lesion']}"
+    out.append(f'<text x="24" y="{H - 12}" fill="#8e9390" font-size="11">Simulated spikes on {_esc(fish)} '
+               f'· spike hash {S.spike_hash(raster)[:16]}</text>')
     out.append("</svg>")
     return "\n".join(out)
 
